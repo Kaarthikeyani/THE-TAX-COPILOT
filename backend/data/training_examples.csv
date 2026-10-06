@@ -1,0 +1,3403 @@
+text,category
+AXIS LONG TERM EQUITY FUND,elss_investment
+ELSS TAX SAVER GROWTH,elss_investment
+MIRAE ASSET TAX SAVER,elss_investment
+TAX SAVING MUTUAL FUND,elss_investment
+PARAG PARIKH TAX SAVER,elss_investment
+QUANT TAX PLAN,elss_investment
+SBI LONG TERM EQUITY,elss_investment
+ELSS SIP INSTALMENT,elss_investment
+TAX SAVER FUND SIP,elss_investment
+BANDHAN TAX ADVANTAGE,elss_investment
+FRANKLIN TAXSHIELD,elss_investment
+LIC PREMIUM,life_insurance
+LIFE INSURANCE CORPORATION,life_insurance
+HDFC LIFE CLICK2PROTECT,life_insurance
+TERM LIFE PLAN PREMIUM,life_insurance
+SBI LIFE SMART,life_insurance
+MAX LIFE INSURANCE,life_insurance
+ICICI PRU IPROTECT,life_insurance
+TATA AIA LIFE,life_insurance
+ENDOWMENT POLICY PREMIUM,life_insurance
+TERM INSURANCE RENEWAL,life_insurance
+ULIP PREMIUM,life_insurance
+PPF DEPOSIT,ppf_epf
+PUBLIC PROVIDENT FUND,ppf_epf
+PPF ACCOUNT CONTRIBUTION,ppf_epf
+VOLUNTARY PROVIDENT FUND,ppf_epf
+EPF CONTRIBUTION,ppf_epf
+POST OFFICE PPF,ppf_epf
+SUKANYA SAMRIDDHI,ppf_epf
+NSC NATIONAL SAVINGS CERTIFICATE,ppf_epf
+TAX SAVER FIXED DEPOSIT 5 YEAR,ppf_epf
+SCHOOL TUITION FEE,tuition_fees
+COLLEGE FEES PAYMENT,tuition_fees
+UNIVERSITY EXAM FEE,tuition_fees
+KIDS SCHOOL TERM FEES,tuition_fees
+ENGINEERING COLLEGE TUITION,tuition_fees
+ACADEMY FEE PAYMENT,tuition_fees
+INSTITUTE OF TECHNOLOGY FEES,tuition_fees
+PUBLIC SCHOOL ANNUAL FEE,tuition_fees
+EDUCATION FEE SEMESTER,tuition_fees
+NPS TIER 1 CONTRIBUTION,nps
+NATIONAL PENSION SYSTEM,nps
+NPS TRUST PRAN,nps
+PROTEAN NPS,nps
+ATAL PENSION,nps
+PENSION FUND CONTRIBUTION,nps
+NPS ADDITIONAL CONTRIBUTION,nps
+KFINTECH NPS,nps
+STAR HEALTH INSURANCE,health_insurance
+CARE HEALTH PREMIUM,health_insurance
+NIVA BUPA HEALTH,health_insurance
+FAMILY FLOATER MEDICLAIM,health_insurance
+MEDICLAIM POLICY RENEWAL,health_insurance
+HDFC ERGO OPTIMA,health_insurance
+HEALTH POLICY PREMIUM,health_insurance
+ACKO HEALTH INSURANCE,health_insurance
+PARENTS MEDICAL INSURANCE,health_insurance
+MANIPAL CIGNA HEALTH,health_insurance
+FULL BODY CHECKUP,preventive_healthcare
+HEALTH CHECKUP PACKAGE,preventive_healthcare
+MASTER HEALTH CHECK,preventive_healthcare
+DIAGNOSTIC CENTRE,preventive_healthcare
+PATHOLOGY LAB,preventive_healthcare
+BLOOD TEST PACKAGE,preventive_healthcare
+WELLNESS SCREENING,preventive_healthcare
+PREVENTIVE HEALTH CHECK,preventive_healthcare
+ANNUAL HEALTH CHECKUP,preventive_healthcare
+THYROID PROFILE TEST,preventive_healthcare
+DIAGNOSTICS LABS,preventive_healthcare
+EXECUTIVE HEALTH CHECK,preventive_healthcare
+HOME LOAN EMI,home_loan_interest
+HOUSING FINANCE EMI,home_loan_interest
+HDFC LTD HOME LOAN,home_loan_interest
+SBI HOME LOAN INSTALMENT,home_loan_interest
+LIC HOUSING FINANCE,home_loan_interest
+MORTGAGE EMI,home_loan_interest
+PNB HOUSING,home_loan_interest
+HOME LOAN REPAYMENT,home_loan_interest
+BAJAJ HOUSING FINANCE EMI,home_loan_interest
+DONATION TO CHARITY,donation
+PM CARES FUND,donation
+GIVEINDIA DONATION,donation
+NGO DONATION,donation
+CHARITABLE TRUST CONTRIBUTION,donation
+CHILD EDUCATION FOUNDATION,donation
+ANIMAL WELFARE SOCIETY,donation
+RELIEF FUND CONTRIBUTION,donation
+TEMPLE TRUST DONATION,donation
+SWIGGY ORDER,food_dining
+ZOMATO,food_dining
+DOMINOS PIZZA,food_dining
+RESTAURANT BILL,food_dining
+CAFE COFFEE,food_dining
+BIRYANI HOUSE,food_dining
+BAKERY AND SWEETS,food_dining
+MCDONALDS,food_dining
+TIFFIN CENTER,food_dining
+FOOD COURT,food_dining
+DHABA,food_dining
+ICE CREAM PARLOUR,food_dining
+BIGBASKET,groceries
+BLINKIT,groceries
+DMART,groceries
+SUPERMARKET,groceries
+KIRANA STORE,groceries
+FRESH VEGETABLES,groceries
+MILK DAIRY,groceries
+ZEPTO,groceries
+GENERAL STORES,groceries
+FRUITS AND VEG,groceries
+RELIANCE SMART,groceries
+AMAZON PAY,shopping
+FLIPKART,shopping
+MYNTRA FASHION,shopping
+AJIO,shopping
+LIFESTYLE STORES,shopping
+MALL PURCHASE,shopping
+ELECTRONICS STORE,shopping
+CROMA,shopping
+READYMADE GARMENTS,shopping
+SHOPPERS STOP,shopping
+FOOTWEAR SHOP,shopping
+UBER TRIP,transport
+OLA CABS,transport
+RAPIDO,transport
+AUTO RICKSHAW,transport
+METRO CARD RECHARGE,transport
+BUS PASS,transport
+CAB RIDE,transport
+PARKING CHARGES,transport
+FASTAG RECHARGE,transport
+TOLL PLAZA,transport
+INDIAN OIL PETROL PUMP,fuel
+HPCL FUEL,fuel
+BPCL,fuel
+SHELL PETROL,fuel
+PETROL BUNK,fuel
+FUEL STATION,fuel
+DIESEL FILLING,fuel
+RELIANCE PETROL,fuel
+AIRTEL RECHARGE,utilities
+JIO PREPAID,utilities
+ELECTRICITY BILL,utilities
+BESCOM,utilities
+WATER BOARD BILL,utilities
+BROADBAND INTERNET,utilities
+GAS CYLINDER,utilities
+DTH RECHARGE,utilities
+TATA POWER BILL,utilities
+MOBILE POSTPAID BILL,utilities
+MUNICIPAL TAX,utilities
+NETFLIX,entertainment
+SPOTIFY,entertainment
+BOOKMYSHOW,entertainment
+HOTSTAR SUBSCRIPTION,entertainment
+MOVIE TICKETS,entertainment
+PVR CINEMAS,entertainment
+GAMING STORE,entertainment
+AMAZON PRIME,entertainment
+CONCERT TICKETS,entertainment
+MUSIC STREAMING,entertainment
+MAKEMYTRIP,travel
+IRCTC TICKET,travel
+INDIGO AIRLINES,travel
+REDBUS,travel
+HOTEL BOOKING,travel
+RESORT STAY,travel
+GOIBIBO FLIGHT,travel
+AIR INDIA TICKET,travel
+TRAVEL AGENCY,travel
+HOMESTAY BOOKING,travel
+HOUSE RENT,rent
+MONTHLY RENT,rent
+LANDLORD PAYMENT,rent
+PG RENT,rent
+FLAT RENT,rent
+RENT TRANSFER,rent
+OFFICE RENT,rent
+ROOM RENT,rent
+SALARY CREDIT,salary_income
+PAYROLL TECHNOLOGIES PVT LTD,salary_income
+MONTHLY SALARY,salary_income
+SALARY FOR THE MONTH,salary_income
+STIPEND,salary_income
+INFOSYS SALARY,salary_income
+TCS PAYROLL,salary_income
+WIPRO LIMITED SALARY,salary_income
+DIVIDEND PAYOUT,other_income
+REVERSAL OF FAILED TXN,other_income
+NEFT FROM SPOUSE,other_income
+UPI RECEIVED FROM RELATIVE,other_income
+BANK INTEREST CREDIT,other_income
+CASHBACK CREDITED,other_income
+REFUND PROCESSED,other_income
+IMPS FROM FAMILY MEMBER,other_income
+GIFT MONEY RECEIVED,other_income
+SELF TRANSFER OWN ACCOUNT,other_income
+INCOME TAX REFUND ITD,other_income
+UPWORK ESCROW,freelance_income
+FIVERR WITHDRAWAL,freelance_income
+CLIENT PAYMENT INVOICE,freelance_income
+FREELANCE PROJECT PAYMENT,freelance_income
+PAYONEER TRANSFER,freelance_income
+CONSULTING FEES RECEIVED,freelance_income
+DESIGN PROJECT PAYMENT,freelance_income
+RAZORPAY SETTLEMENT,freelance_income
+WEBSITE DEVELOPMENT PAYMENT,freelance_income
+INVOICE SETTLEMENT,freelance_income
+AKSHAYA PATRA FOUNDATION,donation
+AKSHAYA PATRA,donation
+AKSHAYA PATRA FOUNDATION 6108,donation
+AKSHAYA*PATRA FOUNDATION,donation
+AKSHAYAPATRA,donation
+ANIMAL*WELFARE SOCIETY,donation
+ANIMAL WELFARE,donation
+ANIMAL WELFARE SOCIETY MUMBAI,donation
+BLUE CROSS OF INDIA,donation
+BLUE CROSS OF INDIA LLP,donation
+BLUE CROSS,donation
+BLUE*CROSS OF INDIA,donation
+BLUECROSS,donation
+CANCER PATIENTS AID ASSOCIATION,donation
+CANCER PATIENTS AID ASSOCIATION 66592,donation
+CANCER PATIENTS,donation
+CANCER PATIENTS AID ASSOCIATION MUMBAI,donation
+CANCER*PATIENTS AID ASSOCIATION,donation
+CHARITABLE TRUST CONTRIBUTION CHENNAI,donation
+CHARITABLE TRUST CONTRIBUTION 9563,donation
+CHARITABLE*TRUST CONTRIBUTION,donation
+CHARITABLE TRUST,donation
+CARITABLE TRUST CONTRIBUTION,donation
+CHIEF MINISTER RELIEF FUND,donation
+CHIEF MINISTER RELIEF FUND 4433,donation
+CHIEF MINISTER RELIEF FUND SERVICES,donation
+CHIEF*MINISTER RELIEF FUND,donation
+CHIEF MINISTER,donation
+CHILD EDUCATION FOUNDATION BLR,donation
+CHILD*EDUCATION FOUNDATION,donation
+CHILD EDUCATION FUNDATION,donation
+CHILD EDUCATION,donation
+CHILD EDUCATION FOUNDATION 09549,donation
+CLEAN GANGA FUND,donation
+CLEANG ANGA FUND,donation
+CLEAN*GANGA FUND,donation
+CLEAN GANGA FUND LLP,donation
+CLEAN GANGA FUND 1426,donation
+GIVINDIA DONATION,donation
+GIVEINDIA DONATION LTD,donation
+GIVEINDIA*DONATION,donation
+GIVEINDIADONATION,donation
+HELPAGE INDIA DONATION,donation
+HELPAGE INDIA DONATION HYD,donation
+HELPAGE INDIA DONATION 206669,donation
+HELPAGE INDIA,donation
+HELPGAE INDIA DONATION,donation
+IMPACT GURU DONATION,donation
+IMPACT GURU,donation
+IMPACT GURU DONATION 4697,donation
+IMPACT*GURU DONATION,donation
+KETTO FUNDRAISER,donation
+KETTO FUNDRAISER PAYMENTS,donation
+KETTO FUNDRAISER 502447,donation
+KETTOFUNDRAISER,donation
+MILAAP FUNDRAISER,donation
+MILAAP FUNDRAISER HYD,donation
+MILAAP FUNDRAISER 59722,donation
+MILAAP FUNDRAIER,donation
+NANHI KALI FOUNDATION,donation
+NANHI KALI FOOUNDATION,donation
+NANHI*KALI FOUNDATION,donation
+NANHI KALI FOUNDATION 6134,donation
+NANHI KALI,donation
+NATIONAL DEFENCE FUND,donation
+NATIONAL DEFENCE,donation
+NATIONAL DEFENCE FUND 5628,donation
+NATIONAL DEFNECE FUND,donation
+NATIONALDEFENCE,donation
+PRIME MINISTER NATIONAL RELIEF FUND,donation
+PRIME MINISTER NATIONAL RELIEF FUND 294842,donation
+PRIME MINISTER NATIONAL RELIEF FUND ONLINE,donation
+PRIME MNISTER NATIONAL RELIEF FUND,donation
+PRIME MINISTER,donation
+RED CROSS SOCIETY,donation
+RED CROSSSOCIETY,donation
+RED CROSS SOCIETY 5460,donation
+RED CROSS SOCIETY SERVICES,donation
+RED*CROSS SOCIETY,donation
+SAVE THE CHILDREN INDIA,donation
+SAVE THE,donation
+SAVE*THE CHILDREN INDIA,donation
+SAVE TH ECHILDREN INDIA,donation
+SEVA TRUST OFFERING,donation
+SEVA TRUST,donation
+SEVA TRUST OOFFERING,donation
+SEVA TRUST OFFERING CHENNAI,donation
+SEVA TRUST OFFERING 991417,donation
+SMILE FOUNDATION,donation
+SMILEFOUNDATION,donation
+SMILE FOUNDATION 184459,donation
+SMILE*FOUNDATION,donation
+SMILE FOUNDATION LTD,donation
+TEMPLE TRUST DONATION 4203,donation
+TEMPLE TRUST,donation
+TEMPLE TRUST DDONATION,donation
+TEMPLE TRUST DONATION HYD,donation
+TEMPLE*TRUST DONATION,donation
+TIRUMALA TIRUPATI DEVASTHANAMS,donation
+TIRUMALA TIRUATI DEVASTHANAMS,donation
+TIRUMALA TIRUPATI DEVASTHANAMS INDIA,donation
+TIRUMALA TIRUPATI,donation
+TIRUMALA*TIRUPATI DEVASTHANAMS,donation
+WILDLIFE TRUST OFFERING,donation
+WILDLIFE*TRUST OFFERING,donation
+WILDLIFE TRUST OFFRING,donation
+WILDLIFE TRUST,donation
+ADITYA BIRLA SUN LIFE TAX RELIEF 96,elss_investment
+ADITYA*BIRLA SUN LIFE TAX RELIEF 96,elss_investment
+ADITYA BIRLA SUN LIFE TAX RELIEF 96 PAYMENTS,elss_investment
+ADITYA BIRLA SUN LIFE TAX RELIF 96,elss_investment
+ADITYABIRLA,elss_investment
+ANGEL ONE ELSS FUND,elss_investment
+ANGEL ONE ELSS FUND SERVICES,elss_investment
+ANGEL*ONE ELSS FUND,elss_investment
+ANGEL ONE,elss_investment
+ANGELONE,elss_investment
+AXIS*LONG TERM EQUITY FUND,elss_investment
+AXIS LONG TERM EQUITY FUND 2068,elss_investment
+AXIS LONG,elss_investment
+AXISLONG,elss_investment
+BANK OF INDIA ELTS TAX SAVER,elss_investment
+BANK OF,elss_investment
+BANK*OF INDIA ELTS TAX SAVER,elss_investment
+BANK OF INDIA ELTS TAX SAVER 9575,elss_investment
+BANK OF INDIA ELTS TAX SAVER INDIA,elss_investment
+DSP TAX SAVER FUND,elss_investment
+DS PTAX SAVER FUND,elss_investment
+DSP TAX SAVER FUND DELHI,elss_investment
+DSP*TAX SAVER FUND,elss_investment
+DSP TAX,elss_investment
+EDELWEISS LONG TERM EQUITY TAX SAVING,elss_investment
+EDELWEISS LNOG TERM EQUITY TAX SAVING,elss_investment
+EDELWEISS LONG TERM EQUITY TAX SAVING 624546,elss_investment
+EDELWEISS LONG TERM EQUITY TAX SAVING IN,elss_investment
+EDELWEISS*LONG TERM EQUITY TAX SAVING,elss_investment
+FRANKLIN INDIA TAXSHIELD,elss_investment
+FRANKLIN INDIA TAXSHIELD LLP,elss_investment
+FRRANKLIN INDIA TAXSHIELD,elss_investment
+FRANKLIN*INDIA TAXSHIELD,elss_investment
+FRANKLIN INDIA TAXSHIELD 0071,elss_investment
+GROWW ELSS TAX SAVER,elss_investment
+GROWW*ELSS TAX SAVER,elss_investment
+GROWW ELSS,elss_investment
+GROWW ELSS TAX AVER,elss_investment
+GROWW ELSS TAX SAVER 296837,elss_investment
+HDFC TAXSAVER,elss_investment
+HDFC TAXSAVER BLR,elss_investment
+HDFC*TAXSAVER,elss_investment
+HDFC TAAXSAVER,elss_investment
+HSBC TAX SAVER EQUITY FUND,elss_investment
+HSBC TAX SAVER EQQUITY FUND,elss_investment
+HSBC*TAX SAVER EQUITY FUND,elss_investment
+HSBC TAX SAVER EQUITY FUND DELHI,elss_investment
+HSBCTAX,elss_investment
+IDFC TAX ADVANTAGE ELSS,elss_investment
+IDFC TAX,elss_investment
+IDFC TAX ADVANTAGE ELSS CHENNAI,elss_investment
+IDFC*TAX ADVANTAGE ELSS,elss_investment
+IDFC TAXA DVANTAGE ELSS,elss_investment
+IDFC TAX ADVANTAGE ELSS 36602,elss_investment
+INVESCO INDIA TAX PLAN,elss_investment
+INVESCO INDIA TAX PLAN 3268,elss_investment
+INVESCO*INDIA TAX PLAN,elss_investment
+INVESCO INDIA TAX PLAN CHENNAI,elss_investment
+INVESCO INDIA,elss_investment
+KOTAK TAX SAVER,elss_investment
+KOTAK*TAX SAVER,elss_investment
+KOTAK TAX SAER,elss_investment
+KOTAK TAX SAVER SERVICES,elss_investment
+KOTAK TAX,elss_investment
+MIRAE ASSET ELSS TAX SAVER,elss_investment
+MIRAE ASSET,elss_investment
+MIRAE ASSET ELSS TAX SAVER LLP,elss_investment
+MIRAE ASEST ELSS TAX SAVER,elss_investment
+MOTILAL OSWAL LONG TERM EQUITY FUND,elss_investment
+MOTILAL OSWAL LONG TERM EQUITY FUND CHENNAI,elss_investment
+MOTILAL OSWAL,elss_investment
+MOTILAL OSWAL LONGG TERM EQUITY FUND,elss_investment
+MOTILALOSWAL,elss_investment
+NIPPON INDIA TAX SAVER ELSS,elss_investment
+NIPPON*INDIA TAX SAVER ELSS,elss_investment
+NIPPON INDIA TTAX SAVER ELSS,elss_investment
+NIPPON INDIA,elss_investment
+NIPPON INDIA TAX SAVER ELSS IN,elss_investment
+PAYTM MONEY ELSS,elss_investment
+PAYTM MONEY,elss_investment
+PAYTM MONEY ELSS PVT LTD,elss_investment
+PAYTM*MONEY ELSS,elss_investment
+PGIM INDIA ELSS TAX SAVER,elss_investment
+PGIM INDIA ELSS TAX SAVER 199766,elss_investment
+PGIM INDIA ELSS TAX SAVER LTD,elss_investment
+PGIM*INDIA ELSS TAX SAVER,elss_investment
+PGIM INDIA ELSST AX SAVER,elss_investment
+PGIM INDIA,elss_investment
+QUANT TAX PLAN 46072,elss_investment
+QUANT TAX,elss_investment
+QUANT TTAX PLAN,elss_investment
+QUANT TAX PLAN CHENNAI,elss_investment
+QUANTUM TAX SAVING FUND,elss_investment
+QUANTUM ATX SAVING FUND,elss_investment
+QUANTUM TAX,elss_investment
+QUANTUM TAX SAVING FUND 6254,elss_investment
+QUANTUM*TAX SAVING FUND,elss_investment
+QUANTUMTAX,elss_investment
+SAMCO ELSS TAX SAVER,elss_investment
+SAMCO ELSS TAX SAVER PAYMENTS,elss_investment
+SAMCO ELSS,elss_investment
+SAMCO*ELSS TAX SAVER,elss_investment
+SAMCO ELSS TAX SAVER 233457,elss_investment
+SAMCOELSS,elss_investment
+SUNDARAM DIVERSIFIED EQUITY TAX SAVER,elss_investment
+SUNDARAM*DIVERSIFIED EQUITY TAX SAVER,elss_investment
+SUNDARAM DIVERSIFIED,elss_investment
+SUNDARAM DIVERSIFIED EQUITY TAX SAVER 26968,elss_investment
+SUNDARAM DIVERSIFIED EQUITY TAX SAVER INDIA,elss_investment
+UTI LONG TERM EQUITY FUND TAX SAVING,elss_investment
+UTI LONG,elss_investment
+UTI LONG TERM EQUITY FUND TAX SAVING 89964,elss_investment
+UTI LOG TERM EQUITY FUND TAX SAVING,elss_investment
+UTI*LONG TERM EQUITY FUND TAX SAVING,elss_investment
+WHITEOAK CAPITAL ELSS,elss_investment
+WHITEOAK CAPITAL ELSS DELHI,elss_investment
+WITEOAK CAPITAL ELSS,elss_investment
+WHITEOAK CAPITAL,elss_investment
+AMAOZN PRIME,entertainment
+AMAZON PRIME 74524,entertainment
+AMAZON*PRIME,entertainment
+AMAZON PRIME PVT LTD,entertainment
+APPLE MUSIC,entertainment
+APPLE MUSIIC,entertainment
+APPLE MUSIC 14947,entertainment
+APPLE MUSIC HYD,entertainment
+APPLEMUSIC,entertainment
+ASIAN CINEMAS,entertainment
+ASIAN CINEMAS 445842,entertainment
+AISAN CINEMAS,entertainment
+ASIAN CINEMAS LLP,entertainment
+BOOKYSHOW,entertainment
+BOOKMYSHOW 90220,entertainment
+BOOKMYSHOW MUMBAI,entertainment
+CARNIVAL CINEMAS,entertainment
+CARNIVAL CINEMAS 41883,entertainment
+CANRIVAL CINEMAS,entertainment
+CARNIVAL CINEMAS INDIA,entertainment
+CINEPOLIS,entertainment
+CINEPLIS,entertainment
+CINEPOLIS MUMBAI,entertainment
+CONCERT TICKEETS,entertainment
+CONCERT TICKETS DELHI,entertainment
+CONCERT*TICKETS,entertainment
+DISCOVERY PLUS,entertainment
+DISCOVERY*PLUS,entertainment
+DISCOVERY PLUS DELHI,entertainment
+DISCOOVERY PLUS,entertainment
+DISNEY PLUS,entertainment
+DISNEY PLUS SERVICES,entertainment
+DISNEY PLUS 383634,entertainment
+EPIC GAMES,entertainment
+EPIC*GAMES,entertainment
+EPIC GAMES SERVICES,entertainment
+ESCAPE ROOM,entertainment
+ESCAPE ROOM HYD,entertainment
+ESCAPE ROMO,entertainment
+HOTSTAR*SUBSCRIPTION,entertainment
+HOTSTAR SUBSCRRIPTION,entertainment
+HOTSTAR SUBSCRIPTION 9691,entertainment
+HOTSTARSUBSCRIPTION,entertainment
+INOX MULTIPLEX,entertainment
+INOX MULTIPLEX 997374,entertainment
+INOX MUULTIPLEX,entertainment
+INOX MULTIPLEX LLP,entertainment
+JIOCINEMA,entertainment
+JIOCINEMA 04874,entertainment
+JIOCIENMA,entertainment
+JIOCINEMA ONLINE,entertainment
+KIDZANIA,entertainment
+KIDZANIA LTD,entertainment
+KIDZANIA 77924,entertainment
+KINDLE UNLIMITED,entertainment
+KINDLE UNLIMITED LLP,entertainment
+KINDLE UNLIMITED 253141,entertainment
+KINDLE UNLIIMITED,entertainment
+KINDLEUNLIMITED,entertainment
+LIONSGATE PLAY,entertainment
+LIONSGATE*PLAY,entertainment
+LIONSGATE PLAY 57104,entertainment
+LIOONSGATE PLAY,entertainment
+MOVIE*TICKETS,entertainment
+MOVIE TICKETS PAYMENTS,entertainment
+MUSIC STREAMING 2467,entertainment
+MUSIC STREAAMING,entertainment
+MUSICSTREAMING,entertainment
+PVR*CINEMAS,entertainment
+PVR CINEMAS 31158,entertainment
+PVR CINEMAS LTD,entertainment
+PVRCINEMAS,entertainment
+SATYAM CINEMAS,entertainment
+SATYAM CINEMAS CHENNAI,entertainment
+SATYAM*CINEMAS,entertainment
+SATYAM CINEMAS 351366,entertainment
+SONYLIV,entertainment
+SONYLIV 1283,entertainment
+SONYIV,entertainment
+VOOT SELECT,entertainment
+VOOT*SELECT,entertainment
+VOOT SELECT 26885,entertainment
+VOOT SELECT ONLINE,entertainment
+WONDERLA,entertainment
+WONDERLA 52405,entertainment
+WONDERAL,entertainment
+WONDERLA LTD,entertainment
+YOUTUBE PREMIUM,entertainment
+YOUTUBE PREMIUM LLP,entertainment
+YOUTUBE*PREMIUM,entertainment
+YOUTUB PREMIUM,entertainment
+YOUTUBEPREMIUM,entertainment
+ZEE5,entertainment
+ZEE5 CHENNAI,entertainment
+AMMA MESS,food_dining
+AMMA MESSS,food_dining
+AMMA MESS BLR,food_dining
+AMMA*MESS,food_dining
+AMMAMESS,food_dining
+BAKERY*AND SWEETS,food_dining
+BAKERY AND SEWETS,food_dining
+BAKERY AND,food_dining
+BARBEQUE NATION,food_dining
+BARBEQUE NATION PVT LTD,food_dining
+BARBEQUE NATION 70852,food_dining
+BARBEQUE NATON,food_dining
+BARBEQUE*NATION,food_dining
+BASKIN ROBBINS,food_dining
+BASKIN ROBBINS 764543,food_dining
+BASKIN*ROBBINS,food_dining
+BASKIN ROBBINS CHENNAI,food_dining
+BASKINROBBINS,food_dining
+BAWARCHI RESTAURANT,food_dining
+BAWARCHI*RESTAURANT,food_dining
+BAWARCHI RESTAURNAT,food_dining
+BIG CHILL CAFE,food_dining
+BIG CHILL,food_dining
+BIG CHILL CFE,food_dining
+BIG*CHILL CAFE,food_dining
+BIG CHILL CAFE DELHI,food_dining
+BIKANERVALA,food_dining
+BIKANEERVALA,food_dining
+BIKANERVALA 569760,food_dining
+BLUE TOKAI,food_dining
+BLUE TOKAAI,food_dining
+BLUE*TOKAI,food_dining
+BLUE TOKAI HYD,food_dining
+BURGER KING,food_dining
+BURGER ING,food_dining
+BURGER KING PAYMENTS,food_dining
+BURGER*KING,food_dining
+CAKE WALK BAKERY,food_dining
+CAKE WALK BAKERY PVT LTD,food_dining
+CAKE WALK,food_dining
+CAKE WALKB AKERY,food_dining
+CAKE*WALK BAKERY,food_dining
+CHAAYOS,food_dining
+CHAAYOS 38206,food_dining
+CHAAYS,food_dining
+CHAAYOS ONLINE,food_dining
+CHAI POINT,food_dining
+CHAI POINT 745879,food_dining
+CHAI OINT,food_dining
+CHAI SUTTA BAR,food_dining
+CHAI SUTTA BAR MUMBAI,food_dining
+CHAI SUTTA BAR 424677,food_dining
+CHAI SUTTA BRA,food_dining
+CHAI*SUTTA BAR,food_dining
+DUNKIN DONUTS,food_dining
+DUNKIN DONUTS SERVICES,food_dining
+DUNKINDONUTS,food_dining
+DUNKIN DONUTS 499477,food_dining
+FAASOS,food_dining
+FAASOS 70440,food_dining
+FAASOS ONLINE,food_dining
+FOOD*COURT,food_dining
+FOOD COURRT,food_dining
+FOOD COURT BLR,food_dining
+ICE CREAM PARLOUR IN,food_dining
+IC ECREAM PARLOUR,food_dining
+ICE*CREAM PARLOUR,food_dining
+ICE CREAM PARLOUR 109364,food_dining
+KFC,food_dining
+KFC INDIA,food_dining
+MCDONALDS PVT LTD,food_dining
+MCDONALDS 859889,food_dining
+MCDNOALDS,food_dining
+MTR RESTAURANT,food_dining
+MTR RESSTAURANT,food_dining
+MTR RESTAURANT PAYMENTS,food_dining
+MTR RESTAURANT 669861,food_dining
+MTR*RESTAURANT,food_dining
+PIZZA CORNER,food_dining
+PIZZA CORNER 21103,food_dining
+PIZZA CORRNER,food_dining
+PIZZA CORNER CHENNAI,food_dining
+PIZZA HUT,food_dining
+PIZZA HUT MUMBAI,food_dining
+PIZZA*HUT,food_dining
+PIZZAHUT,food_dining
+RAJU TIFFIN CENTRE,food_dining
+RAJU TIFFIN CENTRE 94908,food_dining
+RAAJU TIFFIN CENTRE,food_dining
+RAJU*TIFFIN CENTRE,food_dining
+RAJU TIFFIN,food_dining
+SARAVANA BHAVAN,food_dining
+SARAVANA BHAVAN 45036,food_dining
+SARAVANA BHAVAN DELHI,food_dining
+SARAVANA*BHAVAN,food_dining
+SHARMA JI DHABA,food_dining
+SHARMA JI DHABA 30950,food_dining
+SHARMA JI DHABA DELHI,food_dining
+SHARMA JI,food_dining
+SHARMA JI HABA,food_dining
+STARBUCKS,food_dining
+SARBUCKS,food_dining
+STARBUCKS BLR,food_dining
+SWIGGY,food_dining
+SWIGGY ONLINE,food_dining
+SWIGYG,food_dining
+TIFFIN CENTER LLP,food_dining
+TIFFIN CENER,food_dining
+TIFFIN CENTER 328200,food_dining
+TIFFINCENTER,food_dining
+TIM HORTONS,food_dining
+TIM HORTONS 28521,food_dining
+TIM*HORTONS,food_dining
+TMI HORTONS,food_dining
+TIM HORTONS INDIA,food_dining
+TIMHORTONS,food_dining
+VASANTA BHAVAN,food_dining
+VASANTA*BHAVAN,food_dining
+VASANTA BHAVAN INDIA,food_dining
+VASANTA BHAVAN 64494,food_dining
+WOW MOMO,food_dining
+WOW MOMO LTD,food_dining
+WOW*MOMO,food_dining
+WW MOMO,food_dining
+AD REVENUE ADSENSE,freelance_income
+AD*REVENUE ADSENSE,freelance_income
+AD REVENUE ADDSENSE,freelance_income
+AD REVENUE,freelance_income
+AD REVENUE ADSENSE 979006,freelance_income
+APP DEVELOPMENT MILESTONE,freelance_income
+APP DEVELOPMENT,freelance_income
+APP DEVELOPMENT MILESTONE CHENNAI,freelance_income
+APP*DEVELOPMENT MILESTONE,freelance_income
+APP DEVELOPMENT MILESTONE 0696,freelance_income
+BRIGHTSIDE MEDIA PROJECT FEE,freelance_income
+BRIGHTSIDE MEDIA PROJECT FEE 075789,freelance_income
+BRIGHTSIDE MEDIA PROJECT FEE CHENNAI,freelance_income
+BRIGHTSIDE*MEDIA PROJECT FEE,freelance_income
+BRIGTSIDE MEDIA PROJECT FEE,freelance_income
+BRIGHTSIDE MEDIA,freelance_income
+CASHFREE SETTLEMENT,freelance_income
+CASHFREE SETTEMENT,freelance_income
+CASHFREE*SETTLEMENT,freelance_income
+CASHFREE SETTLEMENT 48923,freelance_income
+CLIENT PAYMENT INVOICE LLP,freelance_income
+CLIENT PAYMENT,freelance_income
+CIENT PAYMENT INVOICE,freelance_income
+CLIENT PAYMENT INVOICE 98722,freelance_income
+CONTENTFLY PAYMENT,freelance_income
+CONTENTFLY*PAYMENT,freelance_income
+CONTENTFLY PAYMENT 54275,freelance_income
+CONTENTFLY PAYMENT HYD,freelance_income
+CNOTENTFLY PAYMENT,freelance_income
+COURSE SALES GUMROAD,freelance_income
+COURSE SALES,freelance_income
+COURE SALES GUMROAD,freelance_income
+COURSE SALES GUMROAD 93507,freelance_income
+COURSE SALES GUMROAD HYD,freelance_income
+DEEL PAYMENTS,freelance_income
+DEEL PAYMENTS 2687,freelance_income
+DEEL*PAYMENTS,freelance_income
+DEEL PAYMENTS LLP,freelance_income
+FREELANCER COM PAYOUT,freelance_income
+FREELANCER COM PAYOUT BLR,freelance_income
+FREELANCER*COM PAYOUT,freelance_income
+FREELANCER COM PAYOUT 6615,freelance_income
+FRELANCER COM PAYOUT,freelance_income
+GLOBEX SOFTWARE CONSULTING FEE,freelance_income
+GLOBEX SOFTWARE,freelance_income
+GLOBEX SOFTWAR CONSULTING FEE,freelance_income
+GLOBEX*SOFTWARE CONSULTING FEE,freelance_income
+GLOBEX SOFTWARE CONSULTING FEE PVT LTD,freelance_income
+INSTAMOJO PAYOUT,freelance_income
+INSTAMOJO*PAYOUT,freelance_income
+INSTAMOJO PAYOUT 7511,freelance_income
+INSTAMOO PAYOUT,freelance_income
+INVOICE SETTLEMENT PAYMENTS,freelance_income
+INVOICE*SETTLEMENT,freelance_income
+INVOCE SETTLEMENT,freelance_income
+PAYONEER TRANSFER HYD,freelance_income
+PAYONEER TRANSFER 21756,freelance_income
+PAYONER TRANSFER,freelance_income
+PAYONEER*TRANSFER,freelance_income
+PAYPAL TRANSFER INDIA,freelance_income
+PAYPAL TRANSFER,freelance_income
+PAYPAL TRANSFER INDIA MUMBAI,freelance_income
+PAYPAL TRANSFER INDIA 8249,freelance_income
+PAYPAL TRANSFR INDIA,freelance_income
+PAYU SETTLEMENT,freelance_income
+PAYU*SETTLEMENT,freelance_income
+PAYU SETTLEMENT BLR,freelance_income
+PAYU SETTLEMENT 29597,freelance_income
+PHOTOGRAPHY SHOOT PAYMENT,freelance_income
+PHOTOGRAPHY SHOOT PAAYMENT,freelance_income
+PHOTOGRAPHY SHOOT PAYMENT INDIA,freelance_income
+PHOTOGRAPHY*SHOOT PAYMENT,freelance_income
+PHOTOGRAPHY SHOOT PAYMENT 0141,freelance_income
+PIXEL FORGE INVOICE,freelance_income
+PIXEL FORGE,freelance_income
+PIXEL FORGE INVOICE 5145,freelance_income
+PIXEL FORGE INVOICE HYD,freelance_income
+PIXEL FORG INVOICE,freelance_income
+PROFESSIONAL FEES RECEIVED,freelance_income
+PROFESSIONAL*FEES RECEIVED,freelance_income
+PROFESSIONAL FEES RECEIVED 73963,freelance_income
+PROEFSSIONAL FEES RECEIVED,freelance_income
+PROFESSIONAL FEES,freelance_income
+PROJECT MILESTONE PAYMENT,freelance_income
+PROJEECT MILESTONE PAYMENT,freelance_income
+PROJECT*MILESTONE PAYMENT,freelance_income
+PROJECT MILESTONE PAYMENT BLR,freelance_income
+PROJECT MILESTONE,freelance_income
+RETAINER FEE CLIENT,freelance_income
+RETAINER FEE,freelance_income
+RETAINER FEE CLIENT 18003,freelance_income
+RETAINER FEE CLIENT INDIA,freelance_income
+RETAINER FEECLIENT,freelance_income
+SERVICE INVOICE PAYMENT,freelance_income
+SERVICE*INVOICE PAYMENT,freelance_income
+SERVICE INVOICE PYAMENT,freelance_income
+SERVICE INVOICE,freelance_income
+SERVICE INVOICE PAYMENT 01920,freelance_income
+STRIPE PAYOUT,freelance_income
+STRIPE PAAYOUT,freelance_income
+STRIPE*PAYOUT,freelance_income
+STRIPE PAYOUT BLR,freelance_income
+TEACHABLE PAYOUT,freelance_income
+TEACHABLEE PAYOUT,freelance_income
+TEACHABLE*PAYOUT,freelance_income
+TEACHABLE PAYOUT INDIA,freelance_income
+TOPTAL PAYOUT,freelance_income
+TOPTAL*PAYOUT,freelance_income
+TOPAL PAYOUT,freelance_income
+TOPTAL PAYOUT 0499,freelance_income
+TOPTAL PAYOUT ONLINE,freelance_income
+TRAINING WORKSHOP FEES,freelance_income
+TRAINING WORKSHOP FEES DELHI,freelance_income
+TRAINING WORKSHOP FEEES,freelance_income
+TRAINING*WORKSHOP FEES,freelance_income
+TRAINING WORKSHOP FEES 88501,freelance_income
+TRANSLATION PROJECT PAYMENT,freelance_income
+TRANSLATION PROJECT PAYMENT 424155,freelance_income
+TRANSLATION PROJECT PAYMENT PAYMENTS,freelance_income
+TRANSLATION PROJECT,freelance_income
+TRANSLATION PROJECT PAYMENNT,freelance_income
+YOUTUBE PARTNER PAYOUT,freelance_income
+YOUTUBE*PARTNER PAYOUT,freelance_income
+YOUTUBE PARTNER,freelance_income
+YOUTUBE APRTNER PAYOUT,freelance_income
+YOUTUBE PARTNER PAYOUT DELHI,freelance_income
+BHARAT PETROLEUM,fuel
+BHARAT PETROLEUM 9726,fuel
+BHARAT PETTROLEUM,fuel
+BHARAT*PETROLEUM,fuel
+BHARAT PETROLEUM LLP,fuel
+BP PULSE,fuel
+BP PULSE LLP,fuel
+BP*PULSE,fuel
+BP PULE,fuel
+BPCL 1985,fuel
+BPCL DELHI,fuel
+CNG STATION,fuel
+CNG STATION MUMBAI,fuel
+CNG STATION 5676,fuel
+CNG*STATION,fuel
+CNG STTION,fuel
+FUEL CARD RECHARGE,fuel
+FUEL CARDR ECHARGE,fuel
+FUEL CARD,fuel
+FUEL CARD RECHARGE 772034,fuel
+HINDUSTAN PETROLEUM RETAIL,fuel
+HINDUSTAN PETROLEUM,fuel
+HINDUSTAN PETROLEUM RETAIL 043055,fuel
+HINDUSTN PETROLEUM RETAIL,fuel
+HP PETROL PUMP,fuel
+HP PETRL PUMP,fuel
+HP PETROL PUMP 31009,fuel
+HP*PETROL PUMP,fuel
+HP PETROL,fuel
+HPCL*FUEL,fuel
+HPCL FUEL MUMBAI,fuel
+INDIAN OIL PETROL PUMP MUMBAI,fuel
+INDIAN*OIL PETROL PUMP,fuel
+INDIAN OIL PETROL PUMP 9045,fuel
+INDIAN OIL,fuel
+IOC DEALER,fuel
+IOC DEALLER,fuel
+IOC*DEALER,fuel
+IOC DEALER LLP,fuel
+IOC DEALER 51687,fuel
+IOCL RETAIL OUTLET,fuel
+IOCL RETAIL,fuel
+IOCL*RETAIL OUTLET,fuel
+IOCL RETAIL OUTLET DELHI,fuel
+IOCLRETAIL,fuel
+KRISHNA FILLING POINT,fuel
+KRISHNA FILLING POINT 153425,fuel
+KRISHNA FILLING,fuel
+KRISHNA FILLING POINT MUMBAI,fuel
+KRISHNA*FILLING POINT,fuel
+KRISHA FILLING POINT,fuel
+LAKSHMI PETROLEUM,fuel
+LAKSHMI*PETROLEUM,fuel
+LAKSHMI PETROLEUM CHENNAI,fuel
+LAKSHMI PETROLEUM 90490,fuel
+NAYARA ENERGY,fuel
+NAYARA ENERGY 9169,fuel
+NAYARA*ENERGY,fuel
+PETROL PUMP DEALER,fuel
+PETROL PUMP DEALER IN,fuel
+PETROL PUMP,fuel
+PETROL*PUMP DEALER,fuel
+RELIANCE PETROL 2479,fuel
+RELIANCE PETROL IN,fuel
+RELIANCE*PETROL,fuel
+RELIANCE PETRROL,fuel
+SAI PETROL BUNK,fuel
+SAI PETROL UNK,fuel
+SAI PETROL,fuel
+SAI PETROL BUNK MUMBAI,fuel
+SAI PETROL BUNK 016552,fuel
+SAI SERVICE STATION,fuel
+SAI SERVICE,fuel
+SAI*SERVICE STATION,fuel
+SAI SERVICE STATION 682265,fuel
+SAI SERVICE STATION LLP,fuel
+SERVICE STATION FUEL,fuel
+SERVICE STATION FUEL 397907,fuel
+SERVVICE STATION FUEL,fuel
+SERVICE STATION,fuel
+SHRI RAM FUELS,fuel
+SHRI AM FUELS,fuel
+SHRI RAM FUELS 34719,fuel
+SHRI*RAM FUELS,fuel
+SHRI RAM,fuel
+SRI VENKATESWARA FILLING STATION,fuel
+SRI VENKATESWARA,fuel
+SRI VENKATESWARA FILLING SATION,fuel
+SRI VENKATESWARA FILLING STATION 7568,fuel
+SUNRISE FILLING STATION,fuel
+SUNRISE*FILLING STATION,fuel
+SUNRISE FILLING STATION SERVICES,fuel
+SUNRISE FILLING,fuel
+SUNRISE FILING STATION,fuel
+SUNRISE FILLING STATION 323054,fuel
+AMAZON FRESH,groceries
+AMAZON*FRESH,groceries
+AMAZON FRESH 6045,groceries
+AMAZON FRESH LTD,groceries
+BIBASKET,groceries
+BIGBASKET MUMBAI,groceries
+BLINKIT PAYMENTS,groceries
+BLINKIT 784893,groceries
+BLIINKIT,groceries
+CITY MART GROCERY,groceries
+CIT YMART GROCERY,groceries
+CITY MART GROCERY BLR,groceries
+CITY*MART GROCERY,groceries
+CITY MART,groceries
+COUNTRY DELIGHT,groceries
+COUNTRY DELIGHT PAYMENTS,groceries
+COUNTRY*DELIGHT,groceries
+COUNTRY DELLIGHT,groceries
+COUNTRY DELIGHT 3682,groceries
+DMART 797772,groceries
+EASYDAY CLUB,groceries
+EASYDAY CLUB 814519,groceries
+EASYDY CLUB,groceries
+EASYDAY CLUB IN,groceries
+FOODWORLD,groceries
+FOODWORLD BLR,groceries
+FOODWORLD 4666,groceries
+LICIOUS MEAT,groceries
+LICIOUS MEAT 395311,groceries
+LICIOUS*MEAT,groceries
+LICIOUS MEAT ONLINE,groceries
+LULU HYPERMARKET,groceries
+LULU*HYPERMARKET,groceries
+LULU HPERMARKET,groceries
+LULU HYPERMARKET SERVICES,groceries
+LULU HYPERMARKET 59845,groceries
+MILK DAIRY IN,groceries
+MILKK DAIRY,groceries
+MILK*DAIRY,groceries
+NANDINI MILK PARLOUR,groceries
+NANDINI MILK PARLOUR CHENNAI,groceries
+NANDINI MILK PARLOUR 5360,groceries
+NANDINI*MILK PARLOUR,groceries
+NANDINI MILK PALROUR,groceries
+NATURES BASKET,groceries
+NATURES BASKET 056228,groceries
+NATURES BASKET MUMBAI,groceries
+NATURES*BASKET,groceries
+NILGIRIS,groceries
+NILGIIRIS,groceries
+NILGIRIS PVT LTD,groceries
+RATNADEEP SUPER MARKET,groceries
+RATNADEEP SUPER MARKET 4170,groceries
+RATNADEEP SUPER,groceries
+RATNADEEPSUPER MARKET,groceries
+RATNADEEP*SUPER MARKET,groceries
+RELIANCE SMART LTD,groceries
+RELIANCE*SMART,groceries
+RELIANCES MART,groceries
+SPAR HYPERMARKET,groceries
+SPAR HYPERMARKET DELHI,groceries
+SPAR HYPERMARKET 417499,groceries
+SPAR*HYPERMARKET,groceries
+SPENCERS RETAIL,groceries
+SPENCERS RETAIL LTD,groceries
+SPENCERS ERTAIL,groceries
+SPENCERS*RETAIL,groceries
+SPENCERSRETAIL,groceries
+SRI KRISHNA SUPER BAZAAR,groceries
+SRI KRISHNA SUPE BAZAAR,groceries
+SRI*KRISHNA SUPER BAZAAR,groceries
+SRI KRISHNA SUPER BAZAAR BLR,groceries
+SRI KRISHNA,groceries
+SRI LAKSHMI PROVISIONS,groceries
+SRI LAKSHMI PORVISIONS,groceries
+SRI LAKSHMI PROVISIONS IN,groceries
+SRI*LAKSHMI PROVISIONS,groceries
+SRI LAKSHMI,groceries
+SUPERMARKET 504991,groceries
+SUPERAMRKET,groceries
+SUPERMARKET LLP,groceries
+SWIGGY INSTAMART,groceries
+SWIGGY INSTMART,groceries
+SWIGGY INSTAMART 641354,groceries
+SWIGGY*INSTAMART,groceries
+VEGETABLE MARKET,groceries
+VEGETABLE*MARKET,groceries
+VEGETABLE MARKET 478674,groceries
+VEGEABLE MARKET,groceries
+ZEPTO 12536,groceries
+ZEPTO PAYMENTS,groceries
+ADITYA BIRLA ACTIV HEALTH,health_insurance
+ADITYA BIRLA,health_insurance
+ADITYA BIRLA ACTIV HEALTH 698908,health_insurance
+ADITYA*BIRLA ACTIV HEALTH,health_insurance
+CARE SUPREME,health_insurance
+CARE SUPREME INDIA,health_insurance
+CARE SUPREME 21532,health_insurance
+CARE*SUPREME,health_insurance
+CHOLAMANDALAM MS HEALTH,health_insurance
+CHOLAAMANDALAM MS HEALTH,health_insurance
+CHOLAMANDALAM*MS HEALTH,health_insurance
+CHOLAMANDALAM MS,health_insurance
+CRITICAL ILLNESS COVER PREMIUM,health_insurance
+CRITICAL ILLNESS COVER PREMIUM INDIA,health_insurance
+CRITICAL ILLNESS,health_insurance
+CRITICAL ILLNESS COVER PREMIUM 9720,health_insurance
+CRIITICAL ILLNESS COVER PREMIUM,health_insurance
+FAMILY FLOATER MEDICLAIM 85909,health_insurance
+FAMIILY FLOATER MEDICLAIM,health_insurance
+FAMILY FLOATER MEDICLAIM ONLINE,health_insurance
+FAMILY FLOATER,health_insurance
+GO DIGIT HEALTH,health_insurance
+GO DIGIT HEATH,health_insurance
+GO DIGIT HEALTH 70782,health_insurance
+GO DIGIT HEALTH BLR,health_insurance
+GODIGIT,health_insurance
+HDFC ERGO MY HEALTH,health_insurance
+HDFC ERGO MY HEALTH HYD,health_insurance
+HDFC ERGO MY HEALTH 27904,health_insurance
+HDFC ERGO,health_insurance
+HDFC*ERGO MY HEALTH,health_insurance
+HEALTH POLICY PREMIUM RENEWAL,health_insurance
+HEALTH POLICY PREMIUM RENEWAL DELHI,health_insurance
+HEALTH*POLICY PREMIUM RENEWAL,health_insurance
+HEALTH POLICY,health_insurance
+HEALTH POLICY PREMIUM RENEWAL 696942,health_insurance
+HEALTHPOLICY,health_insurance
+MAGMA HDI HEALTH,health_insurance
+MAGMA HDI,health_insurance
+MAGMMA HDI HEALTH,health_insurance
+MAGMA HDI HEALTH INDIA,health_insurance
+MAGMAHDI,health_insurance
+MANIPAL CIGNA EALTH,health_insurance
+MANIPAL CIGNA HEALTH PAYMENTS,health_insurance
+MANIPAL*CIGNA HEALTH,health_insurance
+MANIPAL CIGNA,health_insurance
+MEDICLAIM POLICY RENEWAL CHENNAI,health_insurance
+MEDICLAIM POLICY,health_insurance
+NAVI HEALTH INSURANCE,health_insurance
+NAVI HEALTH,health_insurance
+NAVI*HEALTH INSURANCE,health_insurance
+ORIENTAL HEALTH POLICY,health_insurance
+ORIENTAL HEALTH,health_insurance
+ORIENTAL*HEALTH POLICY,health_insurance
+ORIENTAL HEALTH POLICY 1540,health_insurance
+ORIENTAL HEALTTH POLICY,health_insurance
+PARENTS MEDICAL INSURANCE INDIA,health_insurance
+PARENTS MEDICAL INSURANCE 4802,health_insurance
+PARENTS*MEDICAL INSURANCE,health_insurance
+PARETS MEDICAL INSURANCE,health_insurance
+PARENTSMEDICAL,health_insurance
+PLUM HEALTH INSURANCE,health_insurance
+PLUM HEALTH INSURANCE 335583,health_insurance
+PLUM HEALTH INSURANCE HYD,health_insurance
+PLLUM HEALTH INSURANCE,health_insurance
+PLUM*HEALTH INSURANCE,health_insurance
+PLUM HEALTH,health_insurance
+POLICYBAZAAR HEALTH PREMIUM,health_insurance
+POLICYBAZAAAR HEALTH PREMIUM,health_insurance
+POLICYBAZAAR HEALTH PREMIUM MUMBAI,health_insurance
+POLICYBAZAAR HEALTH,health_insurance
+POLICYBAZAAR HEALTH PREMIUM 39383,health_insurance
+ROYAL SUNDARAM LIFELINE,health_insurance
+ROYAL SUNDARAM LIFELINE 6115,health_insurance
+ROYAL SUNDARAM,health_insurance
+ROYAL*SUNDARAM LIFELINE,health_insurance
+SBI GENERAL AROGYA,health_insurance
+SBI GENERAL,health_insurance
+SBI GENERAL AROGYA 472372,health_insurance
+SBI GENERAL AROGYA HYD,health_insurance
+SBIGENERAL,health_insurance
+SENIOR CITIZEN MEDICLAIM,health_insurance
+SENIOR CITIZEN,health_insurance
+SENIOR CITIZEN MEDICLAIM 576938,health_insurance
+SENIOR CITIZEN MEDICLAIM ONLINE,health_insurance
+SEIOR CITIZEN MEDICLAIM,health_insurance
+STAR HEATH INSURANCE,health_insurance
+STAR HEALTH INSURANCE 243468,health_insurance
+STAR HEALTH,health_insurance
+STAR HEALTH INSURANCE IN,health_insurance
+UNITED INDIA FAMILY MEDICARE,health_insurance
+UNITED NDIA FAMILY MEDICARE,health_insurance
+UNITED*INDIA FAMILY MEDICARE,health_insurance
+UNITED INDIA,health_insurance
+ZUNO HEALTH,health_insurance
+ZUNO HEALTH ONLINE,health_insurance
+ZUNO*HEALTH,health_insurance
+ZUNO HEALTH 84915,health_insurance
+BAJAJ*HOUSING FINANCE EMI,home_loan_interest
+BAJAJ HOUSING,home_loan_interest
+BAJAJ HOUSING FINANCE EMI 7804,home_loan_interest
+BAJAJ HOUSING FINANCE EMI IN,home_loan_interest
+CANARA BANK HOUSING LOAN,home_loan_interest
+CANARA BANK HOUSING LOAN PVT LTD,home_loan_interest
+CANARA BANK HOUSING LOAN 300132,home_loan_interest
+CANARA BANK HOUSINGLOAN,home_loan_interest
+CANARA*BANK HOUSING LOAN,home_loan_interest
+CANFIN HOMES EMI,home_loan_interest
+CANFIN OMES EMI,home_loan_interest
+CANFIN HOMES EMI 24341,home_loan_interest
+CANFIN HOMES EMI DELHI,home_loan_interest
+CANFINHOMES,home_loan_interest
+FEDERAL BANK HOUSING LOAN,home_loan_interest
+FEERAL BANK HOUSING LOAN,home_loan_interest
+FEDERAL BANK HOUSING LOAN 3632,home_loan_interest
+FEDERAL BANK HOUSING LOAN BLR,home_loan_interest
+FEDERAL*BANK HOUSING LOAN,home_loan_interest
+FEDERALBANK,home_loan_interest
+FLAT LOAN EMI,home_loan_interest
+FLAT LOAN EMI PAYMENTS,home_loan_interest
+FLAT LOAN EMI 02405,home_loan_interest
+FLAT LOAN,home_loan_interest
+FLAT*LOAN EMI,home_loan_interest
+FLATLOAN,home_loan_interest
+GRUH FINANCE EMI,home_loan_interest
+GRUH FINANCE EMI HYD,home_loan_interest
+GRUH*FINANCE EMI,home_loan_interest
+GRUH FINANCE EMI 87317,home_loan_interest
+GRUHFINANCE,home_loan_interest
+HDFC LTD HOME OLAN,home_loan_interest
+HDFC LTD HOME LOAN MUMBAI,home_loan_interest
+HDFC*LTD HOME LOAN,home_loan_interest
+HDFC LTD,home_loan_interest
+HDFCLTD,home_loan_interest
+HOME LOAN ACH DEBIT,home_loan_interest
+HOME*LOAN ACH DEBIT,home_loan_interest
+HOME LOAN ACHH DEBIT,home_loan_interest
+HOME LOAN,home_loan_interest
+HOMELOAN,home_loan_interest
+HOME LOAN EMI LTD,home_loan_interest
+HOME*LOAN EMI,home_loan_interest
+HOME LOAN EMI 58252,home_loan_interest
+HOME LAN EMI,home_loan_interest
+HOME LOAN INSTALMENT BOB,home_loan_interest
+HOME LOAN NISTALMENT BOB,home_loan_interest
+HOME*LOAN INSTALMENT BOB,home_loan_interest
+HOME LOAN INSTALMENT BOB LTD,home_loan_interest
+HOME LOAN INSTALMENT BOB 1711,home_loan_interest
+HOME LOAN REPAYMENT MUMBAI,home_loan_interest
+HOME LOAN REPAYMENT 527686,home_loan_interest
+HOME LAN REPAYMENT,home_loan_interest
+HOME*LOAN REPAYMENT,home_loan_interest
+HOUSING LOAN ECS,home_loan_interest
+HOUSING LOAN ECS PVT LTD,home_loan_interest
+HOUSING LOAN ECS 12919,home_loan_interest
+HOUSING LOAN,home_loan_interest
+HOUSINGLOAN,home_loan_interest
+ICICI HOME FINANCE EMI,home_loan_interest
+ICICI*HOME FINANCE EMI,home_loan_interest
+ICICI HOME,home_loan_interest
+ICICI HOME FINANCE EMI 0731,home_loan_interest
+ICICI HOME FINANCE EMI MUMBAI,home_loan_interest
+LIC HOUSING FINANCE EMI,home_loan_interest
+LIC HOUSING FINACE EMI,home_loan_interest
+LIC*HOUSING FINANCE EMI,home_loan_interest
+LIC HOUSING,home_loan_interest
+LICHOUSING,home_loan_interest
+MORTGAGE EMI 77606,home_loan_interest
+MORTGAGE EMI SERVICES,home_loan_interest
+MORTGAGE*EMI,home_loan_interest
+PIRAMAL CAPITAL HOUSING,home_loan_interest
+PIRAMAL CAPITAL HOUSING 259371,home_loan_interest
+PIRAMAL CAPITAL HOUSIG,home_loan_interest
+PIRAMAL*CAPITAL HOUSING,home_loan_interest
+PIRAMAL CAPITAL,home_loan_interest
+PIRAMALCAPITAL,home_loan_interest
+PNB HOUSING FINANCE,home_loan_interest
+PNB HOUSING FINANCE 0785,home_loan_interest
+PNB HOUSING FINANCE CHENNAI,home_loan_interest
+PNB*HOUSING FINANCE,home_loan_interest
+SBI HOME,home_loan_interest
+SBI HOME LOAN INSTALMENT 536263,home_loan_interest
+SBI*HOME LOAN INSTALMENT,home_loan_interest
+SBIHOME,home_loan_interest
+SUNDARAM HOME FINANCE,home_loan_interest
+SUNDARAM*HOME FINANCE,home_loan_interest
+SUNDARAM HOME FINANNCE,home_loan_interest
+SUNDARAM HOME,home_loan_interest
+SUNDARAM HOME FINANCE 48971,home_loan_interest
+UNION BANK HOME LOAN,home_loan_interest
+UNION BANK HOME LOAN 9628,home_loan_interest
+UNION BANK HOME LOAN MUMBAI,home_loan_interest
+UNION BANK,home_loan_interest
+YES BANK HOME LOAN,home_loan_interest
+YES BANK,home_loan_interest
+YES BANK HOME LOAN 37130,home_loan_interest
+YES BANK HOME LOAN HYD,home_loan_interest
+YES*BANK HOME LOAN,home_loan_interest
+AEGON LIFE IPROTECT,life_insurance
+AEGON LIFE,life_insurance
+AEGON LIFE IPROTECT 831317,life_insurance
+AEGON LIFE IPROTCT,life_insurance
+AEGON LIFE IPROTECT MUMBAI,life_insurance
+ANGEL TERM LIFE PLAN,life_insurance
+ANGEL TERM,life_insurance
+ANGEL TERM LIFE PLAN PVT LTD,life_insurance
+ANGEL*TERM LIFE PLAN,life_insurance
+ANGEL TERM LIFE PLAN 4795,life_insurance
+BAJAJ ALLIANZ LIFE PREMIUM,life_insurance
+BAJAJ ALLIANZ LIFE PREMIUM DELHI,life_insurance
+BAJAJ*ALLIANZ LIFE PREMIUM,life_insurance
+BAJAJALLIANZ,life_insurance
+BIRLA SUN LIFE INSURANCE,life_insurance
+BIRLA SUN,life_insurance
+BRILA SUN LIFE INSURANCE,life_insurance
+BIRLA SUN LIFE INSURANCE 38125,life_insurance
+BIRLA SUN LIFE INSURANCE ONLINE,life_insurance
+BIRLA*SUN LIFE INSURANCE,life_insurance
+CANARA HSBC LIFE,life_insurance
+CANARA HSBC,life_insurance
+CANARA*HSBC LIFE,life_insurance
+CANAAR HSBC LIFE,life_insurance
+EXIDE LIFE POLICY,life_insurance
+EXIDE LIFE POLLICY,life_insurance
+EXIDE*LIFE POLICY,life_insurance
+EXIDE LIFE POLICY 30162,life_insurance
+EXIDELIFE,life_insurance
+FUTURE GENERALI LIFE,life_insurance
+FUTURE GENERALI LIFE INDIA,life_insurance
+FUTURE GENERALI,life_insurance
+FUTURE GENERALI LFIE,life_insurance
+FUTURE*GENERALI LIFE,life_insurance
+GO DIGIT LIFE,life_insurance
+GO DIGIT,life_insurance
+GO DIGITLIFE,life_insurance
+GO*DIGIT LIFE,life_insurance
+GO DIGIT LIFE 64780,life_insurance
+GO DIGIT LIFE SERVICES,life_insurance
+HDFC LIFE CLICK 2 PROTECT,life_insurance
+HDFC LIFE CLICK 2 PROTECT PAYMENTS,life_insurance
+HDFC ILFE CLICK 2 PROTECT,life_insurance
+HDFC*LIFE CLICK 2 PROTECT,life_insurance
+HDFC LIFE CLICK 2 PROTECT 01938,life_insurance
+HDFC SANCHAY PLUS,life_insurance
+HDFC SANCHAY PLUS ONLINE,life_insurance
+HDFC SANNCHAY PLUS,life_insurance
+HDFC SANCHAY,life_insurance
+HDFC SANCHAY PLUS 4257,life_insurance
+HDFCSANCHAY,life_insurance
+ICICI PRUDENTIAL IPROTECT,life_insurance
+ICICI PRUDENTIAL,life_insurance
+ICICI PRUDENTIAAL IPROTECT,life_insurance
+ICICI*PRUDENTIAL IPROTECT,life_insurance
+ICICI PRUDENTIAL IPROTECT LLP,life_insurance
+IDBI FEDERAL LIFE,life_insurance
+IDBI FEDERAL LIFE BLR,life_insurance
+IDBI FEDERAL,life_insurance
+IDBI*FEDERAL LIFE,life_insurance
+INDIAFIRST LIFE,life_insurance
+INDIAFIRST LIFE CHENNAI,life_insurance
+INDIAFIRST LIFE 556049,life_insurance
+INDIAFIRSTL IFE,life_insurance
+JEEVAN ANAND LIC,life_insurance
+JEEVAN ANAND LIC 198582,life_insurance
+JEEVAN ANAND LIC IN,life_insurance
+JEEVAN ANAND,life_insurance
+JEEVAN*ANAND LIC,life_insurance
+KOTAK LIFE TERM,life_insurance
+KOTAK*LIFE TERM,life_insurance
+KOTAK LIFE TERM 29306,life_insurance
+KOTAK LFE TERM,life_insurance
+KOTAK LIFE,life_insurance
+LIFE INSURANCE CORPORATION RENEWAL,life_insurance
+LIFE INSURANCE,life_insurance
+LIFE INSURANCE CORPORATION RENEWAL 0376,life_insurance
+LIFE INSURANCE CORPORATION RENEWAL HYD,life_insurance
+LIFE ISURANCE CORPORATION RENEWAL,life_insurance
+PNB METLIFE PREMIUM,life_insurance
+PNB*METLIFE PREMIUM,life_insurance
+PNB METLIFE,life_insurance
+PNB METLIFE PRREMIUM,life_insurance
+PNBMETLIFE,life_insurance
+POLICYBAZAAR TERM PLAN,life_insurance
+POLICYBAZAAR TERM PLAN PAYMENTS,life_insurance
+POLICYBAZAAR TERM,life_insurance
+POLICYBAZAAR TERM PLAN 4894,life_insurance
+POLICYBAZAAR*TERM PLAN,life_insurance
+PRAMERICA LIFE,life_insurance
+PRAMERICA*LIFE,life_insurance
+PRAMERICA LIFE 3437,life_insurance
+PRAMERICA LIFE MUMBAI,life_insurance
+PRAMERICALIFE,life_insurance
+SAHARA LIFE,life_insurance
+SAHARA LIFE PVT LTD,life_insurance
+SAHARA*LIFE,life_insurance
+SAHARAL IFE,life_insurance
+SAHARA LIFE 6188,life_insurance
+SBI LIFE SMART SHIELD,life_insurance
+SBI LIFE SMART SHIELD SERVICES,life_insurance
+SBI*LIFE SMART SHIELD,life_insurance
+SBI LIFE,life_insurance
+SBILIFE,life_insurance
+TECH TERM LIC,life_insurance
+TECH TERM LIC 6388,life_insurance
+TECH TERM LC,life_insurance
+TECH TERM LIC ONLINE,life_insurance
+TECH*TERM LIC,life_insurance
+TERM LIFE PLAN RENEWAL,life_insurance
+TERM LIFE,life_insurance
+TERM LIFE PLAN RENEWAL BLR,life_insurance
+TERM LIFE PLAN RENEWAL 0778,life_insurance
+ATAL PENSION YOJANA,nps
+ATLA PENSION YOJANA,nps
+ATAL PENSION YOJANA PVT LTD,nps
+CAMS NPS PRAN,nps
+CAMS NPS PRAN HYD,nps
+CAMS NPSP RAN,nps
+CAMS NPS PRAN 566155,nps
+CAMS*NPS PRAN,nps
+GROWW NPS,nps
+GROWW*NPS,nps
+GROWW PNS,nps
+GROWWNPS,nps
+NATIONAL PENSION SCHEME TIER I,nps
+NATIONAL*PENSION SCHEME TIER I,nps
+NATIONAL PENSION,nps
+NATIONAL PENSION SCHEME TIER I PAYMENTS,nps
+NATIONAL*PENSION SYSTEM,nps
+NATIONAL PENSION SSTEM,nps
+NATIONAL PENSION SYSTEM 170692,nps
+NATIONAL PENSION SYSTEM LTD,nps
+NPS ADDITIONAL CONTRIBUTION HYD,nps
+NPS ADDITIONAL,nps
+NPS ADDITIONAL CONTRIBTION,nps
+NPS*ADDITIONAL CONTRIBUTION,nps
+NPS CONTRIBUTION KFIN,nps
+NPS*CONTRIBUTION KFIN,nps
+NPS CONRTIBUTION KFIN,nps
+NPS CONTRIBUTION KFIN 26890,nps
+NPS CONTRIBUTION KFIN BLR,nps
+NPS HDFC PENSION,nps
+NPS HDFC,nps
+NPS HDFC PENSION CHENNAI,nps
+NPS HDFC PENSION 58010,nps
+NPS*HDFC PENSION,nps
+NPS ICICI PRUDENTIAL PENSION,nps
+NPS*ICICI PRUDENTIAL PENSION,nps
+NPS ICICI PRUDENTIAL PENSION 483146,nps
+NPS ICICI,nps
+NPS ICICI PRUDENTIAL PENSION IN,nps
+NPS KOTAK PENSION,nps
+NPS KOTAK PENSION INDIA,nps
+NPS KOTAK,nps
+NPS KOTAKK PENSION,nps
+NPS KOTAK PENSION 734434,nps
+NPS ONLINE CONTRIBUTION CRA,nps
+NPS ONLINE,nps
+NPS*ONLINE CONTRIBUTION CRA,nps
+NPS ONLINE CONTRIBUTION CRA 7552,nps
+NPS ONLINE CONTRIIBUTION CRA,nps
+NPSONLINE,nps
+NPS POINT OF PRESENCE,nps
+NPS*POINT OF PRESENCE,nps
+NPS POINT OF PRESENCE LLP,nps
+NPS OPINT OF PRESENCE,nps
+NPS POINT,nps
+NPSPOINT,nps
+NPS SBI PENSION FUNDS,nps
+NPS SBI,nps
+NPS*SBI PENSION FUNDS,nps
+NPS SBI PENSION FUNDS 71628,nps
+NPSSBI,nps
+NPS SWAVALAMBAN,nps
+NPS WAVALAMBAN,nps
+NPS*SWAVALAMBAN,nps
+NPS SWAVALAMBAN 1254,nps
+NPS UTI RETIREMENT SOLUTIONS,nps
+NPS UTI,nps
+NPS UTI RETIREMENT SOLUTIONS 07186,nps
+NPS UTI RETIREMENT SOLUTIONS INDIA,nps
+NPSU TI RETIREMENT SOLUTIONS,nps
+NPS VATSALYA,nps
+NPSV ATSALYA,nps
+NPS VATSALYA LTD,nps
+NPS VATSALYA 616646,nps
+NPSVATSALYA,nps
+NSDL CRA NPS,nps
+NSDL*CRA NPS,nps
+NSDL CRA NPS SERVICES,nps
+NSDL CRA,nps
+NSDL CRA NPS 4050,nps
+PAYTM NPS CONTRIBUTION,nps
+PAYTM NPS,nps
+PAYTM NPS CONTRIBUTION 90553,nps
+PAYTM*NPS CONTRIBUTION,nps
+PAYTMN PS CONTRIBUTION,nps
+PHONEPE NPS,nps
+PHONEPE*NPS,nps
+PHONEPEE NPS,nps
+PHONEPE NPS SERVICES,nps
+BIRTHDAY GIFT,other_income
+BIRTHDAY GIFT 013819,other_income
+BIRTHDAY*GIFT,other_income
+BIRTHDAY GIFT LTD,other_income
+BIRTHDA YGIFT,other_income
+CASHBAACK CREDITED,other_income
+CASHBACK*CREDITED,other_income
+CASHBACK CREDITED PAYMENTS,other_income
+CASHBACK REWARD,other_income
+CASHBACK*REWARD,other_income
+CASHBACKK REWARD,other_income
+CASHBACK REWARD DELHI,other_income
+CREDIT CARD CASHBACK HDFC,other_income
+CREDIT CARD,other_income
+CERDIT CARD CASHBACK HDFC,other_income
+CREDIT CARD CASHBACK HDFC SERVICES,other_income
+CREDIT CARD CASHBACK HDFC 3637,other_income
+DEEPA KRISHNAN,other_income
+DEEPA KRISHNAN LLP,other_income
+DEEPA*KRISHNAN,other_income
+DEEPA KRIHNAN,other_income
+DIVIDEND ITC LIMITED,other_income
+DIVIDEND ITC ILMITED,other_income
+DIVIDEND*ITC LIMITED,other_income
+DIVIDEND ITC LIMITED 9907,other_income
+DIVIDEND ITC,other_income
+FD INTEREST CREDIT,other_income
+FD INTERESST CREDIT,other_income
+FD*INTEREST CREDIT,other_income
+FD INTEREST,other_income
+FD INTEREST CREDIT ONLINE,other_income
+FROM FATHER,other_income
+FROM*FATHER,other_income
+FROM FATHER PAYMENTS,other_income
+FROM FATHER 9900,other_income
+GFIT MONEY RECEIVED,other_income
+GIFT MONEY RECEIVED 3489,other_income
+GIFT MONEY RECEIVED HYD,other_income
+GIFT*MONEY RECEIVED,other_income
+GST REFUND,other_income
+GST REFUND 01264,other_income
+GST*REFUND,other_income
+GST REFUND BLR,other_income
+FAMILY MEMBER,other_income
+IMPS FROM,other_income
+FAMILY MEMBER BLR,other_income
+IMPSS FROM FAMILY MEMBER,other_income
+IMPS*FROM FAMILY MEMBER,other_income
+INCOME TAX REFUND ITD 56225,other_income
+INCOME*TAX REFUND ITD,other_income
+INCOME TAX,other_income
+INCOME TAX REFUND ITD PAYMENTS,other_income
+INTEREST ON SAVINGS ACCOUNT,other_income
+INTEREST ON,other_income
+INTEREST*ON SAVINGS ACCOUNT,other_income
+INTEREST ON SAVINGS ACCOUNT PVT LTD,other_income
+INTEREST ON SAVINGS ACCOUNT 50193,other_income
+IRCTC REFUND,other_income
+IRCTCR EFUND,other_income
+IRCTC REFUND HYD,other_income
+IRCTC REFUND 02473,other_income
+IRCTC*REFUND,other_income
+MAKEMYTRIP REFUND,other_income
+MAKEMYTRIP REFUND SERVICES,other_income
+MAKEMYTRIP*REFUND,other_income
+MAKEMYTRIP REFUND 06028,other_income
+MOHAMMED IRFAN,other_income
+MOHAMMED IRFAN 7328,other_income
+MOHAMED IRFAN,other_income
+MOHAMMED*IRFAN,other_income
+MOHAMMED IRFAN MUMBAI,other_income
+PF WITHDRAWAL CREDIT,other_income
+PF WITHDRAWAL CREDIT MUMBAI,other_income
+PF WITHDRAWAL CRREDIT,other_income
+PF WITHDRAWAL CREDIT 4539,other_income
+PF WITHDRAWAL,other_income
+PRIYA SHARMA,other_income
+PRIYAS HARMA,other_income
+PRIYA SHARMA ONLINE,other_income
+PRIYA SHARMA 740492,other_income
+RAJESH NAIR,other_income
+RAJESH NAIR 68099,other_income
+RAJESH NAIR BLR,other_income
+RAJESH*NAIR,other_income
+RAJEH NAIR,other_income
+RD MATURITY CREDIT,other_income
+RD MATURITY CREDIT 70489,other_income
+RD MATURITY CREDIT LLP,other_income
+RD MAATURITY CREDIT,other_income
+RD MATURITY,other_income
+REFUND FLIPKART ORDER,other_income
+REFUND FLIPKART,other_income
+REFNUD FLIPKART ORDER,other_income
+REFUND FLIPKART ORDER 095291,other_income
+REFUND*FLIPKART ORDER,other_income
+REFUND PROCESSSED,other_income
+REFUND PROCESSED 7900,other_income
+REFUND*PROCESSED,other_income
+REVERSAL OOF FAILED TXN,other_income
+REVERSAL OF FAILED TXN 205578,other_income
+REVERSAL OF,other_income
+REVERSAL OF FAILED TXN CHENNAI,other_income
+SECURITY DEPOSIT REFUND,other_income
+SECURITY DEPOSIT REFUND 88722,other_income
+SECURITY DEPOSIT REFUND DELHI,other_income
+SECRUITY DEPOSIT REFUND,other_income
+SECURITY*DEPOSIT REFUND,other_income
+SUNIL VERMA,other_income
+SUNIL*VERMA,other_income
+SUNIL VERMA LLP,other_income
+SUNIL VERMA 560547,other_income
+SURESH KUMAR,other_income
+SURESH KKUMAR,other_income
+SURESH*KUMAR,other_income
+SURESH KUMAR PVT LTD,other_income
+SURESH KUMAR 45509,other_income
+SWIGGY REFUND,other_income
+SWIGGY*REFUND,other_income
+SWIGGY REFUND PAYMENTS,other_income
+SWIGGY REFUND 37159,other_income
+TRIP EXPENSE SHARE FRIEND,other_income
+TRIP EXPENSE HSARE FRIEND,other_income
+TRIP*EXPENSE SHARE FRIEND,other_income
+TRIP EXPENSE,other_income
+TRIP EXPENSE SHARE FRIEND 199890,other_income
+VENKAT,other_income
+VNEKAT,other_income
+VENKAT IN,other_income
+EPF VOLUNTARY TOPUP,ppf_epf
+EPF VOLUNTARY TOPUP 690756,ppf_epf
+EPF*VOLUNTARY TOPUP,ppf_epf
+EPF VOLUNTARY TOPUP SERVICES,ppf_epf
+EPF VOLUNTARY,ppf_epf
+EPFO VPF CONTRIBUTION,ppf_epf
+EPFO VPF CONTRIBUTION INDIA,ppf_epf
+EPFO VPF,ppf_epf
+EPFO VPF CONTRIBUTION 85034,ppf_epf
+EPFOVPF,ppf_epf
+HDFC BANK TAX SAVER FD,ppf_epf
+HDFFC BANK TAX SAVER FD,ppf_epf
+HDFC BANK,ppf_epf
+HDFC BANK TAX SAVER FD 7240,ppf_epf
+ICICI TAX SAVER FIXED DEPOSIT,ppf_epf
+ICICI TAX SAVER FIXED DEPOSIT 5818,ppf_epf
+ICICI TAX,ppf_epf
+ICICI TAX SAVER FIXEDD DEPOSIT,ppf_epf
+ICICI*TAX SAVER FIXED DEPOSIT,ppf_epf
+NSC ATIONAL SAVINGS CERTIFICATE,ppf_epf
+NSC*NATIONAL SAVINGS CERTIFICATE,ppf_epf
+NSC NATIONAL SAVINGS CERTIFICATE 9421,ppf_epf
+NSC NATIONAL,ppf_epf
+NSC VIII ISSUE,ppf_epf
+NSC VIIII ISSUE,ppf_epf
+NSC VIII,ppf_epf
+NSC VIII ISSUE PVT LTD,ppf_epf
+PF VOLUNTARY CONTRIBUTION,ppf_epf
+PF*VOLUNTARY CONTRIBUTION,ppf_epf
+PF VOLUNTARY OCNTRIBUTION,ppf_epf
+PF VOLUNTARY,ppf_epf
+PF VOLUNTARY CONTRIBUTION 26257,ppf_epf
+POST OFFICE PPF DEPOSIT,ppf_epf
+OFFICE PPF DEPOSIT,ppf_epf
+POST*OFFICE PPF DEPOSIT,ppf_epf
+POST OFFICE,ppf_epf
+POST OFFICE PPF DEPOSIT 7806,ppf_epf
+POST OFFICE PPF DEPOSIT BLR,ppf_epf
+POST OFFICE TD 5 YEAR,ppf_epf
+POST OFFICE TD 5 YEAR MUMBAI,ppf_epf
+POT OFFICE TD 5 YEAR,ppf_epf
+POST*OFFICE TD 5 YEAR,ppf_epf
+POST OFFICE TD 5 YEAR 2814,ppf_epf
+PPF ANNUAL DEPOSIT,ppf_epf
+PPF ANNUAL DEPOSIT 9352,ppf_epf
+PPF ANNUAL,ppf_epf
+PPF ANNUAL DEPOSIT MUMBAI,ppf_epf
+PPF*ANNUAL DEPOSIT,ppf_epf
+PPF BANK OF BARODA,ppf_epf
+PPF BANK OFF BARODA,ppf_epf
+PPF BANK OF BARODA MUMBAI,ppf_epf
+PPF BANK OF BARODA 4246,ppf_epf
+PPF BANK,ppf_epf
+PPF CANARA BANK,ppf_epf
+PPF CANARA,ppf_epf
+PPF CANARA BANK 975579,ppf_epf
+PPF CANARA BANK PAYMENTS,ppf_epf
+PPF DEPOSIT SBI,ppf_epf
+PPF*DEPOSIT SBI,ppf_epf
+PPF DEPOSSIT SBI,ppf_epf
+PPF TOPUP,ppf_epf
+PPF TOPUP IN,ppf_epf
+PPF TOUP,ppf_epf
+PPF*TOPUP,ppf_epf
+PPF YEARLY INSTALMENT,ppf_epf
+PPF YEARLY INSTALMENT ONLINE,ppf_epf
+PPF YEARLY INSTALMENT 1410,ppf_epf
+PPF YEARLY ISNTALMENT,ppf_epf
+PPF*YEARLY INSTALMENT,ppf_epf
+PPF YEARLY,ppf_epf
+PUBLIC PROVIDENT,ppf_epf
+PUBLIC*PROVIDENT FUND,ppf_epf
+PUBLIC PROVIDENT FUND ONLINE,ppf_epf
+PUBLIC PROVIDENT FUND 719763,ppf_epf
+SCSS DEPOSIT,ppf_epf
+SCSSS DEPOSIT,ppf_epf
+SCSS DEPOSIT LTD,ppf_epf
+SCSS DEPOSIT 9152,ppf_epf
+SSY DEPOSIT POST OFFICE,ppf_epf
+SSY DEPOSIT,ppf_epf
+SSY*DEPOSIT POST OFFICE,ppf_epf
+SSY DEPOSIT POST OFFICE 2795,ppf_epf
+SSY DEPOSIT POST OFFICE DELHI,ppf_epf
+VOLUNTARY PROVIDENT FUND 3830,ppf_epf
+VOLUNTARY PROVIDENT,ppf_epf
+VOLUNTARY PROVIDENT FUND ONLINE,ppf_epf
+VOLUNTARY*PROVIDENT FUND,ppf_epf
+AGILUS DIAGNOSTICS,preventive_healthcare
+AGILUS*DIAGNOSTICS,preventive_healthcare
+AGILUS DIAGNOSTICS 000153,preventive_healthcare
+AGILUSD IAGNOSTICS,preventive_healthcare
+AGILUS DIAGNOSTICS BLR,preventive_healthcare
+APEX FULL BODY CHECKUP,preventive_healthcare
+APEX FULL BODY CHECKUP PVT LTD,preventive_healthcare
+APEX FULL BODY CHCKUP,preventive_healthcare
+APEX FULL,preventive_healthcare
+BLOOD TEST PACKAGE 2288,preventive_healthcare
+BLOOD*TEST PACKAGE,preventive_healthcare
+BOLOD TEST PACKAGE,preventive_healthcare
+BLOOD TEST,preventive_healthcare
+CARDIAC SCREENING PACKAGE,preventive_healthcare
+CARDIAC*SCREENING PACKAGE,preventive_healthcare
+CARDIAC SCREENING PACKAGE 174333,preventive_healthcare
+CARDIAC SCREENING PACKAGE ONLINE,preventive_healthcare
+CARDIAC SCREENING APCKAGE,preventive_healthcare
+CARDIAC SCREENING,preventive_healthcare
+DIABETES PROFILE TEST,preventive_healthcare
+DIABETES*PROFILE TEST,preventive_healthcare
+DIABETES PROFILE TEST DELHI,preventive_healthcare
+DIABETES PROFIE TEST,preventive_healthcare
+DIABETESPROFILE,preventive_healthcare
+DR LAL PATHLABS,preventive_healthcare
+DR*LAL PATHLABS,preventive_healthcare
+DR LAL PATHLAABS,preventive_healthcare
+DR LAL,preventive_healthcare
+DRLAL,preventive_healthcare
+EXECUTIVE HEALTH CHECK HYD,preventive_healthcare
+EXECUTIVE HEALTH,preventive_healthcare
+EXECUTIVE HEAALTH CHECK,preventive_healthcare
+FORTIS HEALTH CHECKUP,preventive_healthcare
+FORTIS HEALTH CHECKKUP,preventive_healthcare
+FORTIS HEALTH CHECKUP 48920,preventive_healthcare
+FORTIS HEALTH,preventive_healthcare
+FORTISHEALTH,preventive_healthcare
+KRSNAA DIAGNOSTICS,preventive_healthcare
+KRSNAA DIAGNOSTICS 23470,preventive_healthcare
+KRSNAA DIAGNOSTICS INDIA,preventive_healthcare
+KRSNNAA DIAGNOSTICS,preventive_healthcare
+KRSNAA*DIAGNOSTICS,preventive_healthcare
+MAX LAB WELLNESS,preventive_healthcare
+MAX*LAB WELLNESS,preventive_healthcare
+MAX LAB WELLNESS CHENNAI,preventive_healthcare
+MAX LAB WELLENSS,preventive_healthcare
+MAX LAB,preventive_healthcare
+MEDALL FULL BODY CHECKUP,preventive_healthcare
+MEDALL FULL BODY CHECKUP 2541,preventive_healthcare
+MEDALL FULL BODYY CHECKUP,preventive_healthcare
+MEDALL FULL,preventive_healthcare
+MEDALL FULL BODY CHECKUP MUMBAI,preventive_healthcare
+MEDIBUDDY LAB TEST,preventive_healthcare
+MEDIBUDDY LAB,preventive_healthcare
+MEDIBUDDY LAB TEST 86636,preventive_healthcare
+MEDIBUDDY LAB TEST HYD,preventive_healthcare
+MEDIBUDDY LAB TETS,preventive_healthcare
+MEDIBUDDY*LAB TEST,preventive_healthcare
+METROPOLIS HEALTHCARE,preventive_healthcare
+METROPOOLIS HEALTHCARE,preventive_healthcare
+METROPOLIS HEALTHCARE MUMBAI,preventive_healthcare
+METROPOLIS*HEALTHCARE,preventive_healthcare
+NEUBERG LABS HEALTH CHECK,preventive_healthcare
+NEUBERG LABS HEALTHC HECK,preventive_healthcare
+NEUBERG LABS,preventive_healthcare
+NEUBERG LABS HEALTH CHECK 58277,preventive_healthcare
+NEUBERG*LABS HEALTH CHECK,preventive_healthcare
+PATHKIND LABS,preventive_healthcare
+PATHKIND LABS 260783,preventive_healthcare
+PATHKIND LABS IN,preventive_healthcare
+PATHKIDN LABS,preventive_healthcare
+PATHOLOGY LAB MUMBAI,preventive_healthcare
+PATHOLOGYL AB,preventive_healthcare
+PATHOLOGY*LAB,preventive_healthcare
+PATHOLOGY LAB 34195,preventive_healthcare
+SANKARA NETHRALAYA EYE CHECK,preventive_healthcare
+SANKARA NETHRALAYA EYE CHECK 99015,preventive_healthcare
+SANKARA NETHRALAYA,preventive_healthcare
+SANKRAA NETHRALAYA EYE CHECK,preventive_healthcare
+SANKARA*NETHRALAYA EYE CHECK,preventive_healthcare
+TATA 1MG LAB TEST,preventive_healthcare
+TATA 1MG LAB TEST LLP,preventive_healthcare
+TATA 1MG,preventive_healthcare
+TATA 1MGL AB TEST,preventive_healthcare
+TATA*1MG LAB TEST,preventive_healthcare
+THYROCARE TECHNOLOGIES,preventive_healthcare
+THYROCARE*TECHNOLOGIES,preventive_healthcare
+THYROCARE TECHNOLOGIES 240699,preventive_healthcare
+TRUSTLAB DIAGNOSTICS,preventive_healthcare
+TRUSTLLAB DIAGNOSTICS,preventive_healthcare
+TRUSTLAB DIAGNOSTICS 47397,preventive_healthcare
+TRUSTLAB DIAGNOSTICS DELHI,preventive_healthcare
+VIJAYA DIAGNOSTIC CENTRE,preventive_healthcare
+VIJAYA DIAGNOSTIC CENTRE PVT LTD,preventive_healthcare
+VIJAYA DIAGNOSTIC CENTRE 894906,preventive_healthcare
+VIJAYA DIAGNOSTIC CENTE,preventive_healthcare
+VIJAYADIAGNOSTIC,preventive_healthcare
+VITAMIN PROFILE TEST,preventive_healthcare
+VITAMIN PROFILE TEST 9403,preventive_healthcare
+VITAMIN PROFILE TEST DELHI,preventive_healthcare
+VITAMIN PROFILE,preventive_healthcare
+VITAMIN PRROFILE TEST,preventive_healthcare
+VITAMIN*PROFILE TEST,preventive_healthcare
+WELLNESS SCREENING DELHI,preventive_healthcare
+WELLNESS*SCREENING,preventive_healthcare
+WELLNESS SCRENING,preventive_healthcare
+COLIVE RENT,rent
+COLIVE RENT DELHI,rent
+COLIVE ERNT,rent
+COLIVE RENT 98957,rent
+COWORKING SEAT RENT,rent
+COWORKING SEAT RENT PAYMENTS,rent
+COWORKING SEAT RENT 9814,rent
+COWORKING SEAT RETN,rent
+COWORKING SEAT,rent
+CRED RENT PAY,rent
+CRED RENT,rent
+CRED*RENT PAY,rent
+CRED RENT PPAY,rent
+CREDRENT,rent
+FLAT RENT 1198,rent
+FLAT ERNT,rent
+FLATRENT,rent
+FLAT RENT SRINIVAS,rent
+FLAT*RENT SRINIVAS,rent
+FLAT RENT SRINIAVS,rent
+HOUSE OWNER RENT,rent
+HOUSE OWNER RENT PAYMENTS,rent
+HOUSE OWNEER RENT,rent
+HOUSE*OWNER RENT,rent
+HOUSEOWNER,rent
+HOUSE RENT 2382,rent
+HOUSE ERNT,rent
+HOUSE RENT SERVICES,rent
+LANDLORD*PAYMENT,rent
+LANDLORD PAYMENT BLR,rent
+LANDLORDPAYMENT,rent
+MAGICBRICKS RENT,rent
+MAGICBRICKS*RENT,rent
+MAGICBRICKS RENT PAYMENTS,rent
+MAGICBRIICKS RENT,rent
+MAGICBRICKS RENT 1083,rent
+MAINTENANCE AND RENT,rent
+MAINTENANCE AND,rent
+MAINTENANCEAND RENT,rent
+MAINTENANCE*AND RENT,rent
+MAINTENANCE AND RENT PAYMENTS,rent
+MAINTENANCEAND,rent
+MONTHLY HOUSE RENT SRI RAMULU,rent
+MONTHLY HOUSE ERNT SRI RAMULU,rent
+MONTHLY*HOUSE RENT SRI RAMULU,rent
+MONTHLY HOUSE,rent
+MONTHLY HOUSE RENT SRI RAMULU 6930,rent
+MONTHLYHOUSE,rent
+NESTAWAY RENT,rent
+NESTAWAY RENT 466133,rent
+NESTAWAY ENT,rent
+NESTAWAY*RENT,rent
+NESTAWAY RENT SERVICES,rent
+NOBROKER RENT PAY,rent
+NOBROKER*RENT PAY,rent
+NOBROKER RENT PAY DELHI,rent
+NOBROKER RENT,rent
+OFFICE*RENT,rent
+OFFICE ENT,rent
+OFFICE RENT 7546,rent
+OFFICERENT,rent
+PAYTM RENT PAYMENT,rent
+PAYTM*RENT PAYMENT,rent
+PAYTM RENT PAYMENT 84222,rent
+PAYTM RENT,rent
+PAYTM RENT PAYMENT CHENNAI,rent
+PG ACCOMMODATION RENT,rent
+PG ACCOMMODATION RENT 763764,rent
+PG*ACCOMMODATION RENT,rent
+PG ACCOMMODATION,rent
+PG ACCOMMODATION REENT,rent
+RENT SEPTEMBER,rent
+RENT SEPTEMMBER,rent
+RENT SEPTEMBER 23196,rent
+RENT SEPTEMBER MUMBAI,rent
+RENT TO LANDLORD,rent
+RENT TO LANDLORD 28793,rent
+RENNT TO LANDLORD,rent
+RENT*TO LANDLORD,rent
+RENTTO,rent
+SHOP RENT PAYMENT,rent
+SHOP RENT PAYMENT PAYMENTS,rent
+SHOP RENT AYMENT,rent
+SHOP RENT PAYMENT 6522,rent
+SHOP RENT,rent
+WAREHOUSE RENT,rent
+WAREHOUSE*RENT,rent
+WAREHOUSE RENT ONLINE,rent
+WAEHOUSE RENT,rent
+ZOLO STAYS RENT,rent
+ZOLO STAYS,rent
+ZOL OSTAYS RENT,rent
+ZOLO*STAYS RENT,rent
+ZOLO STAYS RENT CHENNAI,rent
+APOLLO HOSPITALS PAYROLL,salary_income
+APOLLO HOSPITALS PAYROLL ONLINE,salary_income
+APOLLO HOSPITALS,salary_income
+APOLLO HOSPITALS PAYROLL 58249,salary_income
+APOLLO HOPSITALS PAYROLL,salary_income
+BOSCH GLOBAL SOFTWARE SALARY,salary_income
+BOSCHH GLOBAL SOFTWARE SALARY,salary_income
+BOSCH GLOBAL,salary_income
+BOSCH GLOBAL SOFTWARE SALARY 14847,salary_income
+BOSCH GLOBAL SOFTWARE SALARY MUMBAI,salary_income
+DELOITTE USI PAYROLL,salary_income
+DELOITTE USI PAYROLL LLP,salary_income
+DELOITTEUSI PAYROLL,salary_income
+DELOITTE USI,salary_income
+DELOITTE*USI PAYROLL,salary_income
+DELOITTE USI PAYROLL 781539,salary_income
+FRESHWORKS SALARY,salary_income
+FRESHWORKS SALARY DELHI,salary_income
+FRESHWORKS*SALARY,salary_income
+GOOGLE INDIA PAYROLL,salary_income
+GOOGLE*INDIA PAYROLL,salary_income
+GOOGLE INDIA PAYROLL PAYMENTS,salary_income
+GOOGLE NIDIA PAYROLL,salary_income
+GOOGLE INDIA,salary_income
+HEXAWARE PAYROLL,salary_income
+HEXAWARE*PAYROLL,salary_income
+HEXAWARE PAYROLL SERVICES,salary_income
+HEXAWARE PAYROLL 5263,salary_income
+HEXWAARE PAYROLL,salary_income
+HINDUSTAN UNILEVER PAYROLL,salary_income
+HINDUSTAN UNILEVER,salary_income
+HINDUSTAN UNILEVER PAYROLL BLR,salary_income
+HINDUSTAN*UNILEVER PAYROLL,salary_income
+HINDUSTAN UNILEVERP AYROLL,salary_income
+IBM INDIA SALARY,salary_income
+IBM INDIA SALARY 89053,salary_income
+IBM*INDIA SALARY,salary_income
+IBM INDIA SALARY LLP,salary_income
+IBM INIDA SALARY,salary_income
+ITC LIMITED SALARY,salary_income
+ITC LIMITED,salary_income
+ITC*LIMITED SALARY,salary_income
+ITC LIMITED SALARY ONLINE,salary_income
+ITC LIMITEDS ALARY,salary_income
+ITC LIMITED SALARY 54494,salary_income
+KENDRIYA VIDYALAYA SALARY,salary_income
+KENDRIYA VIDYALAYA,salary_income
+KENDRIYA VIDYALAYA SALARY 842951,salary_income
+KENDRIYA*VIDYALAYA SALARY,salary_income
+KENDRIYA VIDYALAYA ASLARY,salary_income
+MONTHLY WAGES HCL TECH,salary_income
+MONTHLY WAGES HCL TECH CHENNAI,salary_income
+MONTHLY WGAES HCL TECH,salary_income
+MONTHLY WAGES,salary_income
+MONTHLY*WAGES HCL TECH,salary_income
+MPHASIS SALARY,salary_income
+MPHASIS ALARY,salary_income
+MPHASIS SALARY CHENNAI,salary_income
+MPHASIS SALARY 07126,salary_income
+ONGC SALARY,salary_income
+ONGC SALLARY,salary_income
+ONGC SALARY 78854,salary_income
+ONGC SALARY HYD,salary_income
+ONGC*SALARY,salary_income
+PAYROLL*TECHNOLOGIES PVT LTD,salary_income
+PAYROLL TECHNOLOGIES,salary_income
+PAYROLL TECHNOLOGIES PVT LTD ONLINE,salary_income
+PAYROLL TECHNOLOGIES PVT LTD 95331,salary_income
+PAYOLL TECHNOLOGIES PVT LTD,salary_income
+PAYTM PAYROLL,salary_income
+PAYTM PAYROLL PVT LTD,salary_income
+PAYTM PAYROLL 8416,salary_income
+PAYTM*PAYROLL,salary_income
+RAZORPAY SALARY,salary_income
+RAZORPAY*SALARY,salary_income
+RAZORPAY SALARY 8318,salary_income
+RAZORPAY SLAARY,salary_income
+RAZORPAY SALARY HYD,salary_income
+SALARY AND ALLOWANCES,salary_income
+SALARY ND ALLOWANCES,salary_income
+SALARY AND,salary_income
+SALARY AND ALLOWANCES IN,salary_income
+SALARY*AND ALLOWANCES,salary_income
+SALARY*CREDIT,salary_income
+SALARY CREDIT MUMBAI,salary_income
+SALARY CREDIT 93105,salary_income
+SALARY CREDIIT,salary_income
+SALARY OCT RELIANCE,salary_income
+SAALRY OCT RELIANCE,salary_income
+SALARY OCT RELIANCE 42707,salary_income
+SALARY OCT,salary_income
+SALARY OCT RELIANCE SERVICES,salary_income
+SIEMENS PAYROLL,salary_income
+SIEMENS PAYROLL 471218,salary_income
+SEMENS PAYROLL,salary_income
+SIEMENS PAYROLL PAYMENTS,salary_income
+SIEMENS*PAYROLL,salary_income
+STATE GOVT TREASURY SALARY,salary_income
+STATE GOVT TREASURY SALARY 544960,salary_income
+STATE GOVT,salary_income
+STATE*GOVT TREASURY SALARY,salary_income
+STATE GOVT TREASURY SALARY DELHI,salary_income
+STIPEND INTERN,salary_income
+STIPEND INNTERN,salary_income
+STIPEND INTERN 5297,salary_income
+STIPEND INTERN PAYMENTS,salary_income
+TATA STEEL SALARY,salary_income
+TATA STEEL SALARY 74473,salary_income
+TATA*STEEL SALARY,salary_income
+TATA SSTEEL SALARY,salary_income
+TATA STEEL,salary_income
+TATA STEEL SALARY PAYMENTS,salary_income
+WAGES FOR THE MONTH,salary_income
+WAGES*FOR THE MONTH,salary_income
+WAGES FOR THE MONTH 089691,salary_income
+WAGES FOR TH MONTH,salary_income
+WAGES FOR THE MONTH LTD,salary_income
+WAGES FOR,salary_income
+WIPRO LIMITEED SALARY,salary_income
+WIPRO*LIMITED SALARY,salary_income
+WIPRO LIMITED SALARY 66752,salary_income
+WIPRO LIMITED,salary_income
+ZOHO CORPORATION SALARY,salary_income
+ZOHO CORPORATION SALARY 1060,salary_income
+ZOHO CORPORATION,salary_income
+ZOHO*CORPORATION SALARY,salary_income
+ZOHO CORPORATION SALLARY,salary_income
+AJIO 48858,shopping
+AJIO SERVICES,shopping
+AMAZON*PAY,shopping
+AMAZON PPAY,shopping
+AMAZON PAY HYD,shopping
+APPLE STORE,shopping
+APPLE STORE LTD,shopping
+APPLE STORE 5443,shopping
+APPLE*STORE,shopping
+APPEL STORE,shopping
+BATA SHOWROOM,shopping
+BATA*SHOWROOM,shopping
+BATA SHOWROOM IN,shopping
+BATASHOWROOM,shopping
+BOAT LIFESTYLE,shopping
+BOAT*LIFESTYLE,shopping
+BOATL IFESTYLE,shopping
+BOAT LIFESTYLE 40033,shopping
+BOATLIFESTYLE,shopping
+CENTRAL MALL,shopping
+CENTRAL MALL MUMBAI,shopping
+CENTRAL MALLL,shopping
+CENTRAL MALL 9939,shopping
+CROMA INDIA,shopping
+FBB BIG BAZAAR,shopping
+FBB*BIG BAZAAR,shopping
+FBB BIG BAZAAR MUMBAI,shopping
+FBB BIG BAZAAR 764375,shopping
+FBB BIG,shopping
+FLIPKART BLR,shopping
+H AND M,shopping
+H*AND M,shopping
+H AND,shopping
+H AND M 8317,shopping
+HAND,shopping
+IKEA INDIA,shopping
+IKAE INDIA,shopping
+IKEA INDIA IN,shopping
+IKEA INDIA 2778,shopping
+IKEA*INDIA,shopping
+LENSKART,shopping
+LENSKART 5342,shopping
+LENSSKART,shopping
+LIFESTYLE STORES PVT LTD,shopping
+LIFESTYLE STORES 406056,shopping
+LIFSETYLE STORES,shopping
+MEESHO,shopping
+MEESHO 6972,shopping
+MEESHO INDIA,shopping
+MYNTRA*FASHION,shopping
+MYNTRA FASHION BLR,shopping
+MYNTRA FAASHION,shopping
+MYNTRAFASHION,shopping
+NYKAA,shopping
+NYKAA INDIA,shopping
+PEPPERFRY,shopping
+PEPPERFRY 816784,shopping
+PEPPERFRY LLP,shopping
+PEPPEFRRY,shopping
+POORVIKA MOBILES,shopping
+POORVIKA MOBILES 184404,shopping
+POORVIKA*MOBILES,shopping
+POORIKA MOBILES,shopping
+READYMADE GARMENTS PVT LTD,shopping
+READYMADE GARMENTS 89961,shopping
+READYMADE*GARMENTS,shopping
+REAADYMADE GARMENTS,shopping
+RELIANCE DIGITAL,shopping
+RELIANCE DIIGTAL,shopping
+RELIANCE*DIGITAL,shopping
+RELIANCE DIGITAL 745261,shopping
+SHEIN INDIA,shopping
+SHEIN*INDIA,shopping
+SEHIN INDIA,shopping
+SHEININDIA,shopping
+SHOPPERS STOP 1466,shopping
+SHOPPRS STOP,shopping
+SHOPPERS*STOP,shopping
+SKY BAG SHOP,shopping
+SKY*BAG SHOP,shopping
+SKY BAG SHOP CHENNAI,shopping
+SKY BAG SHOP 75377,shopping
+SKKY BAG SHOP,shopping
+SNAPDEAL,shopping
+SNAPDEAL HYD,shopping
+SNAPDEAL 63249,shopping
+TANISHQ JEWELLERS,shopping
+TANISSHQ JEWELLERS,shopping
+TANISHQ JEWELLERS 314739,shopping
+TANISHQ JEWELLERS SERVICES,shopping
+TANISHQJEWELLERS,shopping
+TRENDS STORE,shopping
+TRENDS STORE 66863,shopping
+TRENDS STORE ONLINE,shopping
+TRENDS*STORE,shopping
+TRENDSSTORE,shopping
+URBAN LADDER,shopping
+URBAN LADDER 17245,shopping
+URBAN LADDER ONLINE,shopping
+URBAN*LADDER,shopping
+WOODLAND STORE,shopping
+WOODLAND*STORE,shopping
+WOODLLAND STORE,shopping
+WOODLAND STORE 49623,shopping
+WOODLAND STORE CHENNAI,shopping
+AUTO FARE,transport
+AUTO FARE DELHI,transport
+AUTO FARE 4647,transport
+AUOT FARE,transport
+BLUSMART CAB,transport
+BLUSMART CAB 727069,transport
+BLUSMART CAB SERVICES,transport
+BLUSMART*CAB,transport
+BMTC BUS PASS,transport
+BMTC BUSPASS,transport
+BMTC*BUS PASS,transport
+BMTC BUS,transport
+BMTC BUS PASS SERVICES,transport
+BUS APSS,transport
+BUS*PASS,transport
+BUS PASS 969104,transport
+BUS PASS MUMBAI,transport
+CAB*RIDE,transport
+CAB RIDE IN,transport
+CA BRIDE,transport
+FASTAG RECARGE,transport
+FASTAG RECHARGE SERVICES,transport
+FASTAG RECHARGE 150452,transport
+FASTAG*RECHARGE,transport
+HERO MOTOCORP SERVICE,transport
+HER OMOTOCORP SERVICE,transport
+HERO*MOTOCORP SERVICE,transport
+HERO MOTOCORP SERVICE DELHI,transport
+HEROMOTOCORP,transport
+IDFC FASTAG RECHARGE,transport
+IDFC*FASTAG RECHARGE,transport
+IDFC FASTAG RECHARGE SERVICES,transport
+IDFC FASTAG,transport
+IDFC FASTAG RECHARGE 8700,transport
+KSRTC PASS,transport
+KSRCT PASS,transport
+KSRTC PASS 442382,transport
+KSRTC PASS HYD,transport
+KSRTCPASS,transport
+MERU CABS,transport
+MERU CAS,transport
+MERU*CABS,transport
+MERU CABS IN,transport
+METRO CARD RECHARGE 489836,transport
+METRO CARD,transport
+METRO CARD RECHARGE DELHI,transport
+METROCARD RECHARGE,transport
+MUMBAI METRO ONE,transport
+MUMBAI METRO,transport
+MUMBAI*METRO ONE,transport
+MUMBAI METRO NE,transport
+MUMBAI METRO ONE 00945,transport
+NAMMA METRO,transport
+NAMMA*METRO,transport
+NAMMA MERO,transport
+NAMMA METRO CHENNAI,transport
+NAMMA METRO 66177,transport
+NHAI FASTAG,transport
+NHAI*FASTAG,transport
+NHAI FSATAG,transport
+NHAIFASTAG,transport
+OLA CABS 56219,transport
+OLA*CABS,transport
+OLA CABS HYD,transport
+PARKING*CHARGES,transport
+PAKING CHARGES,transport
+PARKING CHARGES 4301,transport
+PAYTM FASTAG,transport
+PAYTM FASTAG 449251,transport
+PAYTM FASTAG PAYMENTS,transport
+PAAYTM FASTAG,transport
+PAYTM*FASTAG,transport
+RAPIDO 81612,transport
+RAPIDO LLP,transport
+SMART CARD RECHARGE,transport
+SMART CARD RECHARGE IN,transport
+SMART*CARD RECHARGE,transport
+SMART CARD RECHARGE 641023,transport
+SMART CARD,transport
+TATA POWER EZ CHARGE,transport
+TATA*POWER EZ CHARGE,transport
+TATA POWER EZ CHARGE CHENNAI,transport
+TATAP OWER EZ CHARGE,transport
+TATA POWER,transport
+TOLLPLAZA,transport
+TOLL*PLAZA,transport
+TOLL PLAZA BLR,transport
+TOLL PLAZA 1733,transport
+TSRTC BUS PASS,transport
+TSRTC BUS PASS 367012,transport
+TSRTC BUS PASS BLR,transport
+TSRTC*BUS PASS,transport
+TSRTCBUS,transport
+UBER TTRIP,transport
+UBER TRIP 7952,transport
+VOGO SCOOTER,transport
+VOGO*SCOOTER,transport
+VOGO SCOOTRE,transport
+AIRBNB,travel
+ARBNB,travel
+BOOKING COM,travel
+BOOKIG COM,travel
+BOOKING*COM,travel
+BOOKING COM BLR,travel
+CLEARTRIP,travel
+CLEARTRIP 8366,travel
+CLEARTRIP INDIA,travel
+CLUB MAHINDRA HOLIDAYS,travel
+CLUB MAHINDRA,travel
+CLUB MHAINDRA HOLIDAYS,travel
+CLUB MAHINDRA HOLIDAYS SERVICES,travel
+EASEMYTRIP,travel
+EASEMYTRIP PAYMENTS,travel
+EASEMYTRIP 253579,travel
+EASEMTYRIP,travel
+FABHOTELS,travel
+FABHOTELS 6545,travel
+FABHOTELS LLP,travel
+FABHOTLES,travel
+FLIXBUS INDIA,travel
+FLIXBUS INDIA 784480,travel
+FLIXBUSINDIA,travel
+FLIXBUS INDIA DELHI,travel
+GOIBIBO FLIGHT 8846,travel
+GOIBIBO*FLIGHT,travel
+GOIBIBO FLIGHT MUMBAI,travel
+HOMESTAY BOOKING PVT LTD,travel
+HOMESSTAY BOOKING,travel
+HOMESTAY BOOKING 370470,travel
+HOTEL BOOKING 3344,travel
+HOTEEL BOOKING,travel
+HOTEL*BOOKING,travel
+HOTEL BOOKING SERVICES,travel
+INIDGO AIRLINES,travel
+INDIGO AIRLINES 2734,travel
+INDIGO*AIRLINES,travel
+INDIGO AIRLINES LLP,travel
+IXIGO TRAINS,travel
+IXIGO TRAINS INDIA,travel
+IXIGO*TRAINS,travel
+IXIGO TRAINS 11186,travel
+KERALA TOURISM,travel
+KERALAA TOURISM,travel
+KERALA*TOURISM,travel
+KERALA TOURISM BLR,travel
+MAKEMTYRIP,travel
+MAKEMYTRIP ONLINE,travel
+OBEROI HOTELS,travel
+OBEROI HOTELS 6649,travel
+OBEROI*HOTELS,travel
+OBERO HOTELS,travel
+OYO ROOMS,travel
+OYO*ROOMS,travel
+OYO ROOMS 73347,travel
+OYOR OOMS,travel
+RESORTSTAY,travel
+RESORT*STAY,travel
+RESORT STAY CHENNAI,travel
+SPICEJET TICKET,travel
+SPICEJET TICKET 84262,travel
+SPICEJET TICKET PAYMENTS,travel
+SPICEJETTICKET,travel
+TAJ HOTELS,travel
+TAJ OTELS,travel
+TAJ HOTELS 578023,travel
+TAJ*HOTELS,travel
+TAJHOTELS,travel
+THOMAS COOK,travel
+THOMAS*COOK,travel
+THOMAS COOK 796883,travel
+THOMASCOOK,travel
+TRAVEL AGENCY IN,travel
+TRAVEL AGENCY 610328,travel
+TREEBO HOTELS,travel
+TREEBO HOTELS 8794,travel
+TREEBO*HOTELS,travel
+TREEBO HOTELS INDIA,travel
+VISTARA FLIGHT,travel
+VISTARA FLIGHT PAYMENTS,travel
+VISTARA FLIGTH,travel
+VISTARAFLIGHT,travel
+ZINGBUS,travel
+ZINGUS,travel
+ZINGBUS 9382,travel
+ZINGBUS IN,travel
+ZOSTEL,travel
+ZOSTLE,travel
+ZOSTEL CHENNAI,travel
+AAKASH EDUCATIONAL SERVICES,tuition_fees
+AAKASH EDUCATIONAL SERVICES LLP,tuition_fees
+AAKASH EDUCATIONAL SERVICES 63064,tuition_fees
+AAKASH EDUCATIONAL SEVRICES,tuition_fees
+AAKASH EDUCATIONAL,tuition_fees
+AMITY UNIVERSITY FEE,tuition_fees
+AMITY UNIVERSITY FEE 9757,tuition_fees
+AMITY UNIIVERSITY FEE,tuition_fees
+AMITY UNIVERSITY,tuition_fees
+AMITYUNIVERSITY,tuition_fees
+ANNA UNIVERSITY EXAM FEE,tuition_fees
+ANNA UNIVERSITY EXAM FEE 37477,tuition_fees
+ANNA UNNIVERSITY EXAM FEE,tuition_fees
+ANNA UNIVERSITY EXAM FEE PVT LTD,tuition_fees
+ANNA*UNIVERSITY EXAM FEE,tuition_fees
+BALDWIN BOYS HIGH SCHOOL,tuition_fees
+BALDWIN BOYS HIGH SCHOOL 6617,tuition_fees
+BADLWIN BOYS HIGH SCHOOL,tuition_fees
+BALDWIN*BOYS HIGH SCHOOL,tuition_fees
+BALDWIN BOYS,tuition_fees
+BITS PILANI FEE PAYMENT,tuition_fees
+BITS PILANI FEE PAYMENT SERVICES,tuition_fees
+BITS PILANI,tuition_fees
+BITS*PILANI FEE PAYMENT,tuition_fees
+BITS PILANI FEE PAYMENT 3443,tuition_fees
+CHRIST UNIVERSITY TUITION FEE,tuition_fees
+CHRIST UNIVERSITY,tuition_fees
+CHRIST UNIVERSITY TUITION FEE DELHI,tuition_fees
+CHRIST UNIVERSITY TUITION FEE 2825,tuition_fees
+CHRIST*UNIVERSITY TUITION FEE,tuition_fees
+COLLEG FEES PAYMENT,tuition_fees
+COLLEGE FEES PAYMENT SERVICES,tuition_fees
+COLLEGE FEES PAYMENT 5803,tuition_fees
+COLLEGEFEES,tuition_fees
+DELHI PUBLIC SCHOOL FEES,tuition_fees
+DELHI PUBLIC,tuition_fees
+DELHI PUBLIC SCHOOL FEES DELHI,tuition_fees
+DELHI PUBLIC SCHOOL FEES 2503,tuition_fees
+IIM BANGALORE FEES,tuition_fees
+IIM BANGALOORE FEES,tuition_fees
+IIM BANGALORE,tuition_fees
+IIM*BANGALORE FEES,tuition_fees
+IIM BANGALORE FEES 902181,tuition_fees
+IIMBANGALORE,tuition_fees
+KENDRIYA VIDYALAYA FEES,tuition_fees
+KENDRIYA VIDYALAYA FEES 427288,tuition_fees
+KENDRIYA*VIDYALAYA FEES,tuition_fees
+KENDRIYA VIDYALAYA,tuition_fees
+KENDRIYA VIDYALAYA FESE,tuition_fees
+KENDRIYAVIDYALAYA,tuition_fees
+KIDS*SCHOOL TERM FEES,tuition_fees
+KIDS SCHOOL TERM FEES 379818,tuition_fees
+KIDS SCHOOL,tuition_fees
+KIDS SCHOOL TEERM FEES,tuition_fees
+MANIPAL ACADEMY TUITION,tuition_fees
+MANIPAL ACADEMY,tuition_fees
+MANIPAL ACADEMY TUITION 1161,tuition_fees
+MANIPAL*ACADEMY TUITION,tuition_fees
+MANIPAL ACADEMY TUITION SERVICES,tuition_fees
+NARAYANA SCHOOL TERM FEE,tuition_fees
+NARAYANA SCHOOL TERM FEE LTD,tuition_fees
+NARAYANA SCHOOL TERM FEE 737408,tuition_fees
+NARAYANA SCHOOL,tuition_fees
+NARAYANA*SCHOOL TERM FEE,tuition_fees
+NATIONAL PUBLIC SCHOOL FEE,tuition_fees
+NATIONAL PUBLIC,tuition_fees
+NATIONAL PUBLIC SCHOOL FEE INDIA,tuition_fees
+NATIONAL*PUBLIC SCHOOL FEE,tuition_fees
+NATIONAL PUBLI CSCHOOL FEE,tuition_fees
+NIIT FEES,tuition_fees
+NIIT FEES PVT LTD,tuition_fees
+NIIT*FEES,tuition_fees
+NIITFEES,tuition_fees
+NIT TRICHY HOSTEL AND TUITION,tuition_fees
+NIT TRICHY,tuition_fees
+NIT TRICHY HOSTEL AND TUITION ONLINE,tuition_fees
+NIT TRICHHY HOSTEL AND TUITION,tuition_fees
+NIT TRICHY HOSTEL AND TUITION 434326,tuition_fees
+ORCHIDS INTERNATIONAL SCHOOL,tuition_fees
+ORCHIDS INTERNATIONAL SCHOOL 85946,tuition_fees
+ORCHIDS INTERNATIONAL SCHOOL ONLINE,tuition_fees
+ORCHIDS INTERNATIONAL,tuition_fees
+ORCHIDS INTERNATIONAL SSCHOOL,tuition_fees
+ORCHIDS*INTERNATIONAL SCHOOL,tuition_fees
+OSMANIA UNIVERSITY FEES,tuition_fees
+OSMANIAUNIVERSITY FEES,tuition_fees
+OSMANIA UNIVERSITY FEES 899835,tuition_fees
+OSMANIA UNIVERSITY FEES INDIA,tuition_fees
+OSMANIAUNIVERSITY,tuition_fees
+SCHOOL TUITION,tuition_fees
+SCOOL TUITION FEE,tuition_fees
+SCHOOL TUITION FEE 60084,tuition_fees
+SCHOOL*TUITION FEE,tuition_fees
+SCHOOLTUITION,tuition_fees
+SRI CHAITANYA JUNIOR COLLEGE FEES,tuition_fees
+SRI CHAITANYA JUNIOR COLLEGE FEES ONLINE,tuition_fees
+SRI CHAITANYA,tuition_fees
+SRI*CHAITANYA JUNIOR COLLEGE FEES,tuition_fees
+SRI CHAITANYA JUNIOR COLLEGE FEES 5814,tuition_fees
+SRM INSTITUTE FEE,tuition_fees
+SRM INSTITUTE FEE PAYMENTS,tuition_fees
+SRM INSTITUTE,tuition_fees
+SRM INSTITUTE FEE 72880,tuition_fees
+SRM INTSITUTE FEE,tuition_fees
+ST XAVIERS COLLEGE FEES,tuition_fees
+ST XAVIERS,tuition_fees
+ST*XAVIERS COLLEGE FEES,tuition_fees
+ST XAVIERS COLLEGE FEES SERVICES,tuition_fees
+ST XAVIERS COLLEGE FEES 1972,tuition_fees
+VIDYA MANDIR SCHOOL FEE,tuition_fees
+VIDYA MANDIR,tuition_fees
+VIDYA MANDIR SCHOOL FEE PVT LTD,tuition_fees
+VIDYA MANDRI SCHOOL FEE,tuition_fees
+VIDYA*MANDIR SCHOOL FEE,tuition_fees
+VIT UNIVERSITY SEMESTER FEES,tuition_fees
+VIT*UNIVERSITY SEMESTER FEES,tuition_fees
+VIT UNIVERSITY,tuition_fees
+VIT UNIVERSITY SEMESTER FESE,tuition_fees
+VITUNIVERSITY,tuition_fees
+AMAZON PAY WALLET LOAD,uncategorized
+AMAZON PAY,uncategorized
+AMAZON PAY WALLET LOAD DELHI,uncategorized
+AMAZON*PAY WALLET LOAD,uncategorized
+AMAZONPAY,uncategorized
+ANNUAL CARD FEE,uncategorized
+ANNUAL ARD FEE,uncategorized
+ANNUAL CARD,uncategorized
+ANNUAL*CARD FEE,uncategorized
+ANNUAL CARD FEE 05121,uncategorized
+ATM CASH WITHDRAWAL,uncategorized
+ATM*CASH WITHDRAWAL,uncategorized
+ATM CASH WITHDRAWAL 474044,uncategorized
+ATM CASH,uncategorized
+ATM CASSH WITHDRAWAL,uncategorized
+ATM WDL,uncategorized
+ATM WDL 221041,uncategorized
+ATM WDL LTD,uncategorized
+AT MWDL,uncategorized
+BLUE DART,uncategorized
+BLUE DART INDIA,uncategorized
+BLUE DART 9657,uncategorized
+BUE DART,uncategorized
+CAR LOAN EMI,uncategorized
+CAR LOAN EMI LTD,uncategorized
+CAR LONA EMI,uncategorized
+CAR*LOAN EMI,uncategorized
+CAR LOAN,uncategorized
+CAR REPAIR GARAGE,uncategorized
+CAR REPAIR GARAGE 100050,uncategorized
+CAR*REPAIR GARAGE,uncategorized
+CAR REPAIR GARAGE ONLINE,uncategorized
+CAR REPAIRGARAGE,uncategorized
+CASH WITHDRAWAL SELF,uncategorized
+CASH WITHDRAWAL SELF HYD,uncategorized
+CASH*WITHDRAWAL SELF,uncategorized
+CASH WITHDRAWAL,uncategorized
+CASH WITHDRAWAL SELF 18980,uncategorized
+COURIER CHARGES,uncategorized
+COURIERC HARGES,uncategorized
+COURIER CHARGES BLR,uncategorized
+COURIER CHARGES 21607,uncategorized
+DTDC COURIER,uncategorized
+DTDC*COURIER,uncategorized
+DTDC COURIER CHENNAI,uncategorized
+DDC COURIER,uncategorized
+EDUCATION LOAN EMI,uncategorized
+EDUCATION*LOAN EMI,uncategorized
+EDUCATION LOAN,uncategorized
+EDUCATION LOAN EMI LTD,uncategorized
+FLOWER SHOP,uncategorized
+FLOWER SHOP CHENNAI,uncategorized
+FLOWER*SHOP,uncategorized
+FLLOWER SHOP,uncategorized
+GANESH TRADERS,uncategorized
+GANESH*TRADERS,uncategorized
+GANESH TRADERS 19625,uncategorized
+HARDWARE STORE,uncategorized
+HARDWARE*STORE,uncategorized
+HARDWARE STORE LLP,uncategorized
+HARDWARESTORE,uncategorized
+HDFC CREDIT CARD BILL,uncategorized
+HDFC CREDIT CARD BILL LTD,uncategorized
+HDFC CREDIT CARD BILL 859332,uncategorized
+HFC CREDIT CARD BILL,uncategorized
+HDFC CREDIT,uncategorized
+ICICI CREDIT CARD BILL,uncategorized
+IICCI CREDIT CARD BILL,uncategorized
+ICICI CREDIT,uncategorized
+ICICI*CREDIT CARD BILL,uncategorized
+JAN AUSHADHI KENDRA,uncategorized
+JAN AUSHADHI KENDRA 805770,uncategorized
+JAN AUSHADHI,uncategorized
+JAN AUSHADHI KENDRA LLP,uncategorized
+JAN AUSHADHI KENDA,uncategorized
+K SRINIVAS,uncategorized
+K SRINIVAS 0389,uncategorized
+K*SRINIVAS,uncategorized
+K SRINIVAS DELHI,uncategorized
+K SRNIIVAS,uncategorized
+KSRINIVAS,uncategorized
+LAUNDRY SERVICE,uncategorized
+LAUNDRY SERIVCE,uncategorized
+LAUNDRY*SERVICE,uncategorized
+LAUNDRY SERVICE 89780,uncategorized
+LAUNDRY SERVICE INDIA,uncategorized
+MANJULA,uncategorized
+MANJLA,uncategorized
+MANJULA MUMBAI,uncategorized
+MANJULA 4523,uncategorized
+MOBIKWIK WALLET,uncategorized
+MOBIKWIK*WALLET,uncategorized
+MOBIKWIK WALLET PAYMENTS,uncategorized
+MOHAMMED RAFI,uncategorized
+MOHAMMED RAI,uncategorized
+MOHAMMED RAFI 233968,uncategorized
+MOHAMMED RAFI SERVICES,uncategorized
+NETMEDS,uncategorized
+NETMEDS ONLINE,uncategorized
+NETMES,uncategorized
+NEW STAR TRADERS,uncategorized
+NEW STAR,uncategorized
+NEW STAR TRAEDRS,uncategorized
+NEW STAR TRADERS 331615,uncategorized
+PAYTM WALLET TOPUP,uncategorized
+PAYTM*WALLET TOPUP,uncategorized
+PAYTM WALLET TOPPUP,uncategorized
+PAYTM WALLET TOPUP 678502,uncategorized
+PAYTM WALLET TOPUP HYD,uncategorized
+PAYTMWALLET,uncategorized
+PERSONAL LOAN EMI,uncategorized
+PERSONAL LONA EMI,uncategorized
+PERSONAL*LOAN EMI,uncategorized
+PERSONAL LOAN EMI 4168,uncategorized
+PERSONAL LOAN,uncategorized
+PET SUPPLIES STORE,uncategorized
+PET SUPPLIES STORE 9632,uncategorized
+PET SUPPLIES STORE SERVICES,uncategorized
+PET SUPPLIES,uncategorized
+PET*SUPPLIES STORE,uncategorized
+PETSUPPLIES,uncategorized
+PHONEPE WALLET ADD,uncategorized
+PHONEPE WALLET,uncategorized
+PHONEPE*WALLET ADD,uncategorized
+PHONEPE WALLET ADD 9084,uncategorized
+PLUMBER PAYMENT,uncategorized
+PLUMBER*PAYMENT,uncategorized
+PLUMBER PAYMENT 1110,uncategorized
+RAMESH KUMAR,uncategorized
+RAMESH*KUMAR,uncategorized
+RAMESH KUMAR 67508,uncategorized
+RAMEESH KUMAR,uncategorized
+SMS CHARGES,uncategorized
+SMS CHAGES,uncategorized
+SMS CHARGES LTD,uncategorized
+SMS CHARGES 4786,uncategorized
+SMSCHARGES,uncategorized
+SRI LAKSHMI MEDICALS,uncategorized
+SRI LAKSHMI MEDICALS 376861,uncategorized
+SRI*LAKSHMI MEDICALS,uncategorized
+SRI LAKSHMI,uncategorized
+SR LAKSHMI MEDICALS,uncategorized
+SRI SAI ENTERPRISES,uncategorized
+SRI SAI ENTERPRISES ONLINE,uncategorized
+SRI*SAI ENTERPRISES,uncategorized
+SRI SAI ENTEERPRISES,uncategorized
+SRI SAI ENTERPRISES 0648,uncategorized
+TAILOR SHOP,uncategorized
+TAILOR SHOP HYD,uncategorized
+TAILOR SHOP 3655,uncategorized
+TAILOR HSOP,uncategorized
+TAILORSHOP,uncategorized
+TEMPLE PRASADAM,uncategorized
+TEMPLE*PRASADAM,uncategorized
+TEMPLE PRASADAM 00091,uncategorized
+TEMPLE PRASADAM BLR,uncategorized
+UPI LITE TOPUP,uncategorized
+UPI LITE TOPUP ONLINE,uncategorized
+UPI LITE TPOUP,uncategorized
+UPI LITE,uncategorized
+UPI*LITE TOPUP,uncategorized
+UPILITE,uncategorized
+URBAN COMPANY SERVICE,uncategorized
+URBANC OMPANY SERVICE,uncategorized
+URBAN COMPANY,uncategorized
+URBAN*COMPANY SERVICE,uncategorized
+URBAN COMPANY SERVICE 95716,uncategorized
+WELLNESS FOREVER PHARMACY,uncategorized
+WELLNESS FOREVER PHARMACY 27311,uncategorized
+WELLNESSS FOREVER PHARMACY,uncategorized
+WELLNESS*FOREVER PHARMACY,uncategorized
+WELLNESS FOREVER PHARMACY LLP,uncategorized
+ADANI ELECTRICITY,utilities
+ADANI ELECRICITY,utilities
+ADANI ELECTRICITY 72100,utilities
+ADANI ELECTRICITY LTD,utilities
+ADANIELECTRICITY,utilities
+AIRTEL DIGITAL TV,utilities
+AIRTEL DIGITAL TV 160666,utilities
+AIRTEL DIGITAL,utilities
+AIRTELL DIGITAL TV,utilities
+AIRTEL*DIGITAL TV,utilities
+AIRTEL RECHARGE SERVICES,utilities
+AIRTEL RECHARGE 001751,utilities
+AIRTEL XSTREAM,utilities
+AIRTEL XSTREAAM,utilities
+AIRTEL*XSTREAM,utilities
+AIRTEL XSTREAM 20525,utilities
+BROADBAND INTERENT,utilities
+BROADBAND*INTERNET,utilities
+BROADBAND INTERNET 793825,utilities
+BROADBAND INTERNET LLP,utilities
+BSES RAJDHANI,utilities
+BSES RAJDHANI 0730,utilities
+BSESRAJDHANI,utilities
+BSES*RAJDHANI,utilities
+BSNL BROADBAND,utilities
+BSNL BROADBAND INDIA,utilities
+BSNL BROADBAND 749015,utilities
+BSNLBROADBAND,utilities
+BWSSB WATER,utilities
+BWSSB WATER 12701,utilities
+BWSSB*WATER,utilities
+BWSSB WATER HYD,utilities
+CABLE TV OPERATOR,utilities
+CABLE TV OPERATOR 02279,utilities
+CALBE TV OPERATOR,utilities
+CABLE TV,utilities
+DELHI JAL BOARD,utilities
+DELHI JAL BOARD 7191,utilities
+DELHI JAL BOARD HYD,utilities
+DELHI JAL BOAARD,utilities
+DELHI JAL,utilities
+DTH RECHARGE ONLINE,utilities
+DTH*RECHARGE,utilities
+DTHR ECHARGE,utilities
+FIBERNET INTERNET,utilities
+FIBERNET INTERNET 785384,utilities
+FIBERNET*INTERNET,utilities
+FIBERNET INTERNET CHENNAI,utilities
+GAS CYLINDER DELHI,utilities
+GAS CYLINDER 02628,utilities
+HATHWAY BROADBAND,utilities
+HATHWAY*BROADBAND,utilities
+HATHWAY BRADBAND,utilities
+HATHWAY BROADBAND 2324,utilities
+HATHWAY BROADBAND ONLINE,utilities
+HP GAS BOOKING,utilities
+HP*GAS BOOKING,utilities
+HP GAS BOOKING 907976,utilities
+HP GAS,utilities
+HP GASBOOKING,utilities
+HYDERABAD METRO WATER,utilities
+HYDRABAD METRO WATER,utilities
+HYDERABAD METRO WATER 707953,utilities
+HYDERABAD METRO,utilities
+JIO FIBER,utilities
+JIO*FIBER,utilities
+JIO FIBER 64052,utilities
+JI OFIBER,utilities
+JIOFIBER,utilities
+KSEB BILL,utilities
+KSEB BILL 4985,utilities
+KSEB BILL IN,utilities
+KSEB*BILL,utilities
+KSEB BLL,utilities
+KSEBBILL,utilities
+MOBILE POSTPAID BILL 4684,utilities
+MOBILE POSTPAID BILL IN,utilities
+MBOILE POSTPAID BILL,utilities
+MOBILE POSTPAID,utilities
+MSEDCL BILL,utilities
+MSEDCL*BILL,utilities
+MSEDCL BILL 5088,utilities
+MSEDCL BIL,utilities
+MSEDCL BILL PVT LTD,utilities
+MSEDCLBILL,utilities
+SOCIETY MAINTENANCE,utilities
+SOCIETY MAINTENANCE ONLINE,utilities
+SOCIETY MANTENANCE,utilities
+SOCIETY*MAINTENANCE,utilities
+TATA*POWER BILL,utilities
+TATA POWER,utilities
+TATA POWER BILL HYD,utilities
+TATA POWER BILL 2137,utilities
+TORRENT POWER,utilities
+TORREN TPOWER,utilities
+TORRENT POWER PAYMENTS,utilities
+TORRENTPOWER,utilities
+TSSPDCL BILL,utilities
+TSSPDCL*BILL,utilities
+TSSPDCL BILL LTD,utilities
+TSSPDCLBILL,utilities
+VODAFONE IDEA RECHARGE,utilities
+VODAFONE IDEA RECHARGE MUMBAI,utilities
+VODAFONE IDEA RECHARGE 12144,utilities
+VODAFONE*IDEA RECHARGE,utilities
+VODAFONNE IDEA RECHARGE,utilities
+VODAFONEIDEA,utilities
+GOONJ DONATION,donation
+GOONJ DONATION 80979,donation
+GOONJ DONATOIN,donation
+GOONJ*DONATION,donation
+ISKCON FOUNDATION,donation
+ISKCON FOUNDATION 55434,donation
+ISKCON*FOUNDATION,donation
+ISKCONFOUNDATION,donation
+PETA INDIA DONATION,donation
+PETA INDIA DONATION SERVICES,donation
+PETA*INDIA DONATION,donation
+PETA INDIA,donation
+PETA INDIA DONATION 41900,donation
+PETA IDIA DONATION,donation
+PM CARES FUND 548598,donation
+PMCARES FUND,donation
+PM CARES FUND DELHI,donation
+PM*CARES FUND,donation
+RAMAKRISHNA MISSION DONATION,donation
+RAMAKRISHNA MISSION DONATION 71969,donation
+RAMAKRISHNA MISSION DONATION MUMBAI,donation
+RAMAKRISHNA MISSION,donation
+RAMMAKRISHNA MISSION DONATION,donation
+RAMAKRISHNA*MISSION DONATION,donation
+SEEDS INDIA,donation
+SEED INDIA,donation
+SEEDS*INDIA,donation
+SEEDS INDIA 941252,donation
+SEEDS INDIA PVT LTD,donation
+TATA MEMORIAL CENTRE DONATION,donation
+TATA MEMORIAL,donation
+TATA MEMORIAL CENTRE DONATION HYD,donation
+TATA MEMORIAL CENTRE DONATION 4880,donation
+WORLD VISION INDIA,donation
+WORLD VISION INIDA,donation
+WORLD VISION INDIA 9303,donation
+WORLD*VISION INDIA,donation
+WORLD VISION INDIA CHENNAI,donation
+BANDHAN ELSS TAX ADVANTAGE,elss_investment
+BANDHAN ELSS,elss_investment
+BANDHAN*ELSS TAX ADVANTAGE,elss_investment
+BANDHAN ELSS TAX ADVANTAGE 06339,elss_investment
+BANDHANELSS,elss_investment
+BARODA BNP PARIBAS ELSS TAX SAVER,elss_investment
+BARODA BBNP PARIBAS ELSS TAX SAVER,elss_investment
+BARODA*BNP PARIBAS ELSS TAX SAVER,elss_investment
+BARODA BNP,elss_investment
+BARODA BNP PARIBAS ELSS TAX SAVER LLP,elss_investment
+CANARA ROBECO EQUITY TAX SAVER,elss_investment
+CANARA ROBECO EQUITY TAX SAVER CHENNAI,elss_investment
+CANARA ROBECO EQUITY TAX SAVER 6131,elss_investment
+CANARA*ROBECO EQUITY TAX SAVER,elss_investment
+CANARA ROBECO EQUUITY TAX SAVER,elss_investment
+ICICI PRU LONG TERM EQUITY FUND TAX SAVING,elss_investment
+ICICI PRU LONG TERM EQUITY FUND TAX SAVING LLP,elss_investment
+ICICI PRU LONG TERM EUQITY FUND TAX SAVING,elss_investment
+ICICI PRU LONG TERM EQUITY FUND TAX SAVING 6271,elss_investment
+ICICI PRU,elss_investment
+NAVI ELSS TAX SAVER NIFTY 50,elss_investment
+NAVI ELSS,elss_investment
+NAVI ELSS TAX SAVER NIFTY 50 ONLINE,elss_investment
+NAVI*ELSS TAX SAVER NIFTY 50,elss_investment
+NAVIELSS,elss_investment
+SBI LONG TERM EQUITY FUND,elss_investment
+SBI LONG TERM EQUITY FUND PAYMENTS,elss_investment
+SBI LONG TERM EQUITY FUND 252782,elss_investment
+SBI LONG,elss_investment
+SBI*LONG TERM EQUITY FUND,elss_investment
+TAURUS TAX SHIELD,elss_investment
+TAURUS*TAX SHIELD,elss_investment
+TAURUS TAX SHIELD HYD,elss_investment
+TAURUS TAXS HIELD,elss_investment
+TAURUS TAX SHIELD 7573,elss_investment
+TAURUSTAX,elss_investment
+ZERODHA COIN ELSS,elss_investment
+ZERODHA COIN ELSS 087157,elss_investment
+ZERODHA COIN ELSS SERVICES,elss_investment
+ZERODHA COIN ELLSS,elss_investment
+ZERODHA COIN,elss_investment
+ZERODHA*COIN ELSS,elss_investment
+BOWLING ALLEY,entertainment
+BOWLING*ALLEY,entertainment
+BOWLING ALLEY 73004,entertainment
+BOWLLING ALLEY,entertainment
+GAANA PLUS,entertainment
+GAANA PLUS 8197,entertainment
+GAANA PUS,entertainment
+GAANAPLUS,entertainment
+HOICHOI,entertainment
+HOICHOI MUMBAI,entertainment
+HOICHOI 53841,entertainment
+HOICCHOI,entertainment
+MX PLAYER,entertainment
+MX PLAYER 775149,entertainment
+MX PLAYER BLR,entertainment
+MX*PLAYER,entertainment
+PAYTM INSIDER,entertainment
+PAYTM*INSIDER,entertainment
+PAYTM INSIDER LTD,entertainment
+PAYTM INSIDER 35235,entertainment
+PLAYSTATION STORE,entertainment
+PLAYSTATION*STORE,entertainment
+PLAYSTATION STORE 4159,entertainment
+PLAYSTATION STORE HYD,entertainment
+SPOTFIY,entertainment
+SPOTIFY 621303,entertainment
+STEAM GAMES,entertainment
+STEAM GAMES CHENNAI,entertainment
+STEAM*GAMES,entertainment
+STEAM GAMES 401768,entertainment
+STEAM AMES,entertainment
+SUN NXT,entertainment
+SUN NXT 50243,entertainment
+SUN*NXT,entertainment
+SUN NXT MUMBAI,entertainment
+COSTA COFFEE,food_dining
+COSTA*COFFEE,food_dining
+COSSTA COFFEE,food_dining
+COSTA COFFEE BLR,food_dining
+HALDIRAMS,food_dining
+HALDIRAMS LTD,food_dining
+HOT BREADS BAKERY,food_dining
+HOT*BREADS BAKERY,food_dining
+HOT BREDAS BAKERY,food_dining
+HOT BREADS BAKERY PAYMENTS,food_dining
+HOT BREADS,food_dining
+KAMAT HOTEL,food_dining
+KAMAT HOETL,food_dining
+KAMAT HOTEL LTD,food_dining
+KAMAT*HOTEL,food_dining
+KAMAT HOTEL 0990,food_dining
+MOJO PIZZA,food_dining
+MOJO*PIZZA,food_dining
+MOJO PIZZA 007086,food_dining
+MOJO PIIZZA,food_dining
+MOJO PIZZA INDIA,food_dining
+NATURALS ICE CREAM,food_dining
+NATURALS IC CREAM,food_dining
+NATURALS ICE CREAM 10652,food_dining
+NATURALS*ICE CREAM,food_dining
+NATURALS ICE,food_dining
+PARADISE BIRYANI,food_dining
+PARADISE*BIRYANI,food_dining
+PARADISE BIRYANI SERVICES,food_dining
+PARADISE BIRYANNI,food_dining
+RESTAURANT BILL HYD,food_dining
+RESTAURANT*BILL,food_dining
+RESTAURANT BILL 1415,food_dining
+THIRD WAVE COFFEE,food_dining
+THIRD WAVE,food_dining
+THIRD WAVE COFFEE HYD,food_dining
+THIRD*WAVE COFFEE,food_dining
+UDUPI GRAND,food_dining
+UDUPI GRAND CHENNAI,food_dining
+UDUPI GARND,food_dining
+UDUPI*GRAND,food_dining
+CONSULTING FEES RECEIVED DELHI,freelance_income
+CONSULING FEES RECEIVED,freelance_income
+CONSULTING FEES,freelance_income
+CONSULTING FEES RECEIVED 87593,freelance_income
+DESIGN*PROJECT PAYMENT,freelance_income
+DESIGN PROJECT,freelance_income
+DESIGN POJECT PAYMENT,freelance_income
+DESIGN PROJECT PAYMENT 87489,freelance_income
+FIVERR*WITHDRAWAL,freelance_income
+FIVERR WITHDRAWAL IN,freelance_income
+FVIERR WITHDRAWAL,freelance_income
+FREELANCE PROJECT PAYMENT DELHI,freelance_income
+FREELANCE PROJECT PAYMENT 123777,freelance_income
+FREELANCE*PROJECT PAYMENT,freelance_income
+FREELANCE PROJECT,freelance_income
+NORTHWIND DIGITAL INVOICE,freelance_income
+NORTHWIND DIGITAL INVOICE IN,freelance_income
+NORTHWIND DIGITAL INVOICE 291912,freelance_income
+NORTHWIDN DIGITAL INVOICE,freelance_income
+NORTHWIND*DIGITAL INVOICE,freelance_income
+NORTHWIND DIGITAL,freelance_income
+TOPTAL LLC,freelance_income
+TOPTAL LLC 08216,freelance_income
+TOPTAL*LLC,freelance_income
+TOPTAL LLC HYD,freelance_income
+TOPAL LLC,freelance_income
+UPWORK*ESCROW,freelance_income
+UPWORK ESCROW 075640,freelance_income
+UPWORK ESCROW INDIA,freelance_income
+WEBSITE DEVELOPMENT PAYMENT SERVICES,freelance_income
+WEBSITE*DEVELOPMENT PAYMENT,freelance_income
+WEBSITE DEVELOPMENT PAYMENT 06978,freelance_income
+WEBSTIE DEVELOPMENT PAYMENT,freelance_income
+WISE PAYMENTS TRANSFER,freelance_income
+WISE PAYMENTS TRANSFER 52604,freelance_income
+WISEP AYMENTS TRANSFER,freelance_income
+WISE PAYMENTS,freelance_income
+WISE PAYMENTS TRANSFER PVT LTD,freelance_income
+BALAJI PETROLEUM,fuel
+BALAJI PETROLEUM DELHI,fuel
+BALAJI*PETROLEUM,fuel
+DIESEL FILLING INDIA,fuel
+DIESEL FILLING 94327,fuel
+DIESEL*FILLING,fuel
+DIESELFILLING,fuel
+ESSAR PETROL,fuel
+ESSAR PETROL IN,fuel
+ESSAR*PETROL,fuel
+ESSARPETROL,fuel
+GANESH PETROL PUMP,fuel
+GANESH PETROL PUMP SERVICES,fuel
+GANESH*PETROL PUMP,fuel
+GANES PETROL PUMP,fuel
+GANESH PETROL,fuel
+INDIANOIL XTRAPREMIUM,fuel
+INDIANOIL XTRAPREMIUM 56423,fuel
+INDIANOIL*XTRAPREMIUM,fuel
+INDIANOIL XTRAPREMIMU,fuel
+INDIANOILXTRAPREMIUM,fuel
+JIO BP PUMP,fuel
+JIO*BP PUMP,fuel
+JIO BP PUMP INDIA,fuel
+JIO BP,fuel
+JIOBP,fuel
+TOTAL FUELS,fuel
+TOTAL FUESL,fuel
+TOTAL*FUELS,fuel
+TOTAL FUELS 804105,fuel
+TOTAL FUELS MUMBAI,fuel
+AMUL PARLOUR,groceries
+AMUL PARLOUR MUMBAI,groceries
+AMUL PARLOR,groceries
+AMUL PARLOUR 8141,groceries
+FRUITS AND,groceries
+FRUITSS AND VEG,groceries
+FRUITS*AND VEG,groceries
+FRUITS AND VEG SERVICES,groceries
+GENERAL STORES IN,groceries
+GENERA STORES,groceries
+GENERALSTORES,groceries
+GREEN LEAF ORGANICS,groceries
+GREEN LEAF OGRANICS,groceries
+GREEN LEAF ORGANICS DELHI,groceries
+GREEN LEAF,groceries
+GREEN LEAF ORGANICS 40466,groceries
+HERITAGE FRESH,groceries
+HERITAGE*FRESH,groceries
+HERITAGE FRESH 51424,groceries
+HERITAGE FRESH PVT LTD,groceries
+HREITAGE FRESH,groceries
+METRO CASH AND CARRY,groceries
+METRO CASH AND CARRY LTD,groceries
+METRO CASH,groceries
+METRO*CASH AND CARRY,groceries
+METRO CASH AND CARRY 0218,groceries
+STAR BAZAAR,groceries
+STAR BAZAAAR,groceries
+STAR BAZAAR ONLINE,groceries
+VENKATESWARA PROVISION STORE,groceries
+VENKATESWARA PROVISION,groceries
+VENKATESWARA*PROVISION STORE,groceries
+VENKATESWARA PROVISION STORE 824914,groceries
+VENKATESWARA PROVISION STORE LLP,groceries
+VENKATESWARAPROVISION,groceries
+ACKO*HEALTH INSURANCE,health_insurance
+ACKO HEALTH INSURANCE 56246,health_insurance
+ACKO HEALTH IINSURANCE,health_insurance
+ACKO HEALTH INSURANCE PVT LTD,health_insurance
+BAJAJ ALLIANZ HEALTH GUARD,health_insurance
+BAJAJ ALLIANZ HEALTH GUARD 2435,health_insurance
+BAJAJ*ALLIANZ HEALTH GUARD,health_insurance
+BAJAJ ALLIANZ,health_insurance
+BAJAJALLIANZ,health_insurance
+FUTURE GENERALI HEALTH TOTAL,health_insurance
+FUTURE GENERALI HEALTHTOTAL,health_insurance
+FUTURE GENERALI HEALTH TOTAL PVT LTD,health_insurance
+FUTURE*GENERALI HEALTH TOTAL,health_insurance
+FUTURE GENERALI,health_insurance
+ICICI LOMBARD COMPLETE HEALTH,health_insurance
+ICICI LOMBARD COMPLETE HEALTH 55621,health_insurance
+ICICI LOMBARD COMPLETE HEALTH CHENNAI,health_insurance
+ICICI LOMBARD COMPLEE HEALTH,health_insurance
+ICICI LOMBARD,health_insurance
+NEW INDIA MEDICLAIM,health_insurance
+NEW INDIA,health_insurance
+NEW INDIA MEDICLAIM 23277,health_insurance
+NEWINDIA,health_insurance
+NIVA BUPA REASSURE,health_insurance
+NIVA*BUPA REASSURE,health_insurance
+NIVA BUPA,health_insurance
+NIVA BBUPA REASSURE,health_insurance
+NIVA BUPA REASSURE 67215,health_insurance
+UNIVERSAL SOMPO HEALTH,health_insurance
+UNIVERSAL SOMPO HEALTH 408019,health_insurance
+UNIVERSAL SOMPO,health_insurance
+UNIVERSAL SOMPO HEALTH ONLINE,health_insurance
+UNIVERSAL SOMPO HEALH,health_insurance
+AADHAR HOUSING FINANCE,home_loan_interest
+AADHAR HOUSING,home_loan_interest
+AADHAR*HOUSING FINANCE,home_loan_interest
+AADHAR HOUSING FINANCE BLR,home_loan_interest
+BANK OF BARODA HOME LOAN EMI,home_loan_interest
+BANK OF BARODA HOME LOAN EMI 660513,home_loan_interest
+BANK*OF BARODA HOME LOAN EMI,home_loan_interest
+BANK OF,home_loan_interest
+BANK OF BARODA HHOME LOAN EMI,home_loan_interest
+HDFC HOME LOANS ECS,home_loan_interest
+HDFC HOME LOANS ECS 08729,home_loan_interest
+HDFC HOME LOANS ES,home_loan_interest
+HDFC*HOME LOANS ECS,home_loan_interest
+HDFC HOME LOANS ECS DELHI,home_loan_interest
+HOUSING*FINANCE EMI,home_loan_interest
+HOUSING FINANCE EMI 5437,home_loan_interest
+HOUSING FINANCE,home_loan_interest
+INDIAN BANK HOME LOAN EMI,home_loan_interest
+INDIAN BANK HOME LOAN EMI HYD,home_loan_interest
+INDIAN BANK HOME LOAN EMI 98309,home_loan_interest
+INDIAN BANK,home_loan_interest
+INDIAN BANK HOME OLAN EMI,home_loan_interest
+LAKSHMI HOUSING FINANCE,home_loan_interest
+LAKSHMI*HOUSING FINANCE,home_loan_interest
+LAKSHMI HOUSING,home_loan_interest
+LAKSHMI HOUSING FINANCE 84912,home_loan_interest
+LAKSHI HOUSING FINANCE,home_loan_interest
+REPCO HOME FINANCE,home_loan_interest
+REPCO HOME FINANCE INDIA,home_loan_interest
+REPCO HOME,home_loan_interest
+REPCO HOMEE FINANCE,home_loan_interest
+REPCO*HOME FINANCE,home_loan_interest
+ACKO LIFE TERM,life_insurance
+ACKO LIFE TERM INDIA,life_insurance
+ACKO*LIFE TERM,life_insurance
+ACKO LIFE TERM 284813,life_insurance
+ACKO LIFE,life_insurance
+CREDITACCESS TERM COVER,life_insurance
+CREDITACCESS TERM COVER 6451,life_insurance
+CREDITACCESS TERM COVER MUMBAI,life_insurance
+CREDITACCESS*TERM COVER,life_insurance
+CREDIITACCESS TERM COVER,life_insurance
+EDELWEISS TOKIO LIFE,life_insurance
+EDELWEISS TOKIO,life_insurance
+EDELWEISS TOKIO LIFE 724863,life_insurance
+EDELWEISS*TOKIO LIFE,life_insurance
+ENDOWMENT POLICY,life_insurance
+ENDOWMENT*POLICY PREMIUM,life_insurance
+ENDOWMENT POLICY PREMMIUM,life_insurance
+ENDOWMENT POLICY PREMIUM BLR,life_insurance
+PHONEPE TERM LIFE,life_insurance
+PHONEPE TERM LIFE 98458,life_insurance
+PHONEPE*TERM LIFE,life_insurance
+PHONEPE TERM LIFE LTD,life_insurance
+PHONEPETERM,life_insurance
+RELIANCE NIPPON LIFE,life_insurance
+RELIANCE NIPPON,life_insurance
+RELIANCE*NIPPON LIFE,life_insurance
+RELIANCE NIPPON LIFE BLR,life_insurance
+RELIANCE IPPON LIFE,life_insurance
+SBI LIFE EWEALTH,life_insurance
+SBI LIFE EWEALTH 376708,life_insurance
+SBI LIFFE EWEALTH,life_insurance
+SBI LIFE EWEALTH ONLINE,life_insurance
+SHRIRAM LIFE INSURANCE,life_insurance
+SHRIRAM LIFE INSURANCE 923380,life_insurance
+SHRIRAM*LIFE INSURANCE,life_insurance
+SHRIRAM LIFE IINSURANCE,life_insurance
+SHRIRAM LIFE INSURANCE HYD,life_insurance
+KFINTECH*NPS,nps
+KIFNTECH NPS,nps
+KFINTECH NPS INDIA,nps
+KFINTECH NPS 274714,nps
+NPS ANNUAL CONTRIBUTION,nps
+NPS*ANNUAL CONTRIBUTION,nps
+NPS ANNUAL CONTRIBUTION 086853,nps
+NPS ANNUAL,nps
+NPS PRAN CONTRIBUTION BOB,nps
+NPS PRAN CONTRIBUTION BOB DELHI,nps
+NPS PRAN,nps
+NPS*PRAN CONTRIBUTION BOB,nps
+NPS PRAN CONTRIBUTIONB OB,nps
+NPS TIER 1 CONTTRIBUTION,nps
+NPS TIER,nps
+NPS*TIER 1 CONTRIBUTION,nps
+NPS TIER 1 SELF,nps
+NPS TIER 1 SELF LTD,nps
+NPS TIER 1 SELF 529917,nps
+NPS TIE 1 SELF,nps
+NPSTIER,nps
+PROTEAN NPS PAYMENTS,nps
+PROTEAN NPS 69972,nps
+PROTEEAN NPS,nps
+FRIEND RAMESH,other_income
+FRIEND RRAMESH,other_income
+FRIEND*RAMESH,other_income
+FRIEND RAMESH 075154,other_income
+FRIEND RAMESH IN,other_income
+FROM BROTHER,other_income
+FROM BROTHER LLP,other_income
+FROM*BROTHER,other_income
+FROMB ROTHER,other_income
+INTEREST CREDIT SAVINGS,other_income
+INTEREST CREDIT,other_income
+INTEREST CCREDIT SAVINGS,other_income
+INTEREST CREDIT SAVINGS LTD,other_income
+INTEREST CREDIT SAVINGS 46977,other_income
+KAVITHA REDDY,other_income
+KAVITHAR EDDY,other_income
+KAVITHA*REDDY,other_income
+KAVITHA REDDY 567941,other_income
+KAVITHA REDDY LLP,other_income
+MUTUAL FUND REDEMPTION,other_income
+MUTUAL*FUND REDEMPTION,other_income
+MUTUAL FUND REDEMPTION 98852,other_income
+MUTUAL FUND,other_income
+MUTUAL FUND REDEMPTIION,other_income
+MUTUAL FUND REDEMPTION INDIA,other_income
+SPOUSE,other_income
+NEFT FROM,other_income
+SPOUSE LLP,other_income
+SPOUSE 8465,other_income
+NEFT*FROM SPOUSE,other_income
+SPPOUSE,other_income
+REFUND AMAZON ORDER,other_income
+REFUND AMAZON ORDER CHENNAI,other_income
+REFUND AMAZON,other_income
+REFUND AMAZON ORDER 72820,other_income
+REFUND MAZON ORDER,other_income
+REFUND*AMAZON ORDER,other_income
+REFUND MYNTRA RETURN,other_income
+REFUND MYNTRA RETURN 012634,other_income
+REFUND MNYTRA RETURN,other_income
+REFUND MYNTRA,other_income
+REFUND*MYNTRA RETURN,other_income
+SLEF TRANSFER OWN ACCOUNT,other_income
+SELF TRANSFER OWN ACCOUNT LTD,other_income
+SELF*TRANSFER OWN ACCOUNT,other_income
+SELF TRANSFER,other_income
+UPI RECEIVED FROM RELATIVE ONLINE,other_income
+UPI RECEIVED FROM RELATIVE 97978,other_income
+UPI RECCEIVED FROM RELATIVE,other_income
+UPI*RECEIVED FROM RELATIVE,other_income
+UPI RECEIVED,other_income
+PPF ACCOUNT,ppf_epf
+PPF ACCOUNT CONTRIBUTION 539892,ppf_epf
+PPF ACCOUNT CONTRIBUTION LTD,ppf_epf
+PPF*ACCOUNT CONTRIBUTION,ppf_epf
+PPF AXIS BANK,ppf_epf
+PPF AXIS BAANK,ppf_epf
+PPF AXIS BANK HYD,ppf_epf
+PPF AXIS BANK 010522,ppf_epf
+PPF AXIS,ppf_epf
+PPF ICICI BANK,ppf_epf
+PPF ICICI,ppf_epf
+PPF ICICI BANK PAYMENTS,ppf_epf
+PPF ICICII BANK,ppf_epf
+PPFICICI,ppf_epf
+SENIOR CITIZEN SAVING SCHEME,ppf_epf
+SENIOR CITIZEN,ppf_epf
+SENIOR CITIZEN SAVING SCHEME 65338,ppf_epf
+SENIOR*CITIZEN SAVING SCHEME,ppf_epf
+SUKANYA ACCOUNT HDFC,ppf_epf
+SUKANYA*ACCOUNT HDFC,ppf_epf
+SUKANYA ACCOUNT,ppf_epf
+SUKAYA ACCOUNT HDFC,ppf_epf
+SUKANYA ACCOUNT HDFC LLP,ppf_epf
+TAX SAVER FIXED DEPOSIT 5 YEAR ONLINE,ppf_epf
+TAX SAVER FIXEED DEPOSIT 5 YEAR,ppf_epf
+TAX SAVER FIXED DEPOSIT 5 YEAR 90050,ppf_epf
+TAX SAVER,ppf_epf
+ANNUAL HEALTH CHECKUP 197488,preventive_healthcare
+ANNUAL HEALTH CHECKUP LTD,preventive_healthcare
+ANNUALHEALTH,preventive_healthcare
+CLINIQ HEALTH CHECK,preventive_healthcare
+CLINIQ*HEALTH CHECK,preventive_healthcare
+CLINIQ HEALTH CHECK 09195,preventive_healthcare
+CLINIQ HEALTH CHECK MUMBAI,preventive_healthcare
+CLINIQH EALTH CHECK,preventive_healthcare
+CLINIQ HEALTH,preventive_healthcare
+DENTAL CHECKUP CLINIC,preventive_healthcare
+DENTAL CHECKUP CLINIC SERVICES,preventive_healthcare
+DENTAL CHECKUUP CLINIC,preventive_healthcare
+DENTAL CHECKUP,preventive_healthcare
+DENTALCHECKUP,preventive_healthcare
+HEALTHIANS BLOOD TEST,preventive_healthcare
+HEALTHIANS BLOOD TEST INDIA,preventive_healthcare
+HEALTHIANS*BLOOD TEST,preventive_healthcare
+HEALTHIANS BLOO TEST,preventive_healthcare
+HEALTHIANS BLOOD,preventive_healthcare
+MANIPAL HOSPITAL PREVENTIVE CHECK,preventive_healthcare
+MANIPAL HOSPITAL,preventive_healthcare
+MANIPAL HOSPITAL PREVENTIVE CHECK 2911,preventive_healthcare
+MANIPAL*HOSPITAL PREVENTIVE CHECK,preventive_healthcare
+MANIPALHOSPITAL,preventive_healthcare
+ORANGE HEALTH LABS,preventive_healthcare
+ORANGE*HEALTH LABS,preventive_healthcare
+ORANGE HEALTH,preventive_healthcare
+ORANGE HEALTH LBAS,preventive_healthcare
+ORANGEHEALTH,preventive_healthcare
+PHARMEASY LAB TESTS,preventive_healthcare
+PHARMEASY LAB TESTS PVT LTD,preventive_healthcare
+PHARMEASY*LAB TESTS,preventive_healthcare
+PHARMEASY LAB,preventive_healthcare
+PHARMEASY LAB TESTS 417856,preventive_healthcare
+PHARMEASY AB TESTS,preventive_healthcare
+SRL DIAGNOSTICS,preventive_healthcare
+SRL*DIAGNOSTICS,preventive_healthcare
+SRL DIAGNOSTCS,preventive_healthcare
+SRL DIAGNOSTICS SERVICES,preventive_healthcare
+SRL DIAGNOSTICS 778062,preventive_healthcare
+FLAT RENT AND MAINTENANCE,rent
+FLAT*RENT AND MAINTENANCE,rent
+FLAT RENT AND MAINTENANCE MUMBAI,rent
+HOUSE RENT NOVEMBER,rent
+HOUSE RENT NOVEMBER 050996,rent
+HOUSE REN NOVEMBER,rent
+HOUSE*RENT NOVEMBER,rent
+HOUSERENT,rent
+OYO LIFE RENT,rent
+OYO LIFE RENT 593214,rent
+OYO LIFE,rent
+OYO*LIFE RENT,rent
+OYO LIE RENT,rent
+RENT PAYMENT NOBROKER,rent
+RENT PAYMENT,rent
+RENT*PAYMENT NOBROKER,rent
+RENT PAYMENT NOBROKER IN,rent
+RENT TRANSFER HYD,rent
+RNT TRANSFER,rent
+RENT TRANSFER 982024,rent
+ROOM RENT HOSTEL,rent
+ROOM RENT HOSTEL 156752,rent
+ROOM*RENT HOSTEL,rent
+ROOM RENT HOSTEL DELHI,rent
+ROOMRENT,rent
+STANZA LIVING RENT,rent
+STANZA LIVING RENT SERVICES,rent
+STANZA LIVINGRENT,rent
+STANZA LIVING,rent
+ACCENTURE SOLUTIONS SALARY,salary_income
+ACCENTURE SOLUTIONS,salary_income
+ACCENTURE SOLUTIONSS SALARY,salary_income
+ACCENTURE SOLUTIONS SALARY 67223,salary_income
+ACCENTURE*SOLUTIONS SALARY,salary_income
+AMAZON DEVELOPMENT CENTRE SALARY,salary_income
+AMAZON DEVELOPMENT,salary_income
+AMAZON DEVELOPMENT CENTRE SALARY MUMBAI,salary_income
+AMAZON*DEVELOPMENT CENTRE SALARY,salary_income
+AMAZON DEVELOPMENT CENTRE SALARY 940886,salary_income
+COGNIZANT PAYROLL,salary_income
+COGNIZANT PAAYROLL,salary_income
+COGNIZANT PAYROLL 5448,salary_income
+COGNIZANT*PAYROLL,salary_income
+FLIPKART INTERNET SALARY,salary_income
+FLIPKART INTERNET SALARY 90777,salary_income
+FLIPKART INTERNET SALARY DELHI,salary_income
+FLIIPKART INTERNET SALARY,salary_income
+FLIPKART INTERNET,salary_income
+LTIMINDTREE PAYROLL,salary_income
+LTIMINDTREE PAYROLL 5289,salary_income
+LTIMINDTREE*PAYROLL,salary_income
+LTIMINDTREE PAYROLL DELHI,salary_income
+ORACLE INDIA PAYROLL,salary_income
+ORACLEE INDIA PAYROLL,salary_income
+ORACLE INDIA PAYROLL CHENNAI,salary_income
+ORACLE INDIA PAYROLL 6230,salary_income
+ORACLE*INDIA PAYROLL,salary_income
+ORACLE INDIA,salary_income
+SBI STAFF SALARY,salary_income
+SBI STAFF SSALARY,salary_income
+SBI STAFF SALARY 237141,salary_income
+SBI STAFF,salary_income
+SBI STAFF SALARY HYD,salary_income
+SWIGGY SALARY CREDIT,salary_income
+SWIGGY SALARY CREDIT 5030,salary_income
+SWIGGY SALARY CEDIT,salary_income
+SWIGGY*SALARY CREDIT,salary_income
+SWIGGY SALARY CREDIT BLR,salary_income
+TCS PAYRLOL,salary_income
+TCS*PAYROLL,salary_income
+TCS PAYROLL 0942,salary_income
+BEWAKOOF,shopping
+BEWAKOOF 5411,shopping
+BEEWAKOOF,shopping
+BEWAKOOF LTD,shopping
+FOOTWEAR SHOP 0292,shopping
+FOOTWEAR SHOP BLR,shopping
+FOOTWEARSHOP,shopping
+HAMLEYS,shopping
+HAMLEYS 35827,shopping
+HAMLEYS SERVICES,shopping
+MALLP URCHASE,shopping
+MALL PURCHASE 2484,shopping
+MALL*PURCHASE,shopping
+MALLPURCHASE,shopping
+RAYMOND SHOP,shopping
+RAYMOND*SHOP,shopping
+RAYMOND SHOP 6016,shopping
+RAYMOND SHOP PAYMENTS,shopping
+RAYMONDSHOP,shopping
+TATA CLIQ,shopping
+TATA CLIQ LLP,shopping
+TTA CLIQ,shopping
+TATA*CLIQ,shopping
+TITAN WORLD,shopping
+TITAN*WORLD,shopping
+TITA WORLD,shopping
+TITANWORLD,shopping
+WESTSIDE,shopping
+WESTSIDE 5682,shopping
+WESTSIIDE,shopping
+WESTSIDE SERVICES,shopping
+ZARA INDIA,shopping
+ZARA INDIA BLR,shopping
+ZARA INNDIA,shopping
+BEST BUS TICKET,transport
+BEST BUS ITCKET,transport
+BEST BUS,transport
+BEST BUS TICKET 96177,transport
+BEST*BUS TICKET,transport
+CAR WASH AND SERVICE,transport
+CAR WASH,transport
+CAR*WASH AND SERVICE,transport
+CAR WASH AND SERVICE 41287,transport
+CAR WASH AND SERIVCE,transport
+CHENNAI METRO CARD,transport
+CHENNAI EMTRO CARD,transport
+CHENNAI METRO CARD LLP,transport
+CHENNAI METRO,transport
+CHENNAI*METRO CARD,transport
+DELHI METRO RECHARGE,transport
+DELHI METRO RECHARGE 50654,transport
+DELHI METRO,transport
+DELHI METRO RECHARGGE,transport
+DELHI METRO RECHARGE BLR,transport
+DELHI*METRO RECHARGE,transport
+KOCHI METRO,transport
+KOCHI*METRO,transport
+KOCHI METRO 470307,transport
+KOCHIM ETRO,transport
+KOCHIMETRO,transport
+MSRTC PASS,transport
+MSRTC PASS 9408,transport
+MSRTC PASS PAYMENTS,transport
+MSRTC*PASS,transport
+MSRTC PSS,transport
+TVS SERVICE CENTRE,transport
+TVS SERVICE,transport
+TVS SERVVICE CENTRE,transport
+TVS*SERVICE CENTRE,transport
+TVS SERVICE CENTRE 1810,transport
+YULU BIKE,transport
+YULU*BIKE,transport
+YULU BIKE 560070,transport
+YUL BIKE,transport
+YULU BIKE DELHI,transport
+ABHIBUS,travel
+ABHIBUS 547229,travel
+ABHIBUS LTD,travel
+ABIBUS,travel
+AGODA,travel
+AGODA 0987,travel
+AGODA PVT LTD,travel
+AIR INDIA EXPRESS,travel
+AIR INDIA EXPRESS DELHI,travel
+AIR INDIA EXPREESS,travel
+AIR INDIA EXPRESS 225075,travel
+AIR*INDIA EXPRESS,travel
+AIR INDIA,travel
+AIR*INDIA TICKET,travel
+AIR INIA TICKET,travel
+AIR INDIA TICKET 0690,travel
+AKASA AIR,travel
+AKSAA AIR,travel
+AKASA AIR MUMBAI,travel
+AKASA*AIR,travel
+ITC HOTELS,travel
+ITC*HOTELS,travel
+ITC HOTELS 4087,travel
+LEMON TREE HOTELS,travel
+LEMON TREE HOTELS 820998,travel
+LEMON*TREE HOTELS,travel
+LEMON TREE,travel
+VERANDA RACE COURSE,travel
+VERANDA RACCE COURSE,travel
+VERANDA RACE,travel
+VERANDA RACE COURSE HYD,travel
+VERANDA*RACE COURSE,travel
+ALLEN CAREER INSTITUTE FEE,tuition_fees
+ALLEN CAREER INSTITUTE FEE 616314,tuition_fees
+ALLEN CAREER,tuition_fees
+ALLEN CAREER INNSTITUTE FEE,tuition_fees
+ALLENCAREER,tuition_fees
+BIRLA OPEN MINDS SCHOOL,tuition_fees
+BIRLA PEN MINDS SCHOOL,tuition_fees
+BIRLA OPEN,tuition_fees
+BIRLA OPEN MINDS SCHOOL 345983,tuition_fees
+BIRLA*OPEN MINDS SCHOOL,tuition_fees
+COACHING CENTRE FEES,tuition_fees
+COACHING CENTRE FEES IN,tuition_fees
+COACHING CENTRE,tuition_fees
+COACHING CENTRE FEES 7991,tuition_fees
+COACHING*CENTRE FEES,tuition_fees
+DAV PUBLIC SCHOOL FEES,tuition_fees
+DAV PUBILC SCHOOL FEES,tuition_fees
+DAV PUBLIC SCHOOL FEES BLR,tuition_fees
+DAV*PUBLIC SCHOOL FEES,tuition_fees
+DAV PUBLIC,tuition_fees
+GREENWOOD HIGH SCHOOL FEE,tuition_fees
+GREENWOOD HIGH,tuition_fees
+GREENWOOD*HIGH SCHOOL FEE,tuition_fees
+GREENWOOD HIGHS CHOOL FEE,tuition_fees
+GREENWOOD HIGH SCHOOL FEE 60579,tuition_fees
+PODAR SCHOOL TERM FEES,tuition_fees
+PODAR SCHOOL,tuition_fees
+PODAR SCHOOL TERM FEES 93947,tuition_fees
+PODAR SCHOL TERM FEES,tuition_fees
+PODAR*SCHOOL TERM FEES,tuition_fees
+RYAN INTERNATIONAL SCHOOL FEE,tuition_fees
+RYAN INTERNATIONNAL SCHOOL FEE,tuition_fees
+RYAN*INTERNATIONAL SCHOOL FEE,tuition_fees
+RYAN INTERNATIONAL SCHOOL FEE LTD,tuition_fees
+RYAN INTERNATIONAL,tuition_fees
+SYMBIOSIS FEE PAYMENT,tuition_fees
+SYMIOSIS FEE PAYMENT,tuition_fees
+SYMBIOSIS FEE,tuition_fees
+SYMBIOSIS FEE PAYMENT INDIA,tuition_fees
+AXIS CARD PAYMENT,uncategorized
+AXIS CARD PAYMENT ONLINE,uncategorized
+AXISCARD PAYMENT,uncategorized
+AXIS CARD PAYMENT 38227,uncategorized
+AXISCARD,uncategorized
+BANK CHARGES,uncategorized
+BANK CHARGES PVT LTD,uncategorized
+BANK*CHARGES,uncategorized
+BANKCHARGES,uncategorized
+CHIT FUND INSTALMENT,uncategorized
+CHIT FUND INSTALMENT LTD,uncategorized
+CHIT FUND,uncategorized
+CHIT FUND INSTALMENT 112307,uncategorized
+CHITFUND,uncategorized
+ELECTRICIAN SERVICE,uncategorized
+ELECTRIIAN SERVICE,uncategorized
+ELECTRICIAN*SERVICE,uncategorized
+ELECTRICIAN SERVICE 903230,uncategorized
+GIFT CENTRE,uncategorized
+GIFT CENTRE 597626,uncategorized
+GIFT CENTRE INDIA,uncategorized
+GIFT*CENTRE,uncategorized
+GIFTT CENTRE,uncategorized
+LAKSHMI NARAYANA,uncategorized
+LAKSHMI*NARAYANA,uncategorized
+LAKSHMI NARAYANA LLP,uncategorized
+LAKSHMI ARAYANA,uncategorized
+LAKSHMINARAYANA,uncategorized
+MAHALAKSHMI AGENCIES,uncategorized
+MAHALAKSHMI AGENCIES 36301,uncategorized
+MAHALAKSHMI AGENCIES PVT LTD,uncategorized
+MAHALAKSHMI AGENICES,uncategorized
+MAHALAKSHMI*AGENCIES,uncategorized
+PHARMEASY,uncategorized
+PHAREASY,uncategorized
+PHARMEASY 8560,uncategorized
+PRIYA SHARMA,uncategorized
+PRIYA*SHARMA,uncategorized
+PRIY SHARMA,uncategorized
+SAMEER KHAN,uncategorized
+SAMEER KHAN ONLINE,uncategorized
+SAMER KHAN,uncategorized
+SAMEER*KHAN,uncategorized
+SAMEER KHAN 557451,uncategorized
+SURESH BABU,uncategorized
+SURESH BABU 364085,uncategorized
+SURESH*BABU,uncategorized
+SURESH BABU SERVICES,uncategorized
+SUREHS BABU,uncategorized
+UNITED MEDICALS,uncategorized
+UNITED MEDICALS 94364,uncategorized
+UNITED MMEDICALS,uncategorized
+VENKAT STORES,uncategorized
+VENKAT*STORES,uncategorized
+VENKAT STORES INDIA,uncategorized
+VENKAT STORES 5425,uncategorized
+ACT BROADBAND,utilities
+ACT BROADBAND SERVICES,utilities
+ACT BROADBAND 881824,utilities
+ACTBROADBAND,utilities
+BESCOM 27674,utilities
+BESSCOM,utilities
+BESCOM INDIA,utilities
+ELECTRICITYBILL,utilities
+ELECTRICITY BILL 8253,utilities
+ELECTRICITY*BILL,utilities
+EXCITEL BROADBAND,utilities
+EXCITEL BROADBAND 0453,utilities
+EXCITEL*BROADBAND,utilities
+EXCITELBROADBAND,utilities
+JIO PREPAID 651500,utilities
+JIO PREPAID PVT LTD,utilities
+JIOPREPAID,utilities
+PROPERTY TAX PAYMENT,utilities
+PROPETY TAX PAYMENT,utilities
+PROPERTY TAX PAYMENT CHENNAI,utilities
+PROPERTY TAX PAYMENT 3777,utilities
+PROPERTYTAX,utilities
+UPPCL BILL,utilities
+UPPCL*BILL,utilities
+UPPCL BILL PAYMENTS,utilities
+WATER BOARD,utilities
+WATERBOARD BILL,utilities
+WATER BOARD BILL 86042,utilities
+WATERBOARD,utilities

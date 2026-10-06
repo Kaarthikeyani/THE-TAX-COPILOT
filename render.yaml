@@ -1,0 +1,20 @@
+# Demo deploy on Render (https://render.com): New > Blueprint > pick this repo, paste GEMINI_API_KEY when asked.
+services:
+  - type: web
+    name: tax-copilot-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python run.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: COPILOT_DEMO          # fake data, no phone login, no SMS forwarding
+        value: "1"
+      - key: COPILOT_HOST
+        value: 0.0.0.0
+      - key: GEMINI_API_KEY        # free key from https://aistudio.google.com/apikey - enter it in Render, never commit it
+        sync: false
+      - key: COPILOT_AI_DAILY_CAP  # max AI answers per day across all visitors (keeps you inside the free quota)
+        value: "200"

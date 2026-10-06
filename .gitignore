@@ -1,0 +1,17 @@
+**/data/secret.key
+**/data/copilot.db
+**/data/copilot.db-*
+**/data/backups/
+**/data/events.jsonl
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+.pytest_cache/
+
+android/build/
+android/debug.keystore
+
+node_modules/
+*.apk

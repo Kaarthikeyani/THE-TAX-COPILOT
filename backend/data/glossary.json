@@ -1,0 +1,353 @@
+[
+ {
+  "id": "income",
+  "term": "Income",
+  "group": "Money basics",
+  "simple": "Money coming in to you: salary, client payments, interest.",
+  "example": "You get ₹80,000 in your bank on salary day.",
+  "depends": "Your job, your clients, how many hours you work.",
+  "changes": "Changes every month if you are a freelancer; fairly steady if salaried."
+ },
+ {
+  "id": "expenses",
+  "term": "Expenses",
+  "group": "Money basics",
+  "simple": "Money going out: rent, food, bills, shopping.",
+  "example": "Rent ₹15,000 + food ₹8,000 + bills ₹4,000 = ₹27,000 a month.",
+  "depends": "Where you live and your lifestyle.",
+  "changes": "Rises when prices rise or when you add EMIs and subscriptions."
+ },
+ {
+  "id": "savings",
+  "term": "Savings",
+  "group": "Money basics",
+  "simple": "What is left after expenses: income minus expenses.",
+  "example": "₹80,000 income - ₹60,000 expenses = ₹20,000 saved.",
+  "depends": "Income and spending.",
+  "changes": "Grows if you earn more or spend less."
+ },
+ {
+  "id": "balance",
+  "term": "Balance",
+  "group": "Money basics",
+  "simple": "The money sitting in your bank account right now.",
+  "example": "Your bank SMS says 'Avl Bal Rs 45,000'.",
+  "depends": "Every credit and debit.",
+  "changes": "Changes after every transaction."
+ },
+ {
+  "id": "debit",
+  "term": "Debit",
+  "group": "Money basics",
+  "simple": "Money leaving your account.",
+  "example": "'Rs 500 debited' means you paid ₹500.",
+  "depends": "Your spending.",
+  "changes": "Each payment makes your balance smaller."
+ },
+ {
+  "id": "credit",
+  "term": "Credit",
+  "group": "Money basics",
+  "simple": "Money entering your account.",
+  "example": "'Rs 50,000 credited' means you received ₹50,000.",
+  "depends": "Salary, client payments, refunds.",
+  "changes": "Each credit makes your balance bigger."
+ },
+ {
+  "id": "upi",
+  "term": "UPI",
+  "group": "Money basics",
+  "simple": "Instant bank-to-bank payment using a phone app.",
+  "example": "Paying a chai shop by scanning a QR.",
+  "depends": "Needs your bank account linked to a UPI app.",
+  "changes": "Every UPI payment creates an SMS this app can read."
+ },
+ {
+  "id": "emi",
+  "term": "EMI",
+  "group": "Money basics",
+  "simple": "A fixed monthly instalment to repay a loan.",
+  "example": "A ₹20,000 EMI on a home loan, every month.",
+  "depends": "Loan amount, interest rate, number of months.",
+  "changes": "Stays fixed, but part of it is interest and part repays the loan."
+ },
+ {
+  "id": "interest",
+  "term": "Interest",
+  "group": "Money basics",
+  "simple": "The price of money. You earn it on savings and pay it on loans.",
+  "example": "₹1,00,000 in a 7% fixed deposit earns about ₹7,000 in a year.",
+  "depends": "The rate and how long money stays.",
+  "changes": "Higher rate or longer time means more interest."
+ },
+ {
+  "id": "inflation",
+  "term": "Inflation",
+  "group": "Money basics",
+  "simple": "Prices rising over time, so the same money buys less.",
+  "example": "At 6% inflation, ₹100 of goods today costs about ₹201 in 12 years.",
+  "depends": "Economy-wide prices.",
+  "changes": "Money kept idle slowly loses buying power."
+ },
+ {
+  "id": "compound",
+  "term": "Compound interest",
+  "group": "Money basics",
+  "simple": "Interest earning interest. This is why starting early matters.",
+  "example": "₹10,000 at 10% a year becomes about ₹25,900 in 10 years, without adding anything.",
+  "depends": "Rate, time, and how long you leave it.",
+  "changes": "Doubling the time does far more than doubling the amount."
+ },
+ {
+  "id": "emergency_fund",
+  "term": "Emergency fund",
+  "group": "Safety",
+  "simple": "Cash kept aside for surprises like job loss or hospital bills.",
+  "example": "If you spend ₹30,000 a month, keep ₹90,000 to ₹1,80,000 (3 to 6 months).",
+  "depends": "Your monthly expenses and job stability.",
+  "changes": "Grows as your expenses grow. Freelancers need more."
+ },
+ {
+  "id": "buffer",
+  "term": "Safety buffer",
+  "group": "Safety",
+  "simple": "The cash this app asks you never to invest. Set in your Profile.",
+  "example": "3 months x ₹35,000 = ₹1,05,000 stays untouched.",
+  "depends": "Months you choose x monthly expenses.",
+  "changes": "Raise it if your income is uncertain."
+ },
+ {
+  "id": "runway",
+  "term": "Runway",
+  "group": "Safety",
+  "simple": "How many months you can live on your balance with no income.",
+  "example": "₹2,20,000 balance / ₹35,000 spend = 6.3 months.",
+  "depends": "Balance and spending.",
+  "changes": "Shrinks when you spend more or your balance falls."
+ },
+ {
+  "id": "liquidity",
+  "term": "Liquidity",
+  "group": "Safety",
+  "simple": "How quickly something turns into cash. Bank balance is liquid; a locked-in fund is not.",
+  "example": "Savings account: instant. PPF: locked for years.",
+  "depends": "The type of investment.",
+  "changes": "Locking money in tax-savers lowers your liquidity."
+ },
+ {
+  "id": "health_insurance",
+  "term": "Health insurance",
+  "group": "Safety",
+  "simple": "A policy that pays hospital bills so one illness does not wipe out your savings.",
+  "example": "₹10 lakh cover for about ₹10,000 a year.",
+  "depends": "Age, city, cover amount, family size.",
+  "changes": "Premium rises with age and claims."
+ },
+ {
+  "id": "term_insurance",
+  "term": "Term insurance",
+  "group": "Safety",
+  "simple": "Pure life cover. If you die during the term, your family gets a lump sum. No payout if you survive.",
+  "example": "₹1 crore cover for roughly ₹10,000 a year at 30.",
+  "depends": "Age, health, cover, term.",
+  "changes": "Much cheaper when you buy young."
+ },
+ {
+  "id": "fy",
+  "term": "Financial year (FY)",
+  "group": "Tax",
+  "simple": "The tax year: 1 April to 31 March. Not January to December.",
+  "example": "FY2026-27 runs 1 Apr 2026 to 31 Mar 2027.",
+  "depends": "Fixed by law.",
+  "changes": "Your deadlines and limits reset each 1 April."
+ },
+ {
+  "id": "tax",
+  "term": "Income tax",
+  "group": "Tax",
+  "simple": "The share of your income you pay the government.",
+  "example": "Higher slabs apply only to the extra income, not all of it.",
+  "depends": "Income, regime, deductions.",
+  "changes": "Changes with your income and the rules each Budget."
+ },
+ {
+  "id": "slab",
+  "term": "Tax slab",
+  "group": "Tax",
+  "simple": "Income is taxed in layers. Each layer has its own rate.",
+  "example": "New regime FY2025-26: nothing up to ₹4L, 5% on the next ₹4L, 10% on the next ₹4L, and so on.",
+  "depends": "Your taxable income.",
+  "changes": "Earning ₹1 more only taxes that ₹1 at the top layer's rate."
+ },
+ {
+  "id": "regime",
+  "term": "Old vs New regime",
+  "group": "Tax",
+  "simple": "Two ways to calculate tax. New has lower rates but few deductions. Old has higher rates but lets you deduct 80C, 80D and more.",
+  "example": "If your deductions are small, New usually wins. Use the Tax page to check yours.",
+  "depends": "Your income and how many deductions you can claim.",
+  "changes": "The better one can flip when your income or investments change."
+ },
+ {
+  "id": "taxable",
+  "term": "Taxable income",
+  "group": "Tax",
+  "simple": "Income left after allowed deductions. Tax is calculated on this, not on your full income.",
+  "example": "₹10L income - ₹1.5L (80C) - ₹50K (standard) = ₹8L taxable (old regime).",
+  "depends": "Income minus deductions.",
+  "changes": "More deductions mean lower taxable income."
+ },
+ {
+  "id": "standard_deduction",
+  "term": "Standard deduction",
+  "group": "Tax",
+  "simple": "A fixed amount salaried people subtract automatically.",
+  "example": "₹75,000 in the new regime, ₹50,000 in the old.",
+  "depends": "Only for salaried and pensioners.",
+  "changes": "Set by the Budget. Freelancers do not get it."
+ },
+ {
+  "id": "deduction",
+  "term": "Deduction",
+  "group": "Tax",
+  "simple": "An amount the law lets you subtract before tax is calculated.",
+  "example": "Paying ₹1.5L into PPF reduces taxable income by ₹1.5L (old regime).",
+  "depends": "The section's limit and your regime.",
+  "changes": "Each section has a yearly cap you can use up."
+ },
+ {
+  "id": "87A",
+  "term": "Rebate 87A",
+  "group": "Tax",
+  "simple": "A discount that makes tax zero for lower incomes.",
+  "example": "New regime FY2025-26: no tax if taxable income is up to ₹12 lakh.",
+  "depends": "Taxable income and regime.",
+  "changes": "Crossing the limit can bring tax back, with some relief just above it."
+ },
+ {
+  "id": "cess",
+  "term": "Cess",
+  "group": "Tax",
+  "simple": "A 4% extra charge added on top of your tax.",
+  "example": "₹10,000 tax + 4% cess = ₹10,400.",
+  "depends": "Fixed at 4%.",
+  "changes": "Grows with your tax."
+ },
+ {
+  "id": "80C",
+  "term": "Section 80C",
+  "group": "Tax saving",
+  "simple": "Deduct up to ₹1.5 lakh a year for ELSS, PPF, EPF, life insurance premiums, tuition fees. Old regime only.",
+  "example": "Put ₹1.5L in ELSS and PPF, and your taxable income drops by ₹1.5L.",
+  "depends": "Your regime and how much you already used.",
+  "changes": "Once the ₹1.5L is full, extra adds no further deduction."
+ },
+ {
+  "id": "elss",
+  "term": "ELSS",
+  "group": "Tax saving",
+  "simple": "A mutual fund that invests in shares and counts under 80C. Locked for 3 years. Value can go up or down.",
+  "example": "₹25,000 a month SIP into an ELSS fund.",
+  "depends": "Market performance.",
+  "changes": "Returns are not guaranteed and can be negative."
+ },
+ {
+  "id": "ppf",
+  "term": "PPF / EPF",
+  "group": "Tax saving",
+  "simple": "Government-backed long-term savings. PPF is 15 years. EPF is the provident fund cut from salary.",
+  "example": "₹20,000 into PPF counts under 80C.",
+  "depends": "Government-set interest rates.",
+  "changes": "Rates are reviewed by the government every quarter."
+ },
+ {
+  "id": "nps",
+  "term": "NPS",
+  "group": "Tax saving",
+  "simple": "A pension account. Up to ₹50,000 extra deduction under 80CCD(1B), old regime.",
+  "example": "₹10,000 a month into NPS until you retire.",
+  "depends": "Chosen mix of shares and bonds.",
+  "changes": "Money is locked until retirement, with limited early withdrawal."
+ },
+ {
+  "id": "80d",
+  "term": "Section 80D",
+  "group": "Tax saving",
+  "simple": "Deduct health insurance premiums: ₹25,000 (₹50,000 for seniors). Preventive check-ups up to ₹5,000 inside that limit. Old regime only.",
+  "example": "₹18,000 premium means ₹18,000 deduction.",
+  "depends": "Age of insured people.",
+  "changes": "Higher if parents are senior citizens."
+ },
+ {
+  "id": "advance_tax",
+  "term": "Advance tax",
+  "group": "Tax",
+  "simple": "If you owe ₹10,000 or more after TDS, you pay in four instalments through the year. Mainly freelancers.",
+  "example": "15 Jun: 15%, 15 Sep: 45%, 15 Dec: 75%, 15 Mar: 100% (cumulative).",
+  "depends": "Your estimated tax for the year.",
+  "changes": "Rises if your income rises. Late payment adds interest."
+ },
+ {
+  "id": "tds",
+  "term": "TDS",
+  "group": "Tax",
+  "simple": "Tax deducted before you receive money, for example from salary or client payments.",
+  "example": "Client pays ₹90,000 instead of ₹1,00,000. ₹10,000 went to the tax office on your behalf.",
+  "depends": "The payer and type of payment.",
+  "changes": "Counts as tax you already paid."
+ },
+ {
+  "id": "mutual_fund",
+  "term": "Mutual fund",
+  "group": "Investing",
+  "simple": "A pool of many people's money invested in shares or bonds by a professional.",
+  "example": "₹500 a month buys a small slice of 50 companies.",
+  "depends": "The market and the fund's costs.",
+  "changes": "Value goes up and down. Longer holding lowers the risk of loss."
+ },
+ {
+  "id": "sip",
+  "term": "SIP",
+  "group": "Investing",
+  "simple": "Investing a fixed amount every month automatically.",
+  "example": "₹5,000 on the 5th of every month.",
+  "depends": "The amount and date you set.",
+  "changes": "Buys more units when prices are low and fewer when high."
+ },
+ {
+  "id": "fd",
+  "term": "Fixed deposit",
+  "group": "Investing",
+  "simple": "You lock money in a bank for a fixed period at a fixed interest rate. Interest is taxable.",
+  "example": "₹1,00,000 for 1 year at 7%.",
+  "depends": "Bank rate and time.",
+  "changes": "Rates move with the economy. Breaking early costs a penalty."
+ },
+ {
+  "id": "tax_drag",
+  "term": "Tax drag score",
+  "group": "This app",
+  "simple": "How much avoidable tax you may be paying. 100 means nothing left to save.",
+  "example": "Score 70 means roughly 30% of your tax could be reduced.",
+  "depends": "Unused deductions and your regime.",
+  "changes": "Improves as you use more of your limits."
+ },
+ {
+  "id": "confidence",
+  "term": "Confidence score",
+  "group": "This app",
+  "simple": "How sure the app is that it labelled a transaction correctly.",
+  "example": "95% means a known merchant. Under 50% means please check it.",
+  "depends": "Whether the merchant was known or a guess.",
+  "changes": "Improves when you correct a label."
+ },
+ {
+  "id": "precision_recall",
+  "term": "Precision, recall, accuracy",
+  "group": "This app",
+  "simple": "How we measure the app's guesses. Accuracy: how often it is right. Precision: when it says '80C', how often that is true. Recall: of all real 80C payments, how many it found.",
+  "example": "Precision 96% and recall 90% means 96 of 100 deductions it claims are real, and it finds 90 of 100 real ones.",
+  "depends": "The test messages used.",
+  "changes": "See the Accuracy page for our real numbers and their limits."
+ }
+]

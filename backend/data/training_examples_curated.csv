@@ -1,0 +1,209 @@
+text,category
+AXIS LONG TERM EQUITY FUND,elss_investment
+ELSS TAX SAVER GROWTH,elss_investment
+MIRAE ASSET TAX SAVER,elss_investment
+TAX SAVING MUTUAL FUND,elss_investment
+PARAG PARIKH TAX SAVER,elss_investment
+QUANT TAX PLAN,elss_investment
+SBI LONG TERM EQUITY,elss_investment
+ELSS SIP INSTALMENT,elss_investment
+TAX SAVER FUND SIP,elss_investment
+BANDHAN TAX ADVANTAGE,elss_investment
+FRANKLIN TAXSHIELD,elss_investment
+LIC PREMIUM,life_insurance
+LIFE INSURANCE CORPORATION,life_insurance
+HDFC LIFE CLICK2PROTECT,life_insurance
+TERM LIFE PLAN PREMIUM,life_insurance
+SBI LIFE SMART,life_insurance
+MAX LIFE INSURANCE,life_insurance
+ICICI PRU IPROTECT,life_insurance
+TATA AIA LIFE,life_insurance
+ENDOWMENT POLICY PREMIUM,life_insurance
+TERM INSURANCE RENEWAL,life_insurance
+ULIP PREMIUM,life_insurance
+PPF DEPOSIT,ppf_epf
+PUBLIC PROVIDENT FUND,ppf_epf
+PPF ACCOUNT CONTRIBUTION,ppf_epf
+VOLUNTARY PROVIDENT FUND,ppf_epf
+EPF CONTRIBUTION,ppf_epf
+POST OFFICE PPF,ppf_epf
+SUKANYA SAMRIDDHI,ppf_epf
+NSC NATIONAL SAVINGS CERTIFICATE,ppf_epf
+TAX SAVER FIXED DEPOSIT 5 YEAR,ppf_epf
+SCHOOL TUITION FEE,tuition_fees
+COLLEGE FEES PAYMENT,tuition_fees
+UNIVERSITY EXAM FEE,tuition_fees
+KIDS SCHOOL TERM FEES,tuition_fees
+ENGINEERING COLLEGE TUITION,tuition_fees
+ACADEMY FEE PAYMENT,tuition_fees
+INSTITUTE OF TECHNOLOGY FEES,tuition_fees
+PUBLIC SCHOOL ANNUAL FEE,tuition_fees
+EDUCATION FEE SEMESTER,tuition_fees
+NPS TIER 1 CONTRIBUTION,nps
+NATIONAL PENSION SYSTEM,nps
+NPS TRUST PRAN,nps
+PROTEAN NPS,nps
+ATAL PENSION,nps
+PENSION FUND CONTRIBUTION,nps
+NPS ADDITIONAL CONTRIBUTION,nps
+KFINTECH NPS,nps
+STAR HEALTH INSURANCE,health_insurance
+CARE HEALTH PREMIUM,health_insurance
+NIVA BUPA HEALTH,health_insurance
+FAMILY FLOATER MEDICLAIM,health_insurance
+MEDICLAIM POLICY RENEWAL,health_insurance
+HDFC ERGO OPTIMA,health_insurance
+HEALTH POLICY PREMIUM,health_insurance
+ACKO HEALTH INSURANCE,health_insurance
+PARENTS MEDICAL INSURANCE,health_insurance
+MANIPAL CIGNA HEALTH,health_insurance
+FULL BODY CHECKUP,preventive_healthcare
+HEALTH CHECKUP PACKAGE,preventive_healthcare
+MASTER HEALTH CHECK,preventive_healthcare
+DIAGNOSTIC CENTRE,preventive_healthcare
+PATHOLOGY LAB,preventive_healthcare
+BLOOD TEST PACKAGE,preventive_healthcare
+WELLNESS SCREENING,preventive_healthcare
+PREVENTIVE HEALTH CHECK,preventive_healthcare
+ANNUAL HEALTH CHECKUP,preventive_healthcare
+THYROID PROFILE TEST,preventive_healthcare
+DIAGNOSTICS LABS,preventive_healthcare
+EXECUTIVE HEALTH CHECK,preventive_healthcare
+HOME LOAN EMI,home_loan_interest
+HOUSING FINANCE EMI,home_loan_interest
+HDFC LTD HOME LOAN,home_loan_interest
+SBI HOME LOAN INSTALMENT,home_loan_interest
+LIC HOUSING FINANCE,home_loan_interest
+MORTGAGE EMI,home_loan_interest
+PNB HOUSING,home_loan_interest
+HOME LOAN REPAYMENT,home_loan_interest
+BAJAJ HOUSING FINANCE EMI,home_loan_interest
+DONATION TO CHARITY,donation
+PM CARES FUND,donation
+GIVEINDIA DONATION,donation
+NGO DONATION,donation
+CHARITABLE TRUST CONTRIBUTION,donation
+CHILD EDUCATION FOUNDATION,donation
+ANIMAL WELFARE SOCIETY,donation
+RELIEF FUND CONTRIBUTION,donation
+TEMPLE TRUST DONATION,donation
+SWIGGY ORDER,food_dining
+ZOMATO,food_dining
+DOMINOS PIZZA,food_dining
+RESTAURANT BILL,food_dining
+CAFE COFFEE,food_dining
+BIRYANI HOUSE,food_dining
+BAKERY AND SWEETS,food_dining
+MCDONALDS,food_dining
+TIFFIN CENTER,food_dining
+FOOD COURT,food_dining
+DHABA,food_dining
+ICE CREAM PARLOUR,food_dining
+BIGBASKET,groceries
+BLINKIT,groceries
+DMART,groceries
+SUPERMARKET,groceries
+KIRANA STORE,groceries
+FRESH VEGETABLES,groceries
+MILK DAIRY,groceries
+ZEPTO,groceries
+GENERAL STORES,groceries
+FRUITS AND VEG,groceries
+RELIANCE SMART,groceries
+AMAZON PAY,shopping
+FLIPKART,shopping
+MYNTRA FASHION,shopping
+AJIO,shopping
+LIFESTYLE STORES,shopping
+MALL PURCHASE,shopping
+ELECTRONICS STORE,shopping
+CROMA,shopping
+READYMADE GARMENTS,shopping
+SHOPPERS STOP,shopping
+FOOTWEAR SHOP,shopping
+UBER TRIP,transport
+OLA CABS,transport
+RAPIDO,transport
+AUTO RICKSHAW,transport
+METRO CARD RECHARGE,transport
+BUS PASS,transport
+CAB RIDE,transport
+PARKING CHARGES,transport
+FASTAG RECHARGE,transport
+TOLL PLAZA,transport
+INDIAN OIL PETROL PUMP,fuel
+HPCL FUEL,fuel
+BPCL,fuel
+SHELL PETROL,fuel
+PETROL BUNK,fuel
+FUEL STATION,fuel
+DIESEL FILLING,fuel
+RELIANCE PETROL,fuel
+AIRTEL RECHARGE,utilities
+JIO PREPAID,utilities
+ELECTRICITY BILL,utilities
+BESCOM,utilities
+WATER BOARD BILL,utilities
+BROADBAND INTERNET,utilities
+GAS CYLINDER,utilities
+DTH RECHARGE,utilities
+TATA POWER BILL,utilities
+MOBILE POSTPAID BILL,utilities
+MUNICIPAL TAX,utilities
+NETFLIX,entertainment
+SPOTIFY,entertainment
+BOOKMYSHOW,entertainment
+HOTSTAR SUBSCRIPTION,entertainment
+MOVIE TICKETS,entertainment
+PVR CINEMAS,entertainment
+GAMING STORE,entertainment
+AMAZON PRIME,entertainment
+CONCERT TICKETS,entertainment
+MUSIC STREAMING,entertainment
+MAKEMYTRIP,travel
+IRCTC TICKET,travel
+INDIGO AIRLINES,travel
+REDBUS,travel
+HOTEL BOOKING,travel
+RESORT STAY,travel
+GOIBIBO FLIGHT,travel
+AIR INDIA TICKET,travel
+TRAVEL AGENCY,travel
+HOMESTAY BOOKING,travel
+HOUSE RENT,rent
+MONTHLY RENT,rent
+LANDLORD PAYMENT,rent
+PG RENT,rent
+FLAT RENT,rent
+RENT TRANSFER,rent
+OFFICE RENT,rent
+ROOM RENT,rent
+SALARY CREDIT,salary_income
+PAYROLL TECHNOLOGIES PVT LTD,salary_income
+MONTHLY SALARY,salary_income
+SALARY FOR THE MONTH,salary_income
+STIPEND,salary_income
+INFOSYS SALARY,salary_income
+TCS PAYROLL,salary_income
+WIPRO LIMITED SALARY,salary_income
+DIVIDEND PAYOUT,other_income
+REVERSAL OF FAILED TXN,other_income
+NEFT FROM SPOUSE,other_income
+UPI RECEIVED FROM RELATIVE,other_income
+BANK INTEREST CREDIT,other_income
+CASHBACK CREDITED,other_income
+REFUND PROCESSED,other_income
+IMPS FROM FAMILY MEMBER,other_income
+GIFT MONEY RECEIVED,other_income
+SELF TRANSFER OWN ACCOUNT,other_income
+INCOME TAX REFUND ITD,other_income
+UPWORK ESCROW,freelance_income
+FIVERR WITHDRAWAL,freelance_income
+CLIENT PAYMENT INVOICE,freelance_income
+FREELANCE PROJECT PAYMENT,freelance_income
+PAYONEER TRANSFER,freelance_income
+CONSULTING FEES RECEIVED,freelance_income
+DESIGN PROJECT PAYMENT,freelance_income
+RAZORPAY SETTLEMENT,freelance_income
+WEBSITE DEVELOPMENT PAYMENT,freelance_income
+INVOICE SETTLEMENT,freelance_income

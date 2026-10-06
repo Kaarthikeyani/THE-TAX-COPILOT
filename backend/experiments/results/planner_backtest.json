@@ -1,0 +1,141 @@
+{
+ "label": "SYNTHETIC",
+ "world": "freelancer, m=1.3L/month, expenses 85k, opening cash 2.5L, buffer 3 months, 12% tax reserve, 4.5L other old-regime deductions",
+ "rows": [
+  {
+   "sigma": 0.1,
+   "policy": "none",
+   "n": 300,
+   "p_breach_buffer": 0.006666666666666667,
+   "p_cash_negative": 0.0,
+   "mean_invested": 0.0,
+   "mean_tax_saved": 0.0
+  },
+  {
+   "sigma": 0.1,
+   "policy": "adaptive",
+   "n": 300,
+   "p_breach_buffer": 0.006666666666666667,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9447.779166666667
+  },
+  {
+   "sigma": 0.1,
+   "policy": "upfront",
+   "n": 300,
+   "p_breach_buffer": 1.0,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9447.779166666667
+  },
+  {
+   "sigma": 0.1,
+   "policy": "equal_sip",
+   "n": 300,
+   "p_breach_buffer": 0.15666666666666668,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9447.779166666667
+  },
+  {
+   "sigma": 0.1,
+   "policy": "march_lump",
+   "n": 300,
+   "p_breach_buffer": 0.006666666666666667,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9447.779166666667
+  },
+  {
+   "sigma": 0.25,
+   "policy": "none",
+   "n": 300,
+   "p_breach_buffer": 0.20333333333333334,
+   "p_cash_negative": 0.0,
+   "mean_invested": 0.0,
+   "mean_tax_saved": 0.0
+  },
+  {
+   "sigma": 0.25,
+   "policy": "adaptive",
+   "n": 300,
+   "p_breach_buffer": 0.21333333333333335,
+   "p_cash_negative": 0.0,
+   "mean_invested": 138607.43333333332,
+   "mean_tax_saved": 7372.700733333334
+  },
+  {
+   "sigma": 0.25,
+   "policy": "upfront",
+   "n": 300,
+   "p_breach_buffer": 0.9966666666666667,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9518.249933333333
+  },
+  {
+   "sigma": 0.25,
+   "policy": "equal_sip",
+   "n": 300,
+   "p_breach_buffer": 0.47333333333333333,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9518.249933333333
+  },
+  {
+   "sigma": 0.25,
+   "policy": "march_lump",
+   "n": 300,
+   "p_breach_buffer": 0.20333333333333334,
+   "p_cash_negative": 0.0,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9518.249933333333
+  },
+  {
+   "sigma": 0.45,
+   "policy": "none",
+   "n": 300,
+   "p_breach_buffer": 0.48333333333333334,
+   "p_cash_negative": 0.0,
+   "mean_invested": 0.0,
+   "mean_tax_saved": 0.0
+  },
+  {
+   "sigma": 0.45,
+   "policy": "adaptive",
+   "n": 300,
+   "p_breach_buffer": 0.5466666666666666,
+   "p_cash_negative": 0.0,
+   "mean_invested": 107204.70666666667,
+   "mean_tax_saved": 4066.500066666667
+  },
+  {
+   "sigma": 0.45,
+   "policy": "upfront",
+   "n": 300,
+   "p_breach_buffer": 0.9666666666666667,
+   "p_cash_negative": 0.016666666666666666,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9243.948666666667
+  },
+  {
+   "sigma": 0.45,
+   "policy": "equal_sip",
+   "n": 300,
+   "p_breach_buffer": 0.6666666666666666,
+   "p_cash_negative": 0.0033333333333333335,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9243.948666666667
+  },
+  {
+   "sigma": 0.45,
+   "policy": "march_lump",
+   "n": 300,
+   "p_breach_buffer": 0.5033333333333333,
+   "p_cash_negative": 0.0033333333333333335,
+   "mean_invested": 150000.0,
+   "mean_tax_saved": 9243.948666666667
+  }
+ ]
+}

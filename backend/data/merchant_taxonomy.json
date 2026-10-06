@@ -1,0 +1,22 @@
+{
+  "elss_investment":   ["ELSS", "TAX SAVER", "LONG TERM EQUITY", "AXIS LONG TERM", "MIRAE ASSET TAX", "PARAG PARIKH TAX", "QUANT TAX", "KOTAK TAX SAVER"],
+  "life_insurance":    ["LIC", "LIC OF INDIA", "HDFC LIFE", "SBI LIFE", "MAX LIFE", "ICICI PRU", "ICICI PRUDENTIAL", "TATA AIA", "BAJAJ ALLIANZ LIFE"],
+  "ppf_epf":           ["PPF", "PUBLIC PROVIDENT", "EPFO", "VPF"],
+  "tuition_fees":      ["TUITION", "SCHOOL FEE", "COLLEGE FEE", "UNIVERSITY FEE"],
+  "nps":               ["NPS", "NATIONAL PENSION", "PROTEAN", "NPS TRUST"],
+  "health_insurance":  ["STAR HEALTH", "CARE HEALTH", "NIVA BUPA", "HDFC ERGO HEALTH", "HEALTH INSURANCE", "MEDIASSIST", "ACKO HEALTH"],
+  "preventive_healthcare": ["THYROCARE", "DR LAL PATH", "LAL PATHLABS", "METROPOLIS", "REDCLIFFE", "SRL DIAGNOSTICS"],
+  "home_loan_interest":["HOME LOAN", "HOUSING LOAN", "LIC HFL", "HDFC HOME LOAN", "SBI HOME LOAN", "BAJAJ HOUSING"],
+  "donation":          ["PM CARES", "GOONJ", "GIVEINDIA", "AKSHAYA PATRA", "UNICEF", "CRY INDIA", "DONATION"],
+  "food_dining":       ["SWIGGY", "ZOMATO", "DOMINOS", "MCDONALDS", "KFC", "STARBUCKS", "PIZZA HUT", "BURGER KING", "CAFE COFFEE DAY"],
+  "groceries":         ["BIGBASKET", "BLINKIT", "ZEPTO", "DMART", "RELIANCE FRESH", "SPENCERS", "INSTAMART"],
+  "shopping":          ["AMAZON", "FLIPKART", "MYNTRA", "AJIO", "MEESHO", "NYKAA", "DECATHLON"],
+  "transport":         ["UBER", "OLA", "RAPIDO", "NAMMA YATRI", "METRO RAIL"],
+  "fuel":              ["INDIAN OIL", "HPCL", "BPCL", "SHELL", "RELIANCE PETROL", "HP PETROL"],
+  "utilities":         ["AIRTEL", "JIO", "VODAFONE", "BSNL", "BESCOM", "TATA POWER", "ELECTRICITY", "ACT FIBERNET", "GAS BILL", "WATER BILL"],
+  "entertainment":     ["NETFLIX", "SPOTIFY", "HOTSTAR", "BOOKMYSHOW", "PRIME VIDEO", "YOUTUBE PREMIUM", "SONYLIV"],
+  "travel":            ["MAKEMYTRIP", "IRCTC", "INDIGO", "AIR INDIA", "GOIBIBO", "REDBUS", "CLEARTRIP", "YATRA"],
+  "rent":              ["RENT", "LANDLORD", "HOUSE RENT"],
+  "salary_income":     ["SALARY", "PAYROLL", "STIPEND"],
+  "freelance_income":  ["UPWORK", "FIVERR", "FREELANCE", "PAYONEER", "TOPTAL", "CLIENT PAYMENT", "INVOICE"]
+}

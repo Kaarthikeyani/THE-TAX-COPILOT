@@ -1,0 +1,4080 @@
+{
+ "label": "SYNTHETIC corpus: unseen merchants written by the authors. Not real-world accuracy.",
+ "date": "2026-10-05",
+ "dataset": {
+  "seed": 0,
+  "rows": {
+   "train": 3264,
+   "val": 1086,
+   "test": 1074
+  },
+  "entities": {
+   "train": 544,
+   "val": 181,
+   "test": 179
+  },
+  "classes": 22,
+  "class_counts_test": {
+   "donation": 48,
+   "elss_investment": 48,
+   "entertainment": 48,
+   "food_dining": 60,
+   "freelance_income": 54,
+   "fuel": 42,
+   "groceries": 48,
+   "health_insurance": 48,
+   "home_loan_interest": 42,
+   "life_insurance": 42,
+   "nps": 42,
+   "other_income": 54,
+   "ppf_epf": 36,
+   "preventive_healthcare": 42,
+   "rent": 42,
+   "salary_income": 48,
+   "shopping": 54,
+   "transport": 48,
+   "travel": 54,
+   "tuition_fees": 48,
+   "uncategorized": 72,
+   "utilities": 54
+  },
+  "sha256_16": {
+   "train": "2be3b025ceeb7109",
+   "val": "e0761b8d70f801e5",
+   "test": "e2512603c99dab87"
+  }
+ },
+ "selected": {
+  "name": "logreg",
+  "params": {
+   "C": 3.0
+  },
+  "selected_by": "validation macro-F1",
+  "val_macro_f1": 0.6867
+ },
+ "models": {
+  "majority": {
+   "name": "Majority (prior)",
+   "params": {},
+   "val_macro_f1": 0.031,
+   "tuning": [
+    {
+     "params": {},
+     "val_macro_f1": 0.031
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.1173,
+    "acc_wilson95": [
+     0.0994,
+     0.1379
+    ],
+    "macro": {
+     "precision": 0.0193,
+     "recall": 0.0909,
+     "f1": 0.03
+    },
+    "weighted": {
+     "precision": 0.0227,
+     "recall": 0.1173,
+     "f1": 0.0356
+    },
+    "mcc": 0.1083,
+    "kappa": 0.0564,
+    "top3_accuracy": 0.3184,
+    "log_loss": 2.667,
+    "brier": 0.9055,
+    "ece": 0.0051,
+    "reliability": [
+     {
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 918,
+      "conf": 0.08292682926829271,
+      "acc": 0.0784313725490196
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 156,
+      "conf": 0.35454545454545455,
+      "acc": 0.34615384615384615
+     }
+    ],
+    "tax_section_accuracy": 0.6313,
+    "deduction": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "false_deductions": 0,
+     "missed_deductions": 396
+    },
+    "by_direction": {
+     "debit": 0.0784,
+     "credit": 0.3462
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.3462,
+      "recall": 1.0,
+      "f1": 0.5143,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.0784,
+      "recall": 1.0,
+      "f1": 0.1455,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.07262569832402235,
+     0.16215083798882668
+    ],
+    "macro_f1_ci95": [
+     0.019966497270845096,
+     0.03881316183141755
+    ]
+   },
+   "train_seconds": 0.04,
+   "latency_ms_per_message": 0.81,
+   "model_kb": 116.1
+  },
+  "naive_bayes": {
+   "name": "Multinomial Naive Bayes",
+   "params": {
+    "alpha": 0.2
+   },
+   "val_macro_f1": 0.6129,
+   "tuning": [
+    {
+     "params": {
+      "alpha": 0.01
+     },
+     "val_macro_f1": 0.5947
+    },
+    {
+     "params": {
+      "alpha": 0.05
+     },
+     "val_macro_f1": 0.6082
+    },
+    {
+     "params": {
+      "alpha": 0.2
+     },
+     "val_macro_f1": 0.6129
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6965,
+    "acc_wilson95": [
+     0.6683,
+     0.7232
+    ],
+    "macro": {
+     "precision": 0.6997,
+     "recall": 0.7085,
+     "f1": 0.6969
+    },
+    "weighted": {
+     "precision": 0.6934,
+     "recall": 0.6965,
+     "f1": 0.6874
+    },
+    "mcc": 0.6827,
+    "kappa": 0.6818,
+    "top3_accuracy": 0.8454,
+    "log_loss": 1.4087,
+    "brier": 0.4538,
+    "ece": 0.1334,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 13,
+      "conf": 0.17474922243197785,
+      "acc": 0.0
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 48,
+      "conf": 0.24508187838633208,
+      "acc": 0.1875
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 49,
+      "conf": 0.34173989921512654,
+      "acc": 0.12244897959183673
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 47,
+      "conf": 0.46458012890967004,
+      "acc": 0.40425531914893614
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 62,
+      "conf": 0.5470852614201399,
+      "acc": 0.45161290322580644
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 51,
+      "conf": 0.6466138041547106,
+      "acc": 0.5098039215686274
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 51,
+      "conf": 0.7529893375596245,
+      "acc": 0.5294117647058824
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 77,
+      "conf": 0.8506661178522932,
+      "acc": 0.6233766233766234
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 676,
+      "conf": 0.9879581439911675,
+      "acc": 0.8653846153846154
+     }
+    ],
+    "tax_section_accuracy": 0.8687,
+    "deduction": {
+     "precision": 0.823,
+     "recall": 0.904,
+     "f1": 0.8616,
+     "false_deductions": 77,
+     "missed_deductions": 38
+    },
+    "by_direction": {
+     "debit": 0.6678,
+     "credit": 0.8654
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.5429,
+      "recall": 0.7917,
+      "f1": 0.6441,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.6905,
+      "recall": 0.6905,
+      "f1": 0.6905,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.625,
+      "recall": 0.5556,
+      "f1": 0.5882,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8824,
+      "recall": 0.9375,
+      "f1": 0.9091,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.875,
+      "recall": 0.8333,
+      "f1": 0.8537,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.7963,
+      "recall": 0.8958,
+      "f1": 0.8431,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.7647,
+      "recall": 0.9286,
+      "f1": 0.8387,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.8043,
+      "recall": 0.881,
+      "f1": 0.8409,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.5918,
+      "recall": 0.6042,
+      "f1": 0.5979,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.7843,
+      "recall": 0.6667,
+      "f1": 0.7207,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6379,
+      "recall": 0.7708,
+      "f1": 0.6981,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3667,
+      "recall": 0.2037,
+      "f1": 0.2619,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.5938,
+      "recall": 0.7917,
+      "f1": 0.6786,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.6579,
+      "recall": 0.5952,
+      "f1": 0.625,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.6111,
+      "recall": 0.6111,
+      "f1": 0.6111,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.7273,
+      "recall": 0.5,
+      "f1": 0.5926,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.4906,
+      "recall": 0.4815,
+      "f1": 0.486,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.7778,
+      "recall": 0.8333,
+      "f1": 0.8046,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9412,
+      "recall": 1.0,
+      "f1": 0.9697,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.75,
+      "recall": 0.9444,
+      "f1": 0.8361,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.973,
+      "recall": 0.6667,
+      "f1": 0.7912,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.5088,
+      "recall": 0.4028,
+      "f1": 0.4496,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.6368249534450652,
+     0.7514664804469273
+    ],
+    "macro_f1_ci95": [
+     0.6298330673746367,
+     0.7412244008539953
+    ]
+   },
+   "train_seconds": 0.28,
+   "latency_ms_per_message": 4.1,
+   "model_kb": 9944.2
+  },
+  "complement_nb": {
+   "name": "Complement Naive Bayes",
+   "params": {
+    "alpha": 0.5
+   },
+   "val_macro_f1": 0.6142,
+   "tuning": [
+    {
+     "params": {
+      "alpha": 0.03
+     },
+     "val_macro_f1": 0.588
+    },
+    {
+     "params": {
+      "alpha": 0.1
+     },
+     "val_macro_f1": 0.6058
+    },
+    {
+     "params": {
+      "alpha": 0.5
+     },
+     "val_macro_f1": 0.6142
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.7114,
+    "acc_wilson95": [
+     0.6835,
+     0.7377
+    ],
+    "macro": {
+     "precision": 0.7169,
+     "recall": 0.7249,
+     "f1": 0.7069
+    },
+    "weighted": {
+     "precision": 0.7229,
+     "recall": 0.7114,
+     "f1": 0.7003
+    },
+    "mcc": 0.6991,
+    "kappa": 0.6977,
+    "top3_accuracy": 0.8464,
+    "log_loss": 1.2037,
+    "brier": 0.4391,
+    "ece": 0.1323,
+    "reliability": [
+     {
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 100,
+      "conf": 0.08257541298716509,
+      "acc": 0.07
+     },
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 99,
+      "conf": 0.14404246538758386,
+      "acc": 0.43434343434343436
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 79,
+      "conf": 0.24010444253466492,
+      "acc": 0.5443037974683544
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 57,
+      "conf": 0.3537163536549296,
+      "acc": 0.5964912280701754
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 44,
+      "conf": 0.45739711932398636,
+      "acc": 0.7272727272727273
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 73,
+      "conf": 0.5528184163283257,
+      "acc": 0.8082191780821918
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 80,
+      "conf": 0.6510121742660221,
+      "acc": 0.775
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 78,
+      "conf": 0.7427688779401483,
+      "acc": 0.8461538461538461
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 83,
+      "conf": 0.8493397229312009,
+      "acc": 0.7710843373493976
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 381,
+      "conf": 0.9794828677081965,
+      "acc": 0.9291338582677166
+     }
+    ],
+    "tax_section_accuracy": 0.8594,
+    "deduction": {
+     "precision": 0.7927,
+     "recall": 0.9268,
+     "f1": 0.8545,
+     "false_deductions": 96,
+     "missed_deductions": 29
+    },
+    "by_direction": {
+     "debit": 0.683,
+     "credit": 0.8782
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6406,
+      "recall": 0.8542,
+      "f1": 0.7321,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.6757,
+      "recall": 0.5952,
+      "f1": 0.6329,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.625,
+      "recall": 0.5556,
+      "f1": 0.5882,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.94,
+      "recall": 0.9792,
+      "f1": 0.9592,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.8235,
+      "recall": 1.0,
+      "f1": 0.9032,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.6825,
+      "recall": 0.8958,
+      "f1": 0.7748,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.65,
+      "recall": 0.9286,
+      "f1": 0.7647,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.7115,
+      "recall": 0.881,
+      "f1": 0.7872,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.537,
+      "recall": 0.6042,
+      "f1": 0.5686,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.8444,
+      "recall": 0.6333,
+      "f1": 0.7238,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6111,
+      "recall": 0.6875,
+      "f1": 0.6471,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.6207,
+      "recall": 0.3333,
+      "f1": 0.4337,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.7069,
+      "recall": 0.8542,
+      "f1": 0.7736,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.65,
+      "recall": 0.619,
+      "f1": 0.6341,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.6071,
+      "recall": 0.6296,
+      "f1": 0.6182,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5208,
+      "recall": 0.5208,
+      "f1": 0.5208,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5577,
+      "recall": 0.537,
+      "f1": 0.5472,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.7826,
+      "recall": 0.8571,
+      "f1": 0.8182,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1": 0.9796,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7612,
+      "recall": 0.9444,
+      "f1": 0.843,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9744,
+      "recall": 0.7037,
+      "f1": 0.8172,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.8889,
+      "recall": 0.3333,
+      "f1": 0.4848,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.6508379888268156,
+     0.7718808193668529
+    ],
+    "macro_f1_ci95": [
+     0.6351054508008689,
+     0.754338586726396
+    ]
+   },
+   "train_seconds": 0.35,
+   "latency_ms_per_message": 3.25,
+   "model_kb": 10158.6
+  },
+  "logreg": {
+   "name": "Logistic regression",
+   "params": {
+    "C": 3.0
+   },
+   "val_macro_f1": 0.6867,
+   "tuning": [
+    {
+     "params": {
+      "C": 3.0
+     },
+     "val_macro_f1": 0.6867
+    },
+    {
+     "params": {
+      "C": 10.0
+     },
+     "val_macro_f1": 0.6765
+    },
+    {
+     "params": {
+      "C": 30.0
+     },
+     "val_macro_f1": 0.676
+    },
+    {
+     "params": {
+      "C": 100.0
+     },
+     "val_macro_f1": 0.6793
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6983,
+    "acc_wilson95": [
+     0.6702,
+     0.725
+    ],
+    "macro": {
+     "precision": 0.728,
+     "recall": 0.7078,
+     "f1": 0.7124
+    },
+    "weighted": {
+     "precision": 0.7105,
+     "recall": 0.6983,
+     "f1": 0.6992
+    },
+    "mcc": 0.6838,
+    "kappa": 0.6834,
+    "top3_accuracy": 0.8687,
+    "log_loss": 1.1071,
+    "brier": 0.426,
+    "ece": 0.0923,
+    "reliability": [
+     {
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 17,
+      "conf": 0.09452894781031738,
+      "acc": 0.23529411764705882
+     },
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 152,
+      "conf": 0.14540511282599192,
+      "acc": 0.2236842105263158
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 76,
+      "conf": 0.24628548173227038,
+      "acc": 0.42105263157894735
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 77,
+      "conf": 0.3502840901320575,
+      "acc": 0.6623376623376623
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 98,
+      "conf": 0.4474814952013847,
+      "acc": 0.6326530612244898
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 71,
+      "conf": 0.5599927464246575,
+      "acc": 0.6901408450704225
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 74,
+      "conf": 0.6486162733021251,
+      "acc": 0.7297297297297297
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 90,
+      "conf": 0.7538658215414002,
+      "acc": 0.7333333333333333
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 120,
+      "conf": 0.8557107736094379,
+      "acc": 0.9333333333333333
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 299,
+      "conf": 0.9665080562508946,
+      "acc": 0.9565217391304348
+     }
+    ],
+    "tax_section_accuracy": 0.9004,
+    "deduction": {
+     "precision": 0.8974,
+     "recall": 0.8611,
+     "f1": 0.8789,
+     "false_deductions": 39,
+     "missed_deductions": 55
+    },
+    "by_direction": {
+     "debit": 0.6699,
+     "credit": 0.8654
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6667,
+      "recall": 0.875,
+      "f1": 0.7568,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.875,
+      "recall": 0.6667,
+      "f1": 0.7568,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.72,
+      "recall": 0.5,
+      "f1": 0.5902,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.9787,
+      "recall": 0.9583,
+      "f1": 0.9684,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.881,
+      "recall": 0.7708,
+      "f1": 0.8222,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.8298,
+      "recall": 0.9286,
+      "f1": 0.8764,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.9062,
+      "recall": 0.6905,
+      "f1": 0.7838,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.58,
+      "recall": 0.6042,
+      "f1": 0.5918,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.5735,
+      "recall": 0.65,
+      "f1": 0.6094,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6724,
+      "recall": 0.8125,
+      "f1": 0.7358,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3571,
+      "recall": 0.3704,
+      "f1": 0.3636,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.6327,
+      "recall": 0.6458,
+      "f1": 0.6392,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.6667,
+      "recall": 0.5238,
+      "f1": 0.5867,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.5862,
+      "recall": 0.6296,
+      "f1": 0.6071,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5263,
+      "recall": 0.4167,
+      "f1": 0.4651,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5636,
+      "recall": 0.5741,
+      "f1": 0.5688,
+      "support": 54
+     },
+     "rent": {
+      "precision": 1.0,
+      "recall": 0.9286,
+      "f1": 0.963,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9592,
+      "recall": 0.9792,
+      "f1": 0.9691,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7576,
+      "recall": 0.9259,
+      "f1": 0.8333,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9268,
+      "recall": 0.7037,
+      "f1": 0.8,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.3571,
+      "recall": 0.4167,
+      "f1": 0.3846,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.638733705772812,
+     0.7532821229050278
+    ],
+    "macro_f1_ci95": [
+     0.6482231071249451,
+     0.7562506946322106
+    ]
+   },
+   "train_seconds": 5.2,
+   "latency_ms_per_message": 2.46,
+   "model_kb": 5229.8
+  },
+  "linear_svm": {
+   "name": "Linear SVM (calibrated)",
+   "params": {
+    "C": 0.3
+   },
+   "val_macro_f1": 0.6648,
+   "tuning": [
+    {
+     "params": {
+      "C": 0.3
+     },
+     "val_macro_f1": 0.6648
+    },
+    {
+     "params": {
+      "C": 1.0
+     },
+     "val_macro_f1": 0.6621
+    },
+    {
+     "params": {
+      "C": 3.0
+     },
+     "val_macro_f1": 0.6615
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6993,
+    "acc_wilson95": [
+     0.6712,
+     0.7259
+    ],
+    "macro": {
+     "precision": 0.7305,
+     "recall": 0.7106,
+     "f1": 0.7131
+    },
+    "weighted": {
+     "precision": 0.7139,
+     "recall": 0.6993,
+     "f1": 0.6996
+    },
+    "mcc": 0.6851,
+    "kappa": 0.6845,
+    "top3_accuracy": 0.8762,
+    "log_loss": 1.06,
+    "brier": 0.4211,
+    "ece": 0.1022,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 57,
+      "conf": 0.16984996997141602,
+      "acc": 0.15789473684210525
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 62,
+      "conf": 0.24834645088122748,
+      "acc": 0.12903225806451613
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 88,
+      "conf": 0.3570274029770141,
+      "acc": 0.4431818181818182
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 128,
+      "conf": 0.4604649739191716,
+      "acc": 0.515625
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 166,
+      "conf": 0.5537239607796237,
+      "acc": 0.7168674698795181
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 127,
+      "conf": 0.6444798008447749,
+      "acc": 0.7480314960629921
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 175,
+      "conf": 0.7549442150330956,
+      "acc": 0.9028571428571428
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 159,
+      "conf": 0.8381682544167584,
+      "acc": 0.949685534591195
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 112,
+      "conf": 0.9750619453978653,
+      "acc": 0.9464285714285714
+     }
+    ],
+    "tax_section_accuracy": 0.9013,
+    "deduction": {
+     "precision": 0.9062,
+     "recall": 0.8535,
+     "f1": 0.8791,
+     "false_deductions": 35,
+     "missed_deductions": 58
+    },
+    "by_direction": {
+     "debit": 0.6721,
+     "credit": 0.859
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6885,
+      "recall": 0.875,
+      "f1": 0.7706,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.92,
+      "recall": 0.5476,
+      "f1": 0.6866,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.7407,
+      "recall": 0.5556,
+      "f1": 0.6349,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.9787,
+      "recall": 0.9583,
+      "f1": 0.9684,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.8571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.78,
+      "recall": 0.9286,
+      "f1": 0.8478,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.9091,
+      "recall": 0.7143,
+      "f1": 0.8,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.6304,
+      "recall": 0.6042,
+      "f1": 0.617,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.5806,
+      "recall": 0.6,
+      "f1": 0.5902,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.5493,
+      "recall": 0.8125,
+      "f1": 0.6555,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3333,
+      "recall": 0.3519,
+      "f1": 0.3423,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.8333,
+      "recall": 0.625,
+      "f1": 0.7143,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.7073,
+      "recall": 0.6905,
+      "f1": 0.6988,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.6538,
+      "recall": 0.6296,
+      "f1": 0.6415,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.4348,
+      "recall": 0.4167,
+      "f1": 0.4255,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5217,
+      "recall": 0.6667,
+      "f1": 0.5854,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.9286,
+      "recall": 0.9286,
+      "f1": 0.9286,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9592,
+      "recall": 0.9792,
+      "f1": 0.9691,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7538,
+      "recall": 0.9074,
+      "f1": 0.8235,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9048,
+      "recall": 0.7037,
+      "f1": 0.7917,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.4058,
+      "recall": 0.3889,
+      "f1": 0.3972,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.645228119180633,
+     0.75512104283054
+    ],
+    "macro_f1_ci95": [
+     0.6500385199219297,
+     0.7542037188940846
+    ]
+   },
+   "train_seconds": 1.1,
+   "latency_ms_per_message": 10.67,
+   "model_kb": 14669.9
+  },
+  "sgd_huber": {
+   "name": "SGD (modified Huber)",
+   "params": {
+    "alpha": 0.001
+   },
+   "val_macro_f1": 0.6641,
+   "tuning": [
+    {
+     "params": {
+      "alpha": 1e-05
+     },
+     "val_macro_f1": 0.6037
+    },
+    {
+     "params": {
+      "alpha": 0.0001
+     },
+     "val_macro_f1": 0.6351
+    },
+    {
+     "params": {
+      "alpha": 0.001
+     },
+     "val_macro_f1": 0.6641
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.7123,
+    "acc_wilson95": [
+     0.6845,
+     0.7386
+    ],
+    "macro": {
+     "precision": 0.7225,
+     "recall": 0.7239,
+     "f1": 0.7171
+    },
+    "weighted": {
+     "precision": 0.7159,
+     "recall": 0.7123,
+     "f1": 0.7071
+    },
+    "mcc": 0.6991,
+    "kappa": 0.6984,
+    "top3_accuracy": 0.8566,
+    "log_loss": 1.5333,
+    "brier": 0.4238,
+    "ece": 0.1282,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 72,
+      "conf": 0.15599997758257664,
+      "acc": 0.1388888888888889
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 99,
+      "conf": 0.24470300185629276,
+      "acc": 0.36363636363636365
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 88,
+      "conf": 0.34735679248487855,
+      "acc": 0.375
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 141,
+      "conf": 0.4492923767984863,
+      "acc": 0.6524822695035462
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 154,
+      "conf": 0.5527234879257145,
+      "acc": 0.7142857142857143
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 127,
+      "conf": 0.6505811702961494,
+      "acc": 0.8818897637795275
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 125,
+      "conf": 0.7450281224585039,
+      "acc": 0.92
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 120,
+      "conf": 0.8543499412013031,
+      "acc": 0.9666666666666667
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 148,
+      "conf": 0.9795768071156998,
+      "acc": 0.9527027027027027
+     }
+    ],
+    "tax_section_accuracy": 0.8827,
+    "deduction": {
+     "precision": 0.8381,
+     "recall": 0.8889,
+     "f1": 0.8627,
+     "false_deductions": 68,
+     "missed_deductions": 44
+    },
+    "by_direction": {
+     "debit": 0.6852,
+     "credit": 0.8718
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6774,
+      "recall": 0.875,
+      "f1": 0.7636,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.7838,
+      "recall": 0.6905,
+      "f1": 0.7342,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.6667,
+      "recall": 0.5556,
+      "f1": 0.6061,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8846,
+      "recall": 0.9583,
+      "f1": 0.92,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.8261,
+      "recall": 0.7917,
+      "f1": 0.8085,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.7647,
+      "recall": 0.9286,
+      "f1": 0.8387,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.766,
+      "recall": 0.8571,
+      "f1": 0.809,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.5472,
+      "recall": 0.6042,
+      "f1": 0.5743,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.65,
+      "recall": 0.65,
+      "f1": 0.65,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6,
+      "recall": 0.6875,
+      "f1": 0.6408,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3519,
+      "recall": 0.3519,
+      "f1": 0.3519,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.76,
+      "recall": 0.7917,
+      "f1": 0.7755,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.6471,
+      "recall": 0.5238,
+      "f1": 0.5789,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.5862,
+      "recall": 0.6296,
+      "f1": 0.6071,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5128,
+      "recall": 0.4167,
+      "f1": 0.4598,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5373,
+      "recall": 0.6667,
+      "f1": 0.595,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.975,
+      "recall": 0.9286,
+      "f1": 0.9512,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9412,
+      "recall": 1.0,
+      "f1": 0.9697,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7612,
+      "recall": 0.9444,
+      "f1": 0.843,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9737,
+      "recall": 0.6852,
+      "f1": 0.8043,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.6829,
+      "recall": 0.3889,
+      "f1": 0.4956,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.650768156424581,
+     0.7672486033519552
+    ],
+    "macro_f1_ci95": [
+     0.6477290070105255,
+     0.7628061705772798
+    ]
+   },
+   "train_seconds": 0.86,
+   "latency_ms_per_message": 3.39,
+   "model_kb": 5230.2
+  },
+  "ridge": {
+   "name": "Ridge classifier",
+   "params": {
+    "alpha": 3.0
+   },
+   "val_macro_f1": 0.6718,
+   "tuning": [
+    {
+     "params": {
+      "alpha": 0.3
+     },
+     "val_macro_f1": 0.6446
+    },
+    {
+     "params": {
+      "alpha": 1.0
+     },
+     "val_macro_f1": 0.6546
+    },
+    {
+     "params": {
+      "alpha": 3.0
+     },
+     "val_macro_f1": 0.6718
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.7114,
+    "acc_wilson95": [
+     0.6835,
+     0.7377
+    ],
+    "macro": {
+     "precision": 0.722,
+     "recall": 0.7212,
+     "f1": 0.7157
+    },
+    "weighted": {
+     "precision": 0.716,
+     "recall": 0.7114,
+     "f1": 0.7072
+    },
+    "mcc": 0.6981,
+    "kappa": 0.6974,
+    "top3_accuracy": 0.8594,
+    "log_loss": 1.0983,
+    "brier": 0.4053,
+    "ece": 0.071,
+    "reliability": [
+     {
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 47,
+      "conf": 0.0874705688626717,
+      "acc": 0.10638297872340426
+     },
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 119,
+      "conf": 0.14419452397960764,
+      "acc": 0.3445378151260504
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 59,
+      "conf": 0.24932344299074843,
+      "acc": 0.2542372881355932
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 44,
+      "conf": 0.3488545584342079,
+      "acc": 0.36363636363636365
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 63,
+      "conf": 0.4571750746527655,
+      "acc": 0.6666666666666666
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 71,
+      "conf": 0.5481630467722162,
+      "acc": 0.676056338028169
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 76,
+      "conf": 0.6463258056171262,
+      "acc": 0.8289473684210527
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 75,
+      "conf": 0.7484637490755262,
+      "acc": 0.7466666666666667
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 114,
+      "conf": 0.8518019652467178,
+      "acc": 0.7719298245614035
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 406,
+      "conf": 0.9734012977192584,
+      "acc": 0.9605911330049262
+     }
+    ],
+    "tax_section_accuracy": 0.8762,
+    "deduction": {
+     "precision": 0.8314,
+     "recall": 0.8838,
+     "f1": 0.8568,
+     "false_deductions": 71,
+     "missed_deductions": 46
+    },
+    "by_direction": {
+     "debit": 0.6841,
+     "credit": 0.8718
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6667,
+      "recall": 0.875,
+      "f1": 0.7568,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.7576,
+      "recall": 0.5952,
+      "f1": 0.6667,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.6207,
+      "recall": 0.5,
+      "f1": 0.5538,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8846,
+      "recall": 0.9583,
+      "f1": 0.92,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.7451,
+      "recall": 0.7917,
+      "f1": 0.7677,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.75,
+      "recall": 0.9286,
+      "f1": 0.8298,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.7872,
+      "recall": 0.881,
+      "f1": 0.8315,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.5577,
+      "recall": 0.6042,
+      "f1": 0.58,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.6964,
+      "recall": 0.65,
+      "f1": 0.6724,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6471,
+      "recall": 0.6875,
+      "f1": 0.6667,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3548,
+      "recall": 0.4074,
+      "f1": 0.3793,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.7917,
+      "recall": 0.7917,
+      "f1": 0.7917,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.6471,
+      "recall": 0.5238,
+      "f1": 0.5789,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.5862,
+      "recall": 0.6296,
+      "f1": 0.6071,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5,
+      "recall": 0.4167,
+      "f1": 0.4545,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5455,
+      "recall": 0.6667,
+      "f1": 0.6,
+      "support": 54
+     },
+     "rent": {
+      "precision": 1.0,
+      "recall": 0.9286,
+      "f1": 0.963,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9592,
+      "recall": 0.9792,
+      "f1": 0.9691,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7612,
+      "recall": 0.9444,
+      "f1": 0.843,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.95,
+      "recall": 0.7037,
+      "f1": 0.8085,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.6744,
+      "recall": 0.4028,
+      "f1": 0.5043,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.648975791433892,
+     0.7672718808193668
+    ],
+    "macro_f1_ci95": [
+     0.6422321116876432,
+     0.7630913304701799
+    ]
+   },
+   "train_seconds": 1.08,
+   "latency_ms_per_message": 3.34,
+   "model_kb": 5230.0
+  },
+  "knn": {
+   "name": "k-nearest neighbours (cosine)",
+   "params": {
+    "k": 7
+   },
+   "val_macro_f1": 0.5423,
+   "tuning": [
+    {
+     "params": {
+      "k": 1
+     },
+     "val_macro_f1": 0.5205
+    },
+    {
+     "params": {
+      "k": 3
+     },
+     "val_macro_f1": 0.5186
+    },
+    {
+     "params": {
+      "k": 7
+     },
+     "val_macro_f1": 0.5423
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6406,
+    "acc_wilson95": [
+     0.6114,
+     0.6687
+    ],
+    "macro": {
+     "precision": 0.6487,
+     "recall": 0.6453,
+     "f1": 0.6351
+    },
+    "weighted": {
+     "precision": 0.6562,
+     "recall": 0.6406,
+     "f1": 0.6349
+    },
+    "mcc": 0.6245,
+    "kappa": 0.6234,
+    "top3_accuracy": 0.7551,
+    "log_loss": 3.6253,
+    "brier": 0.5661,
+    "ece": 0.1957,
+    "reliability": [
+     {
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 2,
+      "conf": 0.05263157894736842,
+      "acc": 0.0
+     },
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 5,
+      "conf": 0.17250083465648705,
+      "acc": 0.0
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 17,
+      "conf": 0.2827257425501471,
+      "acc": 0.17647058823529413
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 22,
+      "conf": 0.33515645049242343,
+      "acc": 0.45454545454545453
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 58,
+      "conf": 0.44352922480262774,
+      "acc": 0.08620689655172414
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 106,
+      "conf": 0.5660322188987358,
+      "acc": 0.27358490566037735
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 55,
+      "conf": 0.6484725670871511,
+      "acc": 0.5818181818181818
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 95,
+      "conf": 0.7395756206668158,
+      "acc": 0.4842105263157895
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 149,
+      "conf": 0.8580752954211526,
+      "acc": 0.6644295302013423
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 565,
+      "conf": 0.9916549197400614,
+      "acc": 0.8212389380530973
+     }
+    ],
+    "tax_section_accuracy": 0.8091,
+    "deduction": {
+     "precision": 0.7956,
+     "recall": 0.8258,
+     "f1": 0.8104,
+     "false_deductions": 84,
+     "missed_deductions": 69
+    },
+    "by_direction": {
+     "debit": 0.6133,
+     "credit": 0.8013
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.5806,
+      "recall": 0.75,
+      "f1": 0.6545,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.48,
+      "recall": 0.2857,
+      "f1": 0.3582,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.4286,
+      "recall": 0.3333,
+      "f1": 0.375,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8571,
+      "recall": 0.875,
+      "f1": 0.866,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.7879,
+      "recall": 0.619,
+      "f1": 0.6933,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.5385,
+      "recall": 0.5833,
+      "f1": 0.56,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.78,
+      "recall": 0.9286,
+      "f1": 0.8478,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.5645,
+      "recall": 0.8333,
+      "f1": 0.6731,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.52,
+      "recall": 0.5417,
+      "f1": 0.5306,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.7407,
+      "recall": 0.6667,
+      "f1": 0.7018,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.5,
+      "recall": 0.75,
+      "f1": 0.6,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.3214,
+      "recall": 0.3333,
+      "f1": 0.3273,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.6316,
+      "recall": 0.75,
+      "f1": 0.6857,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.617,
+      "recall": 0.6905,
+      "f1": 0.6517,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.717,
+      "recall": 0.7037,
+      "f1": 0.7103,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5676,
+      "recall": 0.4375,
+      "f1": 0.4941,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.4655,
+      "recall": 0.5,
+      "f1": 0.4821,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.8293,
+      "recall": 0.8095,
+      "f1": 0.8193,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.7586,
+      "recall": 0.9167,
+      "f1": 0.8302,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7377,
+      "recall": 0.8333,
+      "f1": 0.7826,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.973,
+      "recall": 0.6667,
+      "f1": 0.7912,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.875,
+      "recall": 0.3889,
+      "f1": 0.5385,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.5819366852886406,
+     0.7057960893854748
+    ],
+    "macro_f1_ci95": [
+     0.5619862229819486,
+     0.6845738403297217
+    ]
+   },
+   "train_seconds": 0.22,
+   "latency_ms_per_message": 11.41,
+   "model_kb": 3736.6
+  },
+  "random_forest": {
+   "name": "Random forest",
+   "params": {
+    "n": 200
+   },
+   "val_macro_f1": 0.6709,
+   "tuning": [
+    {
+     "params": {
+      "n": 200
+     },
+     "val_macro_f1": 0.6709
+    },
+    {
+     "params": {
+      "n": 400
+     },
+     "val_macro_f1": 0.6587
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6648,
+    "acc_wilson95": [
+     0.636,
+     0.6924
+    ],
+    "macro": {
+     "precision": 0.7173,
+     "recall": 0.6757,
+     "f1": 0.685
+    },
+    "weighted": {
+     "precision": 0.6976,
+     "recall": 0.6648,
+     "f1": 0.6698
+    },
+    "mcc": 0.6493,
+    "kappa": 0.6481,
+    "top3_accuracy": 0.8594,
+    "log_loss": 1.2221,
+    "brier": 0.4648,
+    "ece": 0.0755,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 63,
+      "conf": 0.16881747243814818,
+      "acc": 0.2857142857142857
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 177,
+      "conf": 0.25360821911808273,
+      "acc": 0.3220338983050847
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 121,
+      "conf": 0.34668479382659917,
+      "acc": 0.45454545454545453
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 85,
+      "conf": 0.456494412597171,
+      "acc": 0.6705882352941176
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 85,
+      "conf": 0.5493781136031758,
+      "acc": 0.5176470588235295
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 69,
+      "conf": 0.6568238457415838,
+      "acc": 0.7536231884057971
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 100,
+      "conf": 0.7540883854406072,
+      "acc": 0.81
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 116,
+      "conf": 0.8523472806108646,
+      "acc": 0.9310344827586207
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 258,
+      "conf": 0.962314019089017,
+      "acc": 0.937984496124031
+     }
+    ],
+    "tax_section_accuracy": 0.8957,
+    "deduction": {
+     "precision": 0.8981,
+     "recall": 0.846,
+     "f1": 0.8713,
+     "false_deductions": 38,
+     "missed_deductions": 61
+    },
+    "by_direction": {
+     "debit": 0.6307,
+     "credit": 0.8654
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.5938,
+      "recall": 0.7917,
+      "f1": 0.6786,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.6757,
+      "recall": 0.5952,
+      "f1": 0.6329,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.7692,
+      "recall": 0.5556,
+      "f1": 0.6452,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 1.0,
+      "recall": 0.9583,
+      "f1": 0.9787,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.9767,
+      "recall": 1.0,
+      "f1": 0.9882,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.878,
+      "recall": 0.75,
+      "f1": 0.809,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.9706,
+      "recall": 0.7857,
+      "f1": 0.8684,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.8125,
+      "recall": 0.9286,
+      "f1": 0.8667,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.7353,
+      "recall": 0.5208,
+      "f1": 0.6098,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.5432,
+      "recall": 0.7333,
+      "f1": 0.6241,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.64,
+      "recall": 0.6667,
+      "f1": 0.6531,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.2439,
+      "recall": 0.3704,
+      "f1": 0.2941,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.5484,
+      "recall": 0.3542,
+      "f1": 0.4304,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.9583,
+      "recall": 0.5476,
+      "f1": 0.697,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.5536,
+      "recall": 0.5741,
+      "f1": 0.5636,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.4634,
+      "recall": 0.3958,
+      "f1": 0.427,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.6765,
+      "recall": 0.4259,
+      "f1": 0.5227,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.7959,
+      "recall": 0.9286,
+      "f1": 0.8571,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9792,
+      "recall": 0.9792,
+      "f1": 0.9792,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7391,
+      "recall": 0.9444,
+      "f1": 0.8293,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9487,
+      "recall": 0.6852,
+      "f1": 0.7957,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.2784,
+      "recall": 0.375,
+      "f1": 0.3195,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.603328677839851,
+     0.7244180633147113
+    ],
+    "macro_f1_ci95": [
+     0.6166533709414213,
+     0.7253203252035929
+    ]
+   },
+   "train_seconds": 9.78,
+   "latency_ms_per_message": 70.88,
+   "model_kb": 81202.2
+  },
+  "hist_gb": {
+   "name": "Gradient boosting (SVD features)",
+   "params": {
+    "svd": 100,
+    "iters": 100
+   },
+   "val_macro_f1": 0.6419,
+   "tuning": [
+    {
+     "params": {
+      "svd": 100,
+      "iters": 100
+     },
+     "val_macro_f1": 0.6419
+    },
+    {
+     "params": {
+      "svd": 200,
+      "iters": 150
+     },
+     "val_macro_f1": 0.6401
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6099,
+    "acc_wilson95": [
+     0.5804,
+     0.6386
+    ],
+    "macro": {
+     "precision": 0.6411,
+     "recall": 0.6234,
+     "f1": 0.6228
+    },
+    "weighted": {
+     "precision": 0.6228,
+     "recall": 0.6099,
+     "f1": 0.6073
+    },
+    "mcc": 0.5915,
+    "kappa": 0.5907,
+    "top3_accuracy": 0.7719,
+    "log_loss": 2.1969,
+    "brier": 0.6161,
+    "ece": 0.2554,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 1,
+      "conf": 0.15360516022894724,
+      "acc": 0.0
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 17,
+      "conf": 0.2600721714983349,
+      "acc": 0.0
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 44,
+      "conf": 0.35037711668714616,
+      "acc": 0.20454545454545456
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 44,
+      "conf": 0.4468861889978646,
+      "acc": 0.25
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 46,
+      "conf": 0.5476049271384696,
+      "acc": 0.10869565217391304
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 69,
+      "conf": 0.6506541221574395,
+      "acc": 0.30434782608695654
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 73,
+      "conf": 0.7496234078358773,
+      "acc": 0.2054794520547945
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 60,
+      "conf": 0.8491305819005083,
+      "acc": 0.3333333333333333
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 720,
+      "conf": 0.9914577323680371,
+      "acc": 0.7972222222222223
+     }
+    ],
+    "tax_section_accuracy": 0.8724,
+    "deduction": {
+     "precision": 0.8546,
+     "recall": 0.846,
+     "f1": 0.8503,
+     "false_deductions": 57,
+     "missed_deductions": 61
+    },
+    "by_direction": {
+     "debit": 0.5686,
+     "credit": 0.8526
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.7143,
+      "recall": 0.8333,
+      "f1": 0.7692,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.871,
+      "recall": 0.6429,
+      "f1": 0.7397,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.7143,
+      "recall": 0.4167,
+      "f1": 0.5263,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8679,
+      "recall": 0.9583,
+      "f1": 0.9109,
+      "support": 48
+     },
+     "nps": {
+      "precision": 0.8913,
+      "recall": 0.9762,
+      "f1": 0.9318,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.6154,
+      "recall": 0.6667,
+      "f1": 0.64,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.925,
+      "recall": 0.881,
+      "f1": 0.9024,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.7917,
+      "recall": 0.9048,
+      "f1": 0.8444,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.4667,
+      "recall": 0.4375,
+      "f1": 0.4516,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.4231,
+      "recall": 0.55,
+      "f1": 0.4783,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.4902,
+      "recall": 0.5208,
+      "f1": 0.5051,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.1667,
+      "recall": 0.2407,
+      "f1": 0.197,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.32,
+      "recall": 0.1667,
+      "f1": 0.2192,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.7931,
+      "recall": 0.5476,
+      "f1": 0.6479,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.6061,
+      "recall": 0.3704,
+      "f1": 0.4598,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.3273,
+      "recall": 0.375,
+      "f1": 0.3495,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.3519,
+      "recall": 0.3519,
+      "f1": 0.3519,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.7647,
+      "recall": 0.9286,
+      "f1": 0.8387,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9792,
+      "recall": 0.9792,
+      "f1": 0.9792,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7286,
+      "recall": 0.9444,
+      "f1": 0.8226,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9211,
+      "recall": 0.6481,
+      "f1": 0.7609,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.375,
+      "recall": 0.375,
+      "f1": 0.375,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.5464618249534451,
+     0.6685521415270018
+    ],
+    "macro_f1_ci95": [
+     0.5593533079419449,
+     0.6615675707786005
+    ]
+   },
+   "train_seconds": 16.78,
+   "latency_ms_per_message": 36.24,
+   "model_kb": 16952.9
+  },
+  "mlp": {
+   "name": "MLP (SVD features)",
+   "params": {
+    "h": 128
+   },
+   "val_macro_f1": 0.6664,
+   "tuning": [
+    {
+     "params": {
+      "h": 128
+     },
+     "val_macro_f1": 0.6664
+    },
+    {
+     "params": {
+      "h": 256,
+      "alpha": 0.001
+     },
+     "val_macro_f1": 0.6498
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6648,
+    "acc_wilson95": [
+     0.636,
+     0.6924
+    ],
+    "macro": {
+     "precision": 0.6804,
+     "recall": 0.6771,
+     "f1": 0.6733
+    },
+    "weighted": {
+     "precision": 0.6664,
+     "recall": 0.6648,
+     "f1": 0.6604
+    },
+    "mcc": 0.6489,
+    "kappa": 0.6485,
+    "top3_accuracy": 0.8482,
+    "log_loss": 1.8693,
+    "brier": 0.5115,
+    "ece": 0.1975,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 9,
+      "conf": 0.18649299976881417,
+      "acc": 0.1111111111111111
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 25,
+      "conf": 0.24467097080718614,
+      "acc": 0.08
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 44,
+      "conf": 0.34820228446627105,
+      "acc": 0.29545454545454547
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 46,
+      "conf": 0.4469156610670862,
+      "acc": 0.1956521739130435
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 56,
+      "conf": 0.5395912535089583,
+      "acc": 0.19642857142857142
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 55,
+      "conf": 0.6569896265324229,
+      "acc": 0.41818181818181815
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 33,
+      "conf": 0.7549330263206996,
+      "acc": 0.24242424242424243
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 52,
+      "conf": 0.8604943499370381,
+      "acc": 0.5576923076923077
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 754,
+      "conf": 0.9900225215317544,
+      "acc": 0.8196286472148541
+     }
+    ],
+    "tax_section_accuracy": 0.8696,
+    "deduction": {
+     "precision": 0.8265,
+     "recall": 0.8662,
+     "f1": 0.8459,
+     "false_deductions": 72,
+     "missed_deductions": 53
+    },
+    "by_direction": {
+     "debit": 0.6329,
+     "credit": 0.8526
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6774,
+      "recall": 0.875,
+      "f1": 0.7636,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.6383,
+      "recall": 0.7143,
+      "f1": 0.6742,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.76,
+      "recall": 0.5278,
+      "f1": 0.623,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.8846,
+      "recall": 0.9583,
+      "f1": 0.92,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.7826,
+      "recall": 0.75,
+      "f1": 0.766,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.8478,
+      "recall": 0.9286,
+      "f1": 0.8864,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.75,
+      "recall": 0.7143,
+      "f1": 0.7317,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.4727,
+      "recall": 0.5417,
+      "f1": 0.5049,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.4853,
+      "recall": 0.55,
+      "f1": 0.5156,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.5965,
+      "recall": 0.7083,
+      "f1": 0.6476,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.32,
+      "recall": 0.2963,
+      "f1": 0.3077,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.5897,
+      "recall": 0.4792,
+      "f1": 0.5287,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.7857,
+      "recall": 0.5238,
+      "f1": 0.6286,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.4839,
+      "recall": 0.5556,
+      "f1": 0.5172,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.5263,
+      "recall": 0.4167,
+      "f1": 0.4651,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.4423,
+      "recall": 0.4259,
+      "f1": 0.434,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.8125,
+      "recall": 0.9286,
+      "f1": 0.8667,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9592,
+      "recall": 0.9792,
+      "f1": 0.9691,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7424,
+      "recall": 0.9074,
+      "f1": 0.8167,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9024,
+      "recall": 0.6852,
+      "f1": 0.7789,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.5082,
+      "recall": 0.4306,
+      "f1": 0.4662,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.6052141527001862,
+     0.7197858472998138
+    ],
+    "macro_f1_ci95": [
+     0.6015968392445923,
+     0.714848185269873
+    ]
+   },
+   "train_seconds": 14.47,
+   "latency_ms_per_message": 11.36,
+   "model_kb": 29984.5
+  },
+  "soft_vote": {
+   "name": "Soft-voting ensemble (LR+SVM+MLP)",
+   "params": {
+    "C": 100.0
+   },
+   "val_macro_f1": 0.6757,
+   "tuning": [
+    {
+     "params": {
+      "C": 30.0
+     },
+     "val_macro_f1": 0.6732
+    },
+    {
+     "params": {
+      "C": 100.0
+     },
+     "val_macro_f1": 0.6757
+    }
+   ],
+   "test": {
+    "n": 1074,
+    "accuracy": 0.6788,
+    "acc_wilson95": [
+     0.6502,
+     0.706
+    ],
+    "macro": {
+     "precision": 0.6946,
+     "recall": 0.6902,
+     "f1": 0.6887
+    },
+    "weighted": {
+     "precision": 0.6808,
+     "recall": 0.6788,
+     "f1": 0.6763
+    },
+    "mcc": 0.6634,
+    "kappa": 0.6631,
+    "top3_accuracy": 0.8678,
+    "log_loss": 1.0407,
+    "brier": 0.4163,
+    "ece": 0.0705,
+    "reliability": [
+     {
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 40,
+      "conf": 0.16031742791630327,
+      "acc": 0.125
+     },
+     {
+      "lo": 0.2,
+      "hi": 0.30000000000000004,
+      "n": 45,
+      "conf": 0.26025342216120373,
+      "acc": 0.24444444444444444
+     },
+     {
+      "lo": 0.30000000000000004,
+      "hi": 0.4,
+      "n": 73,
+      "conf": 0.35146233752190814,
+      "acc": 0.2054794520547945
+     },
+     {
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 72,
+      "conf": 0.4505257569817289,
+      "acc": 0.2222222222222222
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.6000000000000001,
+      "n": 51,
+      "conf": 0.5473679565015594,
+      "acc": 0.47058823529411764
+     },
+     {
+      "lo": 0.6000000000000001,
+      "hi": 0.7000000000000001,
+      "n": 64,
+      "conf": 0.6515905602176031,
+      "acc": 0.5
+     },
+     {
+      "lo": 0.7000000000000001,
+      "hi": 0.8,
+      "n": 106,
+      "conf": 0.7530152397410583,
+      "acc": 0.6415094339622641
+     },
+     {
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 237,
+      "conf": 0.851454479212609,
+      "acc": 0.7848101265822784
+     },
+     {
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 386,
+      "conf": 0.9499829683038082,
+      "acc": 0.9637305699481865
+     }
+    ],
+    "tax_section_accuracy": 0.8818,
+    "deduction": {
+     "precision": 0.8519,
+     "recall": 0.8712,
+     "f1": 0.8614,
+     "false_deductions": 60,
+     "missed_deductions": 51
+    },
+    "by_direction": {
+     "debit": 0.6481,
+     "credit": 0.859
+    },
+    "per_class": {
+     "elss_investment": {
+      "precision": 0.6774,
+      "recall": 0.875,
+      "f1": 0.7636,
+      "support": 48
+     },
+     "life_insurance": {
+      "precision": 0.7778,
+      "recall": 0.6667,
+      "f1": 0.7179,
+      "support": 42
+     },
+     "ppf_epf": {
+      "precision": 0.7407,
+      "recall": 0.5556,
+      "f1": 0.6349,
+      "support": 36
+     },
+     "tuition_fees": {
+      "precision": 0.9583,
+      "recall": 0.9583,
+      "f1": 0.9583,
+      "support": 48
+     },
+     "nps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 42
+     },
+     "health_insurance": {
+      "precision": 0.7778,
+      "recall": 0.7292,
+      "f1": 0.7527,
+      "support": 48
+     },
+     "preventive_healthcare": {
+      "precision": 0.78,
+      "recall": 0.9286,
+      "f1": 0.8478,
+      "support": 42
+     },
+     "home_loan_interest": {
+      "precision": 0.7561,
+      "recall": 0.7381,
+      "f1": 0.747,
+      "support": 42
+     },
+     "donation": {
+      "precision": 0.537,
+      "recall": 0.6042,
+      "f1": 0.5686,
+      "support": 48
+     },
+     "food_dining": {
+      "precision": 0.5735,
+      "recall": 0.65,
+      "f1": 0.6094,
+      "support": 60
+     },
+     "groceries": {
+      "precision": 0.6296,
+      "recall": 0.7083,
+      "f1": 0.6667,
+      "support": 48
+     },
+     "shopping": {
+      "precision": 0.2857,
+      "recall": 0.2963,
+      "f1": 0.2909,
+      "support": 54
+     },
+     "transport": {
+      "precision": 0.6341,
+      "recall": 0.5417,
+      "f1": 0.5843,
+      "support": 48
+     },
+     "fuel": {
+      "precision": 0.6667,
+      "recall": 0.5238,
+      "f1": 0.5867,
+      "support": 42
+     },
+     "utilities": {
+      "precision": 0.5172,
+      "recall": 0.5556,
+      "f1": 0.5357,
+      "support": 54
+     },
+     "entertainment": {
+      "precision": 0.4762,
+      "recall": 0.4167,
+      "f1": 0.4444,
+      "support": 48
+     },
+     "travel": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "support": 54
+     },
+     "rent": {
+      "precision": 0.907,
+      "recall": 0.9286,
+      "f1": 0.9176,
+      "support": 42
+     },
+     "salary_income": {
+      "precision": 0.9592,
+      "recall": 0.9792,
+      "f1": 0.9691,
+      "support": 48
+     },
+     "freelance_income": {
+      "precision": 0.7538,
+      "recall": 0.9074,
+      "f1": 0.8235,
+      "support": 54
+     },
+     "other_income": {
+      "precision": 0.9048,
+      "recall": 0.7037,
+      "f1": 0.7917,
+      "support": 54
+     },
+     "uncategorized": {
+      "precision": 0.4688,
+      "recall": 0.4167,
+      "f1": 0.4412,
+      "support": 72
+     }
+    },
+    "acc_ci95": [
+     0.6154096834264432,
+     0.7355679702048417
+    ],
+    "macro_f1_ci95": [
+     0.6232396956525416,
+     0.7321780507814615
+    ]
+   },
+   "train_seconds": 27.08,
+   "latency_ms_per_message": 38.33,
+   "model_kb": 76489.2
+  }
+ },
+ "rules_and_hybrids": {
+  "rules_from_training_entities": {
+   "name": "Rules: dictionary of training merchants",
+   "accuracy": 0.2523,
+   "macro_f1": 0.2308,
+   "macro_precision": 0.3892,
+   "macro_recall": 0.2321,
+   "note": "Exact-name dictionary built from train+val entities (no test merchant is in it)."
+  },
+  "rules_shipped_taxonomy": {
+   "name": "Rules: shipped taxonomy (merchant_taxonomy.json)",
+   "accuracy": 0.4013,
+   "macro_f1": 0.4445,
+   "macro_precision": 0.8742,
+   "macro_recall": 0.3881,
+   "note": "OPTIMISTIC: the shipped keyword list was written with common brands in mind and overlaps test brands."
+  },
+  "hybrid_rules_then_ml": {
+   "name": "Hybrid: training dictionary, then Logistic regression",
+   "accuracy": 0.7039,
+   "macro_f1": 0.7164,
+   "macro_precision": 0.7314,
+   "macro_recall": 0.7135,
+   "note": "Rules decide when they match; the model decides the rest."
+  },
+  "hybrid_rule_share": 0.135
+ },
+ "selective": {
+  "naive_bayes": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.941
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9349
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.8994
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8742
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8418
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7998
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.759
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6965
+   }
+  ],
+  "complement_nb": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9503
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.892
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8804
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.859
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.8219
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7808
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.7114
+   }
+  ],
+  "logreg": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9596
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9512
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.9069
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8758
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8364
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.8079
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7539
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6983
+   }
+  ],
+  "linear_svm": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9503
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9326
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.9032
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.882
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8471
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.8033
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7611
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6993
+   }
+  ],
+  "sgd_huber": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9627
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9465
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.933
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8913
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8604
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.8207
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7673
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.7123
+   }
+  ],
+  "ridge": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9596
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9512
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.9143
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8913
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8697
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.8219
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7653
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.7114
+   }
+  ],
+  "knn": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.8323
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.8535
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.8343
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.7935
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.7753
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7439
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.6908
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6406
+   }
+  ],
+  "random_forest": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9441
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9256
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.892
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8323
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.7965
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7567
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7104
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6648
+   }
+  ],
+  "hist_gb": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9161
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.8744
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.8566
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8261
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.7779
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7101
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.6567
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6099
+   }
+  ],
+  "mlp": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9658
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9372
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.9125
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8727
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8191
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7718
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7166
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6648
+   }
+  ],
+  "soft_vote": [
+   {
+    "coverage": 0.3,
+    "accuracy": 0.9565
+   },
+   {
+    "coverage": 0.4,
+    "accuracy": 0.9512
+   },
+   {
+    "coverage": 0.5,
+    "accuracy": 0.9274
+   },
+   {
+    "coverage": 0.6,
+    "accuracy": 0.8913
+   },
+   {
+    "coverage": 0.7,
+    "accuracy": 0.8551
+   },
+   {
+    "coverage": 0.8,
+    "accuracy": 0.7998
+   },
+   {
+    "coverage": 0.9,
+    "accuracy": 0.7301
+   },
+   {
+    "coverage": 1.0,
+    "accuracy": 0.6788
+   }
+  ]
+ },
+ "operating_point": {
+  "threshold": 0.76,
+  "coverage": 0.4061,
+  "accuracy": 0.9524,
+  "test_coverage": 0.4255,
+  "test_accuracy_on_accepted": 0.9431
+ },
+ "mcnemar_vs_selected": {
+  "majority": {
+   "selected_right_other_wrong": 682,
+   "other_right_selected_wrong": 58,
+   "p_value": 0.0
+  },
+  "naive_bayes": {
+   "selected_right_other_wrong": 42,
+   "other_right_selected_wrong": 40,
+   "p_value": 0.912157
+  },
+  "complement_nb": {
+   "selected_right_other_wrong": 30,
+   "other_right_selected_wrong": 44,
+   "p_value": 0.130178
+  },
+  "linear_svm": {
+   "selected_right_other_wrong": 16,
+   "other_right_selected_wrong": 17,
+   "p_value": 1.0
+  },
+  "sgd_huber": {
+   "selected_right_other_wrong": 11,
+   "other_right_selected_wrong": 26,
+   "p_value": 0.020074
+  },
+  "ridge": {
+   "selected_right_other_wrong": 15,
+   "other_right_selected_wrong": 29,
+   "p_value": 0.048767
+  },
+  "knn": {
+   "selected_right_other_wrong": 109,
+   "other_right_selected_wrong": 47,
+   "p_value": 1e-06
+  },
+  "random_forest": {
+   "selected_right_other_wrong": 86,
+   "other_right_selected_wrong": 50,
+   "p_value": 0.002559
+  },
+  "hist_gb": {
+   "selected_right_other_wrong": 128,
+   "other_right_selected_wrong": 33,
+   "p_value": 0.0
+  },
+  "mlp": {
+   "selected_right_other_wrong": 54,
+   "other_right_selected_wrong": 18,
+   "p_value": 2.6e-05
+  },
+  "soft_vote": {
+   "selected_right_other_wrong": 30,
+   "other_right_selected_wrong": 9,
+   "p_value": 0.001065
+  }
+ },
+ "ablations": {
+  "features=char": {
+   "accuracy": 0.689,
+   "macro_f1": 0.7079
+  },
+  "features=word": {
+   "accuracy": 0.635,
+   "macro_f1": 0.6621
+  },
+  "features=char_word": {
+   "accuracy": 0.6983,
+   "macro_f1": 0.7124
+  },
+  "no direction restriction (credit/debit ignored)": {
+   "accuracy": 0.6853,
+   "macro_f1": 0.7019
+  },
+  "input = whole SMS text (no parser)": {
+   "accuracy": 0.6601,
+   "macro_f1": 0.6884
+  },
+  "input = parsed merchant (shipped)": {
+   "accuracy": 0.6983,
+   "macro_f1": 0.7124
+  }
+ },
+ "amount_ablation": {
+  "text only": {
+   "accuracy": 0.6983,
+   "macro_f1": 0.7124
+  },
+  "text + amount features (synthetic amounts; optimistic)": {
+   "accuracy": 0.7346,
+   "macro_f1": 0.7457
+  }
+ },
+ "learning_curve": [
+  {
+   "fraction": 0.1,
+   "entities": 72,
+   "accuracy": 0.3492,
+   "macro_f1": 0.3489,
+   "macro_f1_sd": 0.016
+  },
+  {
+   "fraction": 0.25,
+   "entities": 181,
+   "accuracy": 0.5388,
+   "macro_f1": 0.5546,
+   "macro_f1_sd": 0.0176
+  },
+  {
+   "fraction": 0.5,
+   "entities": 362,
+   "accuracy": 0.63,
+   "macro_f1": 0.648,
+   "macro_f1_sd": 0.0151
+  },
+  {
+   "fraction": 0.75,
+   "entities": 543,
+   "accuracy": 0.6682,
+   "macro_f1": 0.6849,
+   "macro_f1_sd": 0.0074
+  },
+  {
+   "fraction": 1.0,
+   "entities": 725,
+   "accuracy": 0.6983,
+   "macro_f1": 0.7124,
+   "macro_f1_sd": 0.0
+  }
+ ],
+ "parser": {
+  "n": 1074,
+  "amount_accuracy": 1.0,
+  "direction_accuracy": 1.0,
+  "merchant_accuracy": 0.9991,
+  "non_transaction_samples": 16,
+  "non_transactions_wrongly_stored": 0,
+  "real_transaction_samples": 4,
+  "real_transactions_wrongly_skipped": 0,
+  "note": "Synthetic wording written by the authors; real bank SMS vary far more."
+ },
+ "robustness": {
+  "n_splits": 5,
+  "models": {
+   "majority": {
+    "accuracy": [
+     0.1173,
+     0.1173,
+     0.1164,
+     0.1173,
+     0.1173
+    ],
+    "macro_f1": [
+     0.03,
+     0.03,
+     0.0297,
+     0.03,
+     0.03
+    ],
+    "acc_mean": 0.1171,
+    "acc_sd": 0.0004,
+    "f1_mean": 0.0299,
+    "f1_sd": 0.0001
+   },
+   "naive_bayes": {
+    "accuracy": [
+     0.6965,
+     0.6834,
+     0.6834,
+     0.6937,
+     0.6564
+    ],
+    "macro_f1": [
+     0.6969,
+     0.6891,
+     0.6854,
+     0.6986,
+     0.6552
+    ],
+    "acc_mean": 0.6827,
+    "acc_sd": 0.0158,
+    "f1_mean": 0.685,
+    "f1_sd": 0.0175
+   },
+   "complement_nb": {
+    "accuracy": [
+     0.7114,
+     0.6974,
+     0.6667,
+     0.702,
+     0.675
+    ],
+    "macro_f1": [
+     0.7069,
+     0.7029,
+     0.6592,
+     0.7037,
+     0.6681
+    ],
+    "acc_mean": 0.6905,
+    "acc_sd": 0.0189,
+    "f1_mean": 0.6882,
+    "f1_sd": 0.0226
+   },
+   "logreg": {
+    "accuracy": [
+     0.6983,
+     0.7309,
+     0.7188,
+     0.7197,
+     0.6713
+    ],
+    "macro_f1": [
+     0.7124,
+     0.7487,
+     0.7283,
+     0.7366,
+     0.6983
+    ],
+    "acc_mean": 0.7078,
+    "acc_sd": 0.0236,
+    "f1_mean": 0.7249,
+    "f1_sd": 0.0199
+   },
+   "linear_svm": {
+    "accuracy": [
+     0.6993,
+     0.7281,
+     0.7197,
+     0.7291,
+     0.6788
+    ],
+    "macro_f1": [
+     0.7131,
+     0.7411,
+     0.7249,
+     0.7421,
+     0.6947
+    ],
+    "acc_mean": 0.711,
+    "acc_sd": 0.0216,
+    "f1_mean": 0.7232,
+    "f1_sd": 0.02
+   },
+   "sgd_huber": {
+    "accuracy": [
+     0.7123,
+     0.73,
+     0.6927,
+     0.7263,
+     0.6937
+    ],
+    "macro_f1": [
+     0.7171,
+     0.7428,
+     0.7009,
+     0.7383,
+     0.7075
+    ],
+    "acc_mean": 0.711,
+    "acc_sd": 0.0175,
+    "f1_mean": 0.7213,
+    "f1_sd": 0.0185
+   },
+   "ridge": {
+    "accuracy": [
+     0.7114,
+     0.7235,
+     0.7188,
+     0.7346,
+     0.702
+    ],
+    "macro_f1": [
+     0.7157,
+     0.736,
+     0.7225,
+     0.7441,
+     0.7113
+    ],
+    "acc_mean": 0.7181,
+    "acc_sd": 0.0123,
+    "f1_mean": 0.7259,
+    "f1_sd": 0.0138
+   },
+   "knn": {
+    "accuracy": [
+     0.6406,
+     0.581,
+     0.6024,
+     0.6201,
+     0.5968
+    ],
+    "macro_f1": [
+     0.6351,
+     0.5847,
+     0.5969,
+     0.6215,
+     0.5947
+    ],
+    "acc_mean": 0.6082,
+    "acc_sd": 0.0229,
+    "f1_mean": 0.6066,
+    "f1_sd": 0.0209
+   },
+   "random_forest": {
+    "accuracy": [
+     0.6648,
+     0.6993,
+     0.7114,
+     0.703,
+     0.6834
+    ],
+    "macro_f1": [
+     0.685,
+     0.7226,
+     0.7316,
+     0.7207,
+     0.7161
+    ],
+    "acc_mean": 0.6924,
+    "acc_sd": 0.0185,
+    "f1_mean": 0.7152,
+    "f1_sd": 0.0178
+   },
+   "hist_gb": {
+    "accuracy": [
+     0.6099,
+     0.6406,
+     0.6564,
+     0.6853,
+     0.6136
+    ],
+    "macro_f1": [
+     0.6228,
+     0.6574,
+     0.6735,
+     0.695,
+     0.627
+    ],
+    "acc_mean": 0.6412,
+    "acc_sd": 0.0313,
+    "f1_mean": 0.6551,
+    "f1_sd": 0.0307
+   },
+   "mlp": {
+    "accuracy": [
+     0.6648,
+     0.6927,
+     0.7002,
+     0.7002,
+     0.662
+    ],
+    "macro_f1": [
+     0.6733,
+     0.7049,
+     0.7115,
+     0.7168,
+     0.6732
+    ],
+    "acc_mean": 0.684,
+    "acc_sd": 0.0191,
+    "f1_mean": 0.6959,
+    "f1_sd": 0.0211
+   },
+   "soft_vote": {
+    "accuracy": [
+     0.6788,
+     0.7207,
+     0.7179,
+     0.7207,
+     0.6844
+    ],
+    "macro_f1": [
+     0.6887,
+     0.7334,
+     0.7256,
+     0.7362,
+     0.6956
+    ],
+    "acc_mean": 0.7045,
+    "acc_sd": 0.021,
+    "f1_mean": 0.7159,
+    "f1_sd": 0.0222
+   }
+  },
+  "note": "Each split re-draws which merchants fall in train/val/test and re-tunes every model."
+ },
+ "runtime_seconds": 1603
+}

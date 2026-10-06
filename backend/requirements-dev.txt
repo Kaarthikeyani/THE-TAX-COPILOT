@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8
+numpy
+scipy
+matplotlib
+pandas
+playwright
