@@ -28,12 +28,12 @@ the same measurement.
 | Dataset size / split | Not stated | 3,264 / 1,086 / 1,074 rows, 544 / 181 / 179 disjoint merchants, SHA-256 of each split |
 | Confidence intervals / significance tests | None | Wilson CIs, McNemar vs selected model, ablations, learning curve |
 | Calibration | None | ECE, reliability diagram |
-| Generative AI | Llama 3.1 via Ollama (explanations); GAN for synthetic data (no GAN results shown) | Template explanations (`explainability.py`); no LLM yet; synthetic data from a rule-based generator, not a GAN |
-| Latency | 1.2 s (GenAI) vs 0.9 s (ML) | ms per message per model in the Accuracy table |
+| Generative AI | Llama 3.1 via Ollama (explanations); GAN for synthetic data (no GAN results shown) | Conversational assistant (`assistant.py`): Gemini, Claude or local Ollama reason over a fact sheet from the engines, with a figure-grounding check and a rules fallback; template explanations for single transactions; synthetic data from a rule-based generator, not a GAN |
+| Latency | 1.2 s (GenAI) vs 0.9 s (ML) | ms per message per model in the Accuracy table; AI answers take seconds (Gemini) to about 55 s (local gemma4 on a laptop) |
 | User study | 80% found explanations clear, 65% would consider AI planning (sample size not stated) | None yet |
 | Real data | Google-Form responses | None yet; `evaluate_real.py` and `real_labelled_TEMPLATE.csv` are ready |
 | Tax | Not covered | Old/new regime, rebate, surcharge, cess, advance tax (23 tests; FY26-27 slabs from secondary sources) |
-| Interface | Streamlit web app | FastAPI + web app; **no mobile app yet** |
+| Interface | Streamlit web app | FastAPI + responsive web app (laptop and phone), deployable on Render; Android SMS forwarder tested on an emulator only |
 | Security | Future scope | Field-level encryption, token auth, rate limiting, consent log (single user, no TLS) |
 
 ## Where this project is stronger
@@ -46,7 +46,7 @@ the same measurement.
 ## Where the paper is stronger (be honest in the report)
 
 * It used **real human data** and a **user study**; we have neither yet.
-* It has a **generative explanation layer** (Llama 3.1) and a chatbot; ours is template text.
+* Its generative layer is peer-reviewed and user-surveyed; ours (Gemini / Claude / Ollama with a grounding check) has no user study yet.
 * It addresses recommendation across asset classes (FDs, shares, insurance) and savings prediction.
 * It is a published, peer-reviewed venue; our numbers are not.
 
@@ -59,5 +59,5 @@ the same measurement.
 ## What would make a fair comparison possible
 
 1. Add a **savings-prediction** module to this project and report MAE / RMSE / R2 on a public or self-collected survey (the 11 questions in the paper's Table I can be reused).
-2. Add an **LLM explanation layer** and measure it with the same kind of user survey, with n and rubric stated.
+2. Measure the **LLM assistant** (already built) with the same kind of user survey, with n and rubric stated.
 3. Collect and label **real SMS** (consented, your own and friends') and report accuracy on that instead of synthetic data.

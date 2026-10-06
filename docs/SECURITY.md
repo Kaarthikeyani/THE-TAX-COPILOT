@@ -13,7 +13,7 @@ What the code does:
   lockout after 10 failed keys or tokens in 5 minutes (webhook and app are counted separately, so a broken forwarder cannot lock you out of the app), CORS off unless `COPILOT_CORS_ORIGINS` is set.
 * Validation errors never echo what you sent. Logs never contain raw SMS, phone numbers, codes or keys. Raw SMS is encrypted at rest (Fernet).
 * **The shared ML model never trains on anyone's private data.** Your corrections become rules on your own account only.
-* **The assistant** sends only computed totals (never merchant names or message text) to a model running on this computer (Ollama). Every figure in its reply is checked against those totals.
+* **The assistant** builds a fact sheet from the person's own profile fields, calculated ratios, top spending categories and the tax and plan totals (never merchant names or message text) and every figure in its reply is checked against that sheet. With a local Ollama model nothing leaves the computer. With Gemini or Claude (`GEMINI_API_KEY` / `ANTHROPIC_API_KEY`) that fact sheet is sent to the provider, so use a cloud provider only with demo or consented data, and prefer a paid plan that does not train on prompts for real users. Keys stay on the server. Demo mode (`COPILOT_DEMO=1`) uses fake data only and switches off phone login and the SMS webhook.
 * **Delete my account** erases the account and every row it owns, plus its entries in the signals log. User ids are never reused.
 * Static files are revalidated on every load so an upgrade cannot leave a browser on old scripts.
 * Secrets (`secret.key`, the database, backups) are in `.gitignore`.
