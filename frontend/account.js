@@ -254,6 +254,7 @@ function askAfter() {
   };
   $('#askForm').onsubmit = e => { e.preventDefault(); const q = $('#askQ').value.trim(); if (q.length < 3) return; $('#askQ').value = ''; send(q); };
   document.querySelectorAll('[data-q]').forEach(b => b.onclick = () => send(b.dataset.q));
+  if (window.pendingAsk) { const q = window.pendingAsk; window.pendingAsk = null; send(q); }
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition, mic = $('#micBtn');  // voice input: the browser's own speech-to-text, nothing is uploaded by us
   if (SR && mic) { mic.hidden = false; mic.onclick = () => { const r = new SR(); r.lang = 'en-IN'; r.interimResults = false; mic.disabled = true; mic.textContent = '…';
     r.onresult = ev => { $('#askQ').value = ev.results[0][0].transcript; $('#askQ').focus(); }; r.onend = r.onerror = () => { mic.disabled = false; mic.textContent = '🎤'; }; try { r.start(); } catch (_) { mic.disabled = false; mic.textContent = '🎤'; } }; }
@@ -262,6 +263,11 @@ function askAfter() {
 /* ---------- boot ---------- */
 PAGES.splice(3, 0, { id: 'ask', primary: true, label: 'Ask', icon: 'chat', title: 'Ask your co-pilot', sub: 'Plain answers about your tax and your money, based on your own numbers.', render: renderAsk, after: askAfter });
 PAGES.splice(PAGES.findIndex(p => p.id === 'profile') + 1, 0, { id: 'connect', label: 'Connect phone', icon: 'phone', title: 'Connect your phone', sub: 'Send bank messages here automatically, as they arrive.', render: renderConnect, after: connectAfter });
+
+/* Section order, most important first. Bottom bar on phones shows the five marked primary. */
+const ORDER = ['overview', 'ask', 'know', 'transactions', 'monthly', 'tax', 'plan', 'profile', 'privacy', 'accuracy', 'connect'], PRIMARY = ['overview', 'ask', 'know', 'transactions', 'monthly'];
+PAGES.sort((a, b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
+PAGES.forEach(p => { p.primary = PRIMARY.includes(p.id); });
 
 async function startApp() {
   document.body.classList.remove('is-login'); $('#login').hidden = true; document.querySelector('.app').hidden = false;

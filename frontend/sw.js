@@ -1,7 +1,7 @@
 /* Network-first service worker: the app always loads fresh from the server; the cached shell is used only when offline.
    API calls are never cached (they hold private data). */
-const CACHE = 'copilot-shell-v3';
-const SHELL = ['/', 'index.html', 'styles.css', 'v3.css', 'app.js', 'account.js', 'accuracy.js', 'monthly.js', 'icon.svg'];
+const CACHE = 'copilot-shell-v4';
+const SHELL = ['/', 'index.html', 'styles.css', 'v3.css', 'app.js', 'learn.js', 'account.js', 'accuracy.js', 'monthly.js', 'icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
