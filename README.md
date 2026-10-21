@@ -116,3 +116,9 @@ Base paper: Suganya et al., ICDSBS 2025 (regresses savings, MAE 0.1008, RMSE 0.1
 
 To host it: push to GitHub, then **New > Blueprint** on [Render](https://render.com) (reads `render.yaml`) and add `ANTHROPIC_API_KEY` in the dashboard.
 Data is not kept across restarts (free tier), which is fine for a demo. See `app/demo_mode.py` and `app/assistant.py`.
+
+## Language-model tier for classification (optional)
+
+`COPILOT_LLM_CLASSIFY=1` lets a language model (Gemini, Claude or a local Ollama model) classify merchants the ML model is unsure of, fused with the ML
+probabilities. On unseen merchants (synthetic) accuracy goes 69.8% -> 82.4%. See `app/llm_classifier.py` and `experiments/hybrid_fusion.py`. Only the merchant
+text and direction are sent. Off by default.

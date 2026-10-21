@@ -13,7 +13,7 @@ const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = se
 const SECTION_NAME = { '80C': 'Section 80C', '80CCD1B': 'NPS 80CCD(1B)', '80D': 'Health 80D', '24b': 'Home loan 24(b)', '80G': 'Donation 80G', none: '' };
 const SECTION_HELP = { '80C': 'ELSS funds, PPF, life insurance, tuition', '80CCD1B': 'Extra NPS contribution', '80D': 'Health insurance and check-ups', '24b': 'Home loan interest' };
 const SOURCE = { tier1_taxonomy: ['Matched by rules', 'brand'], tier1_keyword: ['Matched by keywords', 'brand'],
-  tier2_ml_fallback: ['Smart guess (AI)', 'blue'], tier2_ml_low_confidence: ['Not sure. Please review', 'warn'], user_correction: ['You set this', 'good'], user_rule: ['Your rule', 'good'],
+  tier2_ml_fallback: ['Smart guess (AI)', 'blue'], tier3_llm_fused: ['AI-checked guess (ML + language model)', 'blue'], tier2_ml_low_confidence: ['Not sure. Please review', 'warn'], user_correction: ['You set this', 'good'], user_rule: ['Your rule', 'good'],
   user_rule_similar: ['Learned from your fix', 'good'], user_csv_rule: ['Your rules file', 'good'] };
 
 const ICON = {

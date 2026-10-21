@@ -23,7 +23,7 @@ the same measurement.
 |---|---|---|
 | Regression metrics | MAE 0.1008, MSE 0.0201, RMSE 0.1418, R2 0.4141 (normalised savings) | Not applicable (not a regression task) |
 | Classification metrics | None | Accuracy, macro precision / recall / F1, MCC, kappa, top-3, log-loss, Brier, ECE, Wilson 95% CI (`experiments/results/summary.json`) |
-| Headline claim | "85% alignment with financial experts" (GenAI) vs 78% (ML) vs 72% (rules) | Logistic regression on **synthetic** unseen merchants: acc 69.8%, macro P 72.8%, macro R 70.8%, F1 71.2% (11 other models listed) |
+| Headline claim | "85% alignment with financial experts" (GenAI) vs 78% (ML) vs 72% (rules); no precision, recall or F1 anywhere (checked against the PDF) | On **synthetic** unseen merchants: ML alone acc 69.8%, macro P 72.8%, R 70.8%, F1 71.2%; with the language-model tier (`app/llm_classifier.py`, local gemma4, fusion weight chosen on validation) acc **82.4%**, macro P 84.8%, R 82.5%, F1 83.1%, MCC 0.816 (`experiments/results/hybrid_fusion.json`). Still nominally below the paper's 85%, and a different measure |
 | Ground truth | Expert advice (number of experts, rubric, sample size not stated) | Labels from the generator; real-SMS labels are **not yet collected** |
 | Dataset size / split | Not stated | 3,264 / 1,086 / 1,074 rows, 544 / 181 / 179 disjoint merchants, SHA-256 of each split |
 | Confidence intervals / significance tests | None | Wilson CIs, McNemar vs selected model, ablations, learning curve |

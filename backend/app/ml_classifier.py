@@ -7,6 +7,7 @@ import json
 import threading
 from pathlib import Path
 
+from . import llm_classifier
 from .classifier import CATEGORY_META
 from .model_registry import build
 
@@ -89,6 +90,12 @@ def ml_classify(text: str, txn_type: str):
     total = sum(p for _, p in allowed) or 1.0
     best_cat, best_p = max(allowed, key=lambda cp: cp[1])
     conf = round(best_p / total, 2)
+    fused = False
+    if llm_classifier.enabled() and conf < llm_classifier.SKIP_ABOVE:  # tier 3: ask a language model, then fuse (app/llm_classifier.py)
+        ans = llm_classifier.llm_answer(text, txn_type)
+        if ans:
+            best_cat, conf = llm_classifier.fuse({c: p / total for c, p in allowed}, ans)
+            fused = True
     if conf < CONFIDENCE_FLOOR:
         cat = "other_income" if txn_type == "credit" else "uncategorized"
         label, section, _ = CATEGORY_META[cat]
@@ -96,4 +103,4 @@ def ml_classify(text: str, txn_type: str):
                 "source": "tier2_ml_low_confidence", "confidence": conf}
     label, section, _ = CATEGORY_META[best_cat]
     return {"category": best_cat, "label": label, "tax_section": section,
-            "source": "tier2_ml_fallback", "confidence": conf}
+            "source": "tier3_llm_fused" if fused else "tier2_ml_fallback", "confidence": conf}

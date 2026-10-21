@@ -1,0 +1,45 @@
+{
+ "chosen_on_validation": {
+  "w": 0.8,
+  "w_abstain": 0.1,
+  "val_accuracy": 0.8168
+ },
+ "validation_curve_top5": [
+  {
+   "w": 0.8,
+   "w_abstain": 0.1,
+   "val_accuracy": 0.8168
+  },
+  {
+   "w": 0.8,
+   "w_abstain": 0.0,
+   "val_accuracy": 0.8149
+  },
+  {
+   "w": 1.0,
+   "w_abstain": 0.1,
+   "val_accuracy": 0.8085
+  },
+  {
+   "w": 1.5,
+   "w_abstain": 0.1,
+   "val_accuracy": 0.8085
+  },
+  {
+   "w": 2.0,
+   "w_abstain": 0.1,
+   "val_accuracy": 0.8085
+  }
+ ],
+ "test_fusion": {
+  "accuracy": 0.824,
+  "macro_precision": 0.8478,
+  "macro_recall": 0.8249,
+  "macro_f1": 0.8305,
+  "mcc": 0.8159,
+  "wilson95": [
+   0.8001,
+   0.8456
+  ]
+ }
+}

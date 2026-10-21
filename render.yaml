@@ -18,3 +18,5 @@ services:
         sync: false
       - key: COPILOT_AI_DAILY_CAP  # max AI answers per day across all visitors (keeps you inside the free quota)
         value: "200"
+      - key: COPILOT_LLM_CLASSIFY  # language-model tier for uncertain merchants (sends merchant text only; fake data in the demo)
+        value: "1"
